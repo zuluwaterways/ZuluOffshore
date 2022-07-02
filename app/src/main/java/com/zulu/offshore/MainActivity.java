@@ -233,7 +233,6 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
     private ValueCallback<Uri[]> mFilePathCallback;
     private String mCameraPhotoPath;
     private boolean NavA = true;//activate this if you have set up navionics
-    //private FirebaseAuth mAuth;
 
     @Override public void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -2000,14 +1999,18 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
                     public String call() {
                         Log.d("timeresults", ":"+res.toString());
                         if(res.length()>15||res.toString()=="")return null;
-                        String serverDate = (new SimpleDateFormat("MMM", Locale.ENGLISH)).format(new Date(Long.parseLong(res.toString())));
-                        if (serverDate.equals((new SimpleDateFormat("MMM", Locale.ENGLISH)).format(new Date()))) {
-                            Log.d("######NEW MONTH#######", "adding new data!!!!!!!");
-                            downloadsLeft = Math.max(DOWNLOADS_PER_MONTH,downloadsLeft);
-                            sharedPreferences.edit().putString("downloadsMonth",serverDate).apply();
-                            sharedPreferences.edit().putInt("downloads",downloadsLeft).apply();
-                        }else{
-                            Log.d("######not! MONTH#######", "adding new data!!!!!!!");
+                        try {
+                            String serverDate = (new SimpleDateFormat("MMM", Locale.ENGLISH)).format(new Date(Long.parseLong(res.toString())));
+                            if (serverDate.equals((new SimpleDateFormat("MMM", Locale.ENGLISH)).format(new Date()))) {
+                                Log.d("######NEW MONTH#######", "adding new data!!!!!!!");
+                                downloadsLeft = Math.max(DOWNLOADS_PER_MONTH, downloadsLeft);
+                                sharedPreferences.edit().putString("downloadsMonth", serverDate).apply();
+                                sharedPreferences.edit().putInt("downloads", downloadsLeft).apply();
+                            } else {
+                                Log.d("######not! MONTH#######", "adding new data!!!!!!!");
+                            }
+                        }catch (Exception e){
+                            e.printStackTrace();
                         }
                         return null;
                     }
