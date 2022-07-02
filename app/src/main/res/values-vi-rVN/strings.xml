@@ -1,0 +1,216 @@
+<resources>
+    <string name="app_name">Zulu Offshore</string>
+    <string name="title_activity_add_marker">Thêm điểm đánh dấu mới</string>
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_password">Mật khẩu</string>
+    <string name="action_sign_in">Đăng nhập hoặc đăng ký</string>
+    <string name="action_sign_in_short">Đăng nhập</string>
+    <string name="action_sign_out_short">Đăng xuất</string>
+    <string name="welcome">"Chào mừng!"</string>
+    <string name="title_activity_login">Đăng nhập</string>
+    <string name="addTitle">Tiêu đề</string>
+    <string name="loginSignup">Đăng ký</string>
+    <string name="loginButton">Đăng nhập</string>
+    <string name="failedLogin">Đăng nhập thất bại. Vui lòng thử lại \nBạn phải trực tuyến để đăng nhập</string>
+    <string name="password">Mật khẩu</string>
+    <string name="email">E-mail</string>
+    <string name="login_greeting">Đăng nhập để thêm hoặc chỉnh sửa</string>
+    <string name="zulu_logo">Logo BN</string>
+    <string name="reposition">Tái định vị</string>
+    <string name="description_hint">Mô tả \nPhần này dành cho thông tin thực tế</string>
+    <string name="comment_hint">Kinh nghiệm cá nhân \n(tùy chọn)</string>
+    <string name="picture_add">Thêm vào</string>
+    <string name="upload_marker">Tải lên</string>
+    <string name="photo_upload_placeholder">Giữ chỗ tải ảnh lên</string>
+    <string name="latitude">vĩ độ</string>
+    <string name="longitude">kinh độ</string>
+    <string name="cancel">Hủy bỏ</string>
+    <string name="syncing_message">Đồng bộ hóa \nVui lòng chờ</string>
+    <string name="logo">Logo</string>
+    <string name="marker_placement_icon">Biểu tượng vị trí đánh dấu</string>
+    <string name="infowindow_icon">Biểu tượng Infowindow</string>
+    <string name="marker_title">Tiêu đề</string>
+    <string name="location_picture">Hình ảnh vị trí</string>
+    <string name="comments">Bình luận</string>
+    <string name="add_a_comment">Thêm một bình luận</string>
+    <string name="marker_add">Thêm vào</string>
+    <string name="title_activity_settings">Cài đặt</string>
+    <string name="sync_header">Đồng bộ hóa</string>
+    <string name="maps_header">Tùy chọn bản đồ</string>
+    <string name="mapbox_copy">© Mapbox, © OpenStreetMap</string>
+    <string name="run_out">Bạn đã hết tải miễn phí!</string>
+    <string name="downloads_why">Chúng tôi phải giới hạn các bản đồ bạn tải xuống vì chúng làm chúng tôi mất tiền. Chúng tôi mua giấy phép và bất kỳ cung cấp một số miễn phí! nếu bạn cần thêm có một số cách</string>
+    <string name="download_how"><a href="https://www.patreon.com/zuluwaterways"> Patreons</a> không giới hạn! \nThêm một điểm đánh dấu mới cho 10 \nThêm nhận xét cho 5</string>
+    <string name="download">Tải xuống</string>
+    <string name="measure">Đo lường</string>
+    <string name="zoom_in">Phóng to</string>
+    <string name="zoom_out">Thu nhỏ</string>
+    <string name="share">Chia sẻ</string>
+    <string name="add_marker">Thêm điểm đánh dấu</string>
+    <string name="arcgis_map">Bản đồ ARCGIS</string>
+    <string name="bing_map">Bản đồ Bing</string>
+    <string name="street_map">Bản đồ đường phố</string>
+    <string name="sat_map">Bản đồ vệ tinh</string>
+    <string name="download_maps">Tải xuống Bản đồ</string>
+    <string name="copyBing">© Bản đồ Bing</string>
+    <string name="sync">Đồng bộ hóa</string>
+    <string name="faq">Câu hỏi thường gặp</string>
+    <string name="login">Đăng nhập</string>
+    <string name="navionics_login">Đăng nhập Navionics</string>
+    <string name="navionics_maps">Bản đồ hàng hải</string>
+    <string name="zulu_online">Zulu Online</string>
+    <string name="my_markers">Điểm đánh dấu của tôi</string>
+    <string name="filters">Bộ lọc</string>
+    <string name="settings">Cài đặt</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="delete_marker">Xóa điểm đánh dấu</string>
+    <string name="distance">Khoảng cách</string>
+    <string name="bearing">Ổ đỡ trục</string>
+    <string name="cant_upload">Không thể tải lên. \N Hãy thử đăng nhập lại</string>
+    <string name="limiting_icons">Các biểu tượng giới hạn được vẽ cho hiệu suất</string>
+    <string name="download_complete">Hoan thanh tải!</string>
+    <string name="downloads_remaining">tải xuống còn lại</string>
+    <string name="comment_error">Lỗi thêm bình luận !!!</string>
+    <string name="basemap_error">Lỗi không thể tải sơ đồ cơ sở!</string>
+    <string name="marker_deleted">Đánh dấu đã bị xóa</string>
+    <string name="position_copied">Vị trí được sao chép vào clipboard</string>
+    <string name="no_internet">Không phát hiện thấy Internet. Vui lòng kiểm tra kết nối của bạn và thử lại.</string>
+    <string name="sync_complete">Hoàn thành đồng bộ hóa!</string>
+    <string name="marker_added">Điểm đánh dấu đã được thêm thành công! \NTotal markers =</string>
+    <string name="not_logged_in">Vui lòng đăng nhập trước</string>
+    <string name="reset">Cài lại</string>
+    <string name="downloading_maps">Đang tải bản đồ</string>
+    <string name="have_a_code">Có mã không? Kích hoạt nó ở đây</string>
+    <string name="paste_your_code_here">Dán mã của bạn ở đây</string>
+    <string name="activate">kích hoạt</string>
+    <string name="buy_a_code">Mua mã</string>
+    <string name="set_to_zero">Đặt thành Không</string>
+    <string name="current_size">Cơ sở dữ liệu kích thước hiện tại:</string>
+    <string name="rate_the_app">Đánh giá ứng dụng</string>
+    <string name="cluster_icons">Biểu tượng cụm</string>
+    <string name="units">Các đơn vị</string>
+    <string name="delete_all">Xóa tất cả các bản đồ đã tải xuống</string>
+    <string name="upload_in_sync">Tải lên trong quá trình Đồng bộ hóa</string>
+    <string name="no_pics_uploaded">Không có hình ảnh sẽ được tải lên trong quá trình đồng bộ hóa</string>
+    <string name="pics_uploaded">Hình ảnh sẽ được tải lên trong quá trình đồng bộ hóa</string>
+    <string name="upload_pics">Tải ảnh lên</string>
+    <string name="bold" translatable="false">B</string>
+    <string name="Italics" translatable="false">I</string>
+    <string name="icon_image">Biểu tượng hình ảnh</string>
+    <string name="delect_confirm">Bạn có chắc chắn muốn xóa tất cả các bản đồ đã tải xuống của mình?</string>
+    <string name="delete_title">Xóa tất cả các bản đồ đã tải xuống</string>
+    <string name="free_up">\"Điều này sẽ giải phóng \"</string>
+    <string name="download_navionics">Bản đồ hải quân</string>
+    <string name="download_osm">Bản đồ biển mở</string>
+    <string name="hybrid_map">Bản đồ lai</string>
+    <string name="navionics">Hải quân</string>
+    <string name="more_settings">Cài đặt khác</string>
+    <string name="hints">Gợi ý</string>
+    <string name="activate_a_code">Kích hoạt mã A</string>
+    <string name="sign_out">Đăng xuất</string>
+    <string name="paste_code">Dán mã của bạn ở đây</string>
+    <string name="zulu_map_pack">Gói bản đồ ngoại tuyến Zulu</string>
+    <string name="downloading_map_pack">Xin vui lòng chờ đợi</string>
+    <string name="error_downloading">Lỗi: Không thể tìm thấy tệp!</string>
+    <string name="pack_added">Gói được thêm thành công!</string>
+    <string name="background_image">Hình nền</string>
+    <string name="linkme" translatable="false">§</string>
+    <string name="higher_res_info">Điều này sẽ tải xuống các mức thu phóng cao hơn nếu có nhưng sẽ tăng gấp đôi chi phí</string>
+    <string name="hi_res_title">Tải xuống độ phân giải cao</string>
+    <string name="navionics_charts">Biểu đồ hải quân</string>
+    <string name="sonar_charts">Biểu đồ Sonar</string>
+    <string name="navionics_settings">Cài đặt điều hướng</string>
+    <string name="easy_view">Điều hướng dễ dàng Xem</string>
+    <string name="min_Zoom_sum">Mức thu phóng không hiển thị cụm (11515)</string>
+    <string name="min_zoom">Thu phóng cụm tối thiểu</string>
+    <string name="cluster_summary">Biểu tượng nhóm nơi chúng trùng nhau</string>
+    <string name="screen_on">Giữ màn hình trên</string>
+    <string name="query_location">Vị trí truy vấn</string>
+    <string name="select_all">Chọn tất cả</string>
+    <string name="download_region">Vùng tải xuống</string>
+    <string name="edit_marker_online">Chỉnh sửa điểm đánh dấu trực tuyến</string>
+    <string name="next">Kế tiếp</string>
+    <string name="lets_go">Đi nào!</string>
+    <string name="skip">Nhảy</string>
+    <string name="map_store">Cửa hàng bản đồ</string>
+    <string name="overlays">Lớp phủ</string>
+    <string name="icon_size">Kích cỡ biểu tượng</string>
+    <string name="the_free_flow_of_information">Luồng thông tin miễn phí</string>
+    <string name="no_pack">Không thể kích hoạt gói!</string>
+    <string name="add_a_new_nmarker_here">Thêm một \nmarker mới tại đây</string>
+    <string name="options_n_and_settings">Tùy chọn \nvà cài đặt</string>
+    <string name="change_maps_n_here">Thay đổi bản đồ \ntại đây</string>
+    <string name="locate_gps">Định vị GPS</string>
+    <string name="click_anywhere_to_start">Nhấp vào bất cứ nơi nào để bắt đầu</string>
+    <string name="long_press_anywhere_n_to_download_maps">Nhấn và giữ bất cứ nơi nào \nđể tải xuống bản đồ</string>
+    <string name="click_on_the_markers_n_for_more_information">Nhấp vào điểm đánh dấu \nđể biết thêm thông tin</string>
+    <string name="to_the_zulu_offline_cruising_guide">Đến Hướng dẫn du lịch ngoại tuyến Zulu</string>
+    <string name="let_s_get_started">…Bắt đầu nào</string>
+    <string name="first_we_need_to_get_permissions">Đầu tiên chúng ta cần có được sự cho phép</string>
+    <string name="maps_are_too_large_to_store_in_the_app_so_we_need_access_to_your_storage_to_display_the_map">Bản đồ quá lớn để lưu trữ trong ứng dụng nên chúng tôi cần quyền truy cập vào bộ lưu trữ của bạn để hiển thị bản đồ</string>
+    <string name="storage_permissions">Quyền lưu trữ</string>
+    <string name="location_permissions">Quyền vị trí</string>
+    <string name="to_display_your_position_on_the_map_the_app_needs_access_to_the_gps_optional">Để hiển thị vị trí của bạn trên bản đồ, ứng dụng cần truy cập vào gps. (Không bắt buộc)</string>
+    <string name="worldwide">Điểm đánh dấu trên toàn thế giới bạn có thể đồng bộ hóa với ứng dụng \n\nThêm điểm đánh dấu và nhận xét mới khi ngoại tuyến \n\nĐồng bộ hóa các đóng góp mới với cộng đồng một lần nữa trong phạm vi</string>
+    <string name="basemaps">Lưu ý: Bản đồ cơ sở yêu cầu thêm \ndtải xuống để có hình ảnh chi tiết</string>
+    <string name="base_map_types">Các loại bản đồ cơ sở</string>
+    <string name="howtodownload">Cách tải xuống hình ảnh chi tiết \n\n1. Nhấn và giữ bất cứ nơi nào trên bản đồ (2 giây) để mở các tùy chọn để tải xuống bản đồ \n\n2. Tải xuống từ trong menu Marker \n\n3. Tải xuống toàn bộ các vùng tại Map Store \n\n4.Login vào tài khoản Navionics hiện tại của bạn để đồng bộ hóa biểu đồ</string>
+    <string name="updatingInfo">Cập nhật thông tin là quan trọng. Kiểm tra FAQs \nNgười đóng góp nhận được các đặc quyền như tải xuống bản đồ bổ sung \nTất cả thông tin cộng đồng được cấp phép theo Giấy phép Creative Commons.</string>
+    <string name="finalsunc">Cuối cùng chúng ta chỉ cần thực hiện đồng bộ hóa ban đầu thì bạn có thể bắt đầu khám phá!</string>
+
+    <string-array name="faq">
+        <item>Tại sao bạn giới hạn tải xuống bản đồ?</item>
+        <item>Chúng tôi trả tiền cho mỗi gạch bạn tải xuống. Chúng tôi cung cấp cho bạn một số tiền miễn phí hào phóng sau đó chúng tôi phải tính phí. Phân bổ được gia hạn mỗi tháng</item>
+        <item>Làm cách nào tôi có thể tải thêm bản đồ?</item>
+        <item>Người dùng bảo trợ nhận được tải xuống không giới hạn, bạn cũng có thể nhận thêm một số bằng cách thêm điểm đánh dấu mới hoặc thêm nhận xét về địa điểm bạn đã đến</item>
+        <item>Tại sao tôi không thể chọn một khu vực để tải xuống?</item>
+        <item>Chi phí và không gian. Dữ liệu vệ tinh rất phức tạp và một bản đồ kích thước của Vương quốc Anh sẽ mất 10 triệu gạch, có giá hơn 20000 đô la và chiếm 160 gigabyte, được nén. Chúng tôi đã cố gắng làm cho nó dễ dàng để có được dữ liệu bạn cần mà không phải trả chi phí cho trái đất.</item>
+        <item>Tại sao bạn không sử dụng bản đồ google /apple /arcgis /etc?</item>
+        <item>Họ không cho phép chúng tôi hoặc đắt đỏ. Nếu bạn tìm thấy một sự thay thế miễn phí cho chúng tôi biết.</item>
+        <item>Tại sao tôi không thể điều hướng /cốt truyện /theo dõi?</item>
+        <item>Ứng dụng này chủ yếu là một hướng dẫn bay, không phải là một công cụ điều hướng. Chúng tôi chỉ đơn giản là không có tài nguyên và khả năng vào thời điểm này để cung cấp các tính năng này một cách hiệu quả.</item>
+        <item>Làm cách nào để thay đổi ngôn ngữ?</item>
+        <item>Dịch được xử lý mặc dù thiết bị của bạn. Bạn sẽ phải thay đổi ngôn ngữ hệ thống trong cài đặt Android</item>
+        <item>Tại sao bạn không có ngôn ngữ của tôi?</item>
+        <item>Chúng tôi đang tìm cách thêm ngôn ngữ nếu có thể. nếu bạn muốn bạn giúp đỡ hãy cho chúng tôi một email</item>
+        <item>Tôi có thể thêm số lượng lớn dữ liệu của mình từ máy vẽ /OPENCPN /kml /gpx /navion của tôi không?</item>
+        <item>Chắc chắn cung cấp cho chúng tôi một email và chúng tôi có thể giúp bạn thông qua nó. Chúng tôi có các công cụ có thể nhập số lượng lớn nhưng chúng rất khó sử dụng.</item>
+    </string-array>
+    <string-array name="units">
+        <item>Hệ mét</item>
+        <item>thành nội</item>
+        <item>Hải lý</item>
+    </string-array>
+    <string-array name="icon_size">
+        <item>XSmall</item>
+        <item>Nhỏ</item>
+        <item>Bình thường</item>
+        <item>Lớn</item>
+        <item>Xưởng</item>
+    </string-array>
+    <string-array name="icon_size_val">
+        <item>30</item>
+        <item>20</item>
+        <item>12</item>
+        <item>số 8</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="units_name">
+        <item>Số liệu (m /km /h)</item>
+        <item>Hoàng gia (f /y /m /h)</item>
+        <item>Hải lý (m /nm /k)</item>
+    </string-array>
+    <string name="contact">" Tiếp xúc"</string>
+    <string name="facebook">Facebook</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="zulu_offshore_is_a_global_cruising_guide_which_functions_offline">Zulu Offshore là một hướng dẫn du lịch toàn cầu hoạt động ngoại tuyến.</string>
+    <string name="satellite_hybrid_street_and_navionics_maps_for_download">Bản đồ Vệ tinh, Kết hợp, Đường phố và Điều hướng để Tải xuống</string>
+    <string name="navionics_tute">Kết nối tài khoản Navionics đang hoạt động để tải xuống biểu đồ không giới hạn trong khu vực của bạn.</string>
+    <string name="dl_tute">Tải xuống qua menu điểm đánh dấu hoặc Giữ ngón tay ở bất kỳ đâu trên bản đồ trong 2 giây Tải xuống có giới hạn nhưng bạn nhận được 50 miễn phí mỗi tháng!</string>
+    <string name="sharing_information_is_what_zulu_is_all_about">Chia sẻ thông tin là gì ZULU là tất cả về.</string>
+    <string name="all_community_information_is_licensed_under_a_creative_commons_by_nc_sa_and_therefore_remains_freely_available_n_n_adding_new_info_are_rewarded_with_extra_downloads">Tất cả thông tin cộng đồng được cấp phép theo  Creative Commons BY-NC-SA và do đó vẫn có sẵn miễn phí.   Thêm thông tin mới được thưởng bằng số lượt tải xuống bổ sung.</string>
+    <string name="lastly_you_can_help_support_zulu_though_our_online_shop">สุดท้ายนี้คุณสามารถช่วยสนับสนุน Zulu ผ่านทางร้านค้าออนไลน์ของเรา!</string>
+    <string name="a_wealth_of_free_community_information_n_n_contribute_new_markers_while_offline_n_n_download_satellite_imagery_and_charts">Nguồn thông tin cộng đồng miễn phí phong phú   Đóng góp điểm đánh dấu mới khi ngoại tuyến   Tải xuống Hình ảnh và Biểu đồ Vệ tinh</string>
+
+
+</resources>

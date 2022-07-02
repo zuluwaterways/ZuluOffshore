@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.zulu.offshore.MainActivity">
+    <item android:title="@string/download_maps">
+        <menu>
+            <item android:id="@+id/downloadSat"
+                android:title="@string/sat_map"
+                />
+            <item android:id="@+id/downloadStreet"
+                android:title="@string/street_map"
+                />
+            <item android:id="@+id/downloadHybrid"
+                android:title="@string/hybrid_map"
+                />
+            <item android:title="@string/download_region"/>
+            <item android:id="@+id/downloadBing"
+                android:visible="false"
+                android:title="@string/bing_map"
+                />
+            <item android:id="@+id/downloadARC"
+                android:visible="false"
+                android:title="@string/arcgis_map"
+                />
+            <item android:id="@+id/downloadNav"
+                android:visible="false"
+                android:title="@string/download_navionics"
+                />
+            <item android:id="@+id/downloadN"
+                android:title="@string/navionics_charts"
+                />
+            <item android:id="@+id/downloadHDSat"
+                android:title="@string/hd_satellite_map"
+                />
+            <item android:title="@string/overlays">
+                <menu>
+                    <item android:title="@string/download_osm"/>
+                </menu>
+            </item>
+            <item android:id="@+id/downloadnone"
+                android:visible="false"
+                android:onClick="removeAllDownloads"
+                android:title="@string/set_to_zero"
+                />
+        </menu>
+    </item>
+    <item android:title="@string/share" />
+    <item android:title="@string/add_a_comment"
+    android:onClick="addComment"
+    />
+    <item android:title="@string/edit_marker_online" />
+    <item android:title="@string/delete_marker"
+        android:id="@+id/markerMenuDelete"
+        android:onClick="deleteMarker"
+        android:visible="false"
+        />
+
+
+</menu>

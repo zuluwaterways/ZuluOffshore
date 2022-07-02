@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/download_maps" >
+        <menu>
+            <item android:title="@string/sat_map"/>
+            <item android:title="@string/street_map"/>
+            <item android:title="@string/hybrid_map"/>
+            <item android:title="@string/overlays">
+                <menu>
+                    <item android:title="@string/download_osm"/>
+                </menu>
+            </item>
+            <item android:title="@string/download_region"/>
+            <item android:title="@string/bing_map"
+                android:visible="false"/>
+            <item android:title="@string/arcgis_map"
+                android:visible="false"/>
+            <item android:title="@string/hd_satellite_map"/>
+            <item android:title="@string/navionics_charts"
+                />
+        </menu>
+    </item>
+    <item android:title="@string/add_marker" />
+    <item android:title="@string/share" />
+    <item android:title="@string/measure" />
+
+</menu>

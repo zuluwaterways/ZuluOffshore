@@ -1,0 +1,216 @@
+<resources>
+    <string name="app_name">Zulu Offshore</string>
+    <string name="title_activity_add_marker">Nieuwe markering toevoegen</string>
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_password">Wachtwoord</string>
+    <string name="action_sign_in">Log in of registreer</string>
+    <string name="action_sign_in_short">Inloggen</string>
+    <string name="action_sign_out_short">Afmelden</string>
+    <string name="welcome">\'Welkom!\'</string>
+    <string name="title_activity_login">Log in</string>
+    <string name="addTitle">Titel</string>
+    <string name="loginSignup">Inschrijven</string>
+    <string name="loginButton">Log in</string>
+    <string name="failedLogin">Aanmelden mislukt. Probeer het opnieuw \nU moet online zijn om in te loggen</string>
+    <string name="password">Wachtwoord</string>
+    <string name="email">E-mail</string>
+    <string name="login_greeting">Log in om toe te voegen of te bewerken</string>
+    <string name="zulu_logo">BN-logo</string>
+    <string name="reposition">Verplaats</string>
+    <string name="description_hint">Beschrijving \nDit gedeelte is bedoeld voor feitelijke informatie</string>
+    <string name="comment_hint">Persoonlijke ervaringen \n(optioneel)</string>
+    <string name="picture_add">Toevoegen</string>
+    <string name="upload_marker">Uploaden</string>
+    <string name="photo_upload_placeholder">Tijdelijke aanduiding voor foto-upload</string>
+    <string name="latitude">breedtegraad</string>
+    <string name="longitude">Lengtegraad</string>
+    <string name="cancel">Annuleer</string>
+    <string name="syncing_message">Synchroniseren \nEven geduld ...</string>
+    <string name="logo">Logo</string>
+    <string name="marker_placement_icon">Markering plaatsing pictogram</string>
+    <string name="infowindow_icon">Infowindow Icoon</string>
+    <string name="marker_title">Titel</string>
+    <string name="location_picture">Locatie foto</string>
+    <string name="comments">Opmerkingen</string>
+    <string name="add_a_comment">Voeg een reactie toe…</string>
+    <string name="marker_add">Toevoegen</string>
+    <string name="title_activity_settings">Instellingen</string>
+    <string name="sync_header">Synchroniseren</string>
+    <string name="maps_header">Kaarten opties</string>
+    <string name="mapbox_copy">© Mapbox, © OpenStreetMap</string>
+    <string name="run_out">Je hebt geen gratis downloads meer!</string>
+    <string name="downloads_why">We moeten de kaarten die u downloadt beperken, omdat deze ons geld kosten. We kopen de licenties en eventuele gratis! als je meer nodig hebt, zijn er verschillende manieren</string>
+    <string name="download_how"><a href="https://www.patreon.com/zuluwaterways"> Patreons</a> zijn onbeperkt! \nVoeg een nieuwe marker toe voor 10 \nVoeg een opmerking toe voor 5</string>
+    <string name="download">Downloaden</string>
+    <string name="measure">Meten</string>
+    <string name="zoom_in">In zoomen</string>
+    <string name="zoom_out">Uitzoomen</string>
+    <string name="share">Delen</string>
+    <string name="add_marker">Markering toevoegen</string>
+    <string name="arcgis_map">ARCGIS kaart</string>
+    <string name="bing_map">Bing-kaart</string>
+    <string name="street_map">Plattegrond</string>
+    <string name="sat_map">Satellietkaart</string>
+    <string name="download_maps">Kaarten downloaden</string>
+    <string name="copyBing">© Bing-kaarten</string>
+    <string name="sync">Synchroniseren</string>
+    <string name="faq">Help</string>
+    <string name="login">Log in</string>
+    <string name="navionics_login">Navionics Login</string>
+    <string name="navionics_maps">Navionics-kaarten</string>
+    <string name="zulu_online">Zulu Online</string>
+    <string name="my_markers">Mijn markeringen</string>
+    <string name="filters">Filters</string>
+    <string name="settings">Instellingen</string>
+    <string name="language">Taal</string>
+    <string name="delete_marker">Markering verwijderen</string>
+    <string name="distance">Afstand</string>
+    <string name="bearing">Lager</string>
+    <string name="cant_upload">Kan niet uploaden. \N Probeer opnieuw in te loggen</string>
+    <string name="limiting_icons">Beperkende pictogrammen die zijn getekend voor prestaties</string>
+    <string name="download_complete">Download compleet!</string>
+    <string name="downloads_remaining">resterende downloads</string>
+    <string name="comment_error">Fout bij het toevoegen van commentaar !!!</string>
+    <string name="basemap_error">Fout kan basiskaart niet laden!</string>
+    <string name="marker_deleted">Markering verwijderd</string>
+    <string name="position_copied">Positie gekopieerd naar klembord</string>
+    <string name="no_internet">Geen internet gedetecteerd. Controleer je verbinding en probeer het opnieuw.</string>
+    <string name="sync_complete">Synchronisatie voltooid!</string>
+    <string name="marker_added">Markering succesvol toegevoegd! \NTotale markeringen =</string>
+    <string name="not_logged_in">Log alstublieft eerst in</string>
+    <string name="reset">Reset</string>
+    <string name="downloading_maps">Kaarten downloaden…</string>
+    <string name="have_a_code">Heeft u een code? Activeer het hier</string>
+    <string name="paste_your_code_here">Plak hier uw code</string>
+    <string name="activate">activeren</string>
+    <string name="buy_a_code">Koop een code</string>
+    <string name="set_to_zero">Stel in op nul</string>
+    <string name="current_size">Huidige omvang van de database:</string>
+    <string name="rate_the_app">Beoordeel de app</string>
+    <string name="cluster_icons">Cluster pictogrammen</string>
+    <string name="units">Eenheden</string>
+    <string name="delete_all">Verwijder alle gedownloade kaarten</string>
+    <string name="upload_in_sync">Upload tijdens synchronisatie</string>
+    <string name="no_pics_uploaded">Er worden geen foto\'s geüpload tijdens synchronisatie</string>
+    <string name="pics_uploaded">Foto\'s worden tijdens synchronisatie geüpload</string>
+    <string name="upload_pics">Upload afbeeldingen</string>
+    <string name="bold" translatable="false">B</string>
+    <string name="Italics" translatable="false">I</string>
+    <string name="icon_image">Icoon afbeelding</string>
+    <string name="delect_confirm">Weet je zeker dat je al je gedownloade kaarten wilt verwijderen?</string>
+    <string name="delete_title">Verwijder alle gedownloade kaarten</string>
+    <string name="free_up">\"Hierdoor komt er iets vrij \"</string>
+    <string name="download_navionics">Navionics-kaarten</string>
+    <string name="download_osm">Open zeekaarten</string>
+    <string name="hybrid_map">Hybride kaart</string>
+    <string name="navionics">Navionics</string>
+    <string name="more_settings">Meer instellingen</string>
+    <string name="hints">Tips</string>
+    <string name="activate_a_code">Activeer een code</string>
+    <string name="sign_out">Afmelden</string>
+    <string name="paste_code">Plak hier uw code</string>
+    <string name="zulu_map_pack">Zulu kaartenpakket</string>
+    <string name="downloading_map_pack">Wacht alsjeblieft…</string>
+    <string name="error_downloading">Fout: kan bestand niet vinden!</string>
+    <string name="pack_added">Pack succesvol toegevoegd!</string>
+    <string name="background_image">Achtergrond afbeelding</string>
+    <string name="linkme" translatable="false">§</string>
+    <string name="higher_res_info">Dit zal indien beschikbaar hogere zoomniveaus downloaden, maar de kosten verdubbelen</string>
+    <string name="hi_res_title">Downloads met hoge resolutie</string>
+    <string name="navionics_charts">Navionics-kaarten</string>
+    <string name="sonar_charts">Sonar-grafieken</string>
+    <string name="navionics_settings">Navionics-instellingen</string>
+    <string name="easy_view">Navionics Easy View</string>
+    <string name="min_Zoom_sum">Zoomniveau waar clusters niet worden weergegeven (1–15)</string>
+    <string name="min_zoom">Minimale clusterzoom</string>
+    <string name="cluster_summary">Groepspictogrammen waar ze elkaar overlappen</string>
+    <string name="screen_on">Houd het scherm aan</string>
+    <string name="query_location">Locatie opvragen</string>
+    <string name="select_all">Selecteer alles</string>
+    <string name="download_region">Regio downloaden</string>
+    <string name="edit_marker_online">Marker online bewerken</string>
+    <string name="next">De volgende</string>
+    <string name="lets_go">Laten we gaan!</string>
+    <string name="skip">Overspringen</string>
+    <string name="map_store">Kaartwinkel</string>
+    <string name="overlays">Overlays</string>
+    <string name="icon_size">Icoon grootte</string>
+    <string name="the_free_flow_of_information">De vrije stroom van informatie</string>
+    <string name="no_pack">Kan pack niet activeren!</string>
+    <string name="add_a_new_nmarker_here">Voeg hier een nieuwe \nmarker toe</string>
+    <string name="options_n_and_settings">Opties \nen instellingen</string>
+    <string name="change_maps_n_here">Wijzig kaarten \nhier</string>
+    <string name="locate_gps">Zoek GPS</string>
+    <string name="click_anywhere_to_start">Klik op Overal om te beginnen</string>
+    <string name="long_press_anywhere_n_to_download_maps">Druk lang ergens \nom kaarten te downloaden</string>
+    <string name="click_on_the_markers_n_for_more_information">Klik op de markeringen \nvoor meer informatie</string>
+    <string name="to_the_zulu_offline_cruising_guide">Naar de Zulu Offline Cruising Guide</string>
+    <string name="let_s_get_started">…Laten we beginnen</string>
+    <string name="first_we_need_to_get_permissions">Eerst moeten we toestemming krijgen</string>
+    <string name="maps_are_too_large_to_store_in_the_app_so_we_need_access_to_your_storage_to_display_the_map">Kaarten zijn te groot om in de app op te slaan, dus we hebben toegang tot je opslag nodig om de kaart weer te geven</string>
+    <string name="storage_permissions">Opslagrechten</string>
+    <string name="location_permissions">Locatiemachtigingen</string>
+    <string name="to_display_your_position_on_the_map_the_app_needs_access_to_the_gps_optional">Om uw positie op de kaart weer te geven, heeft de app toegang tot de gps nodig. (Optioneel)</string>
+    <string name="worldwide">Wereldwijde markeringen die u kunt synchroniseren met de app \n\nNieuwe markeringen en opmerkingen toevoegen terwijl u offline bent \n\nNieuwe bijdragen synchroniseren met de community zodra ze weer binnen bereik zijn</string>
+    <string name="basemaps">Opmerking: basiskaarten vereisen verdere \ndownloads voor gedetailleerde beelden</string>
+    <string name="base_map_types">Soorten basiskaarten</string>
+    <string name="howtodownload">Gedetailleerde afbeeldingen downloaden \n\n1. Druk lang op een willekeurige plek op de kaart (2 seconden) om opties voor kaartdownloads te openen \n\n2.Download vanuit het Marker-menu \n\n3.Download hele regio\'s in de Map Store \n\n4.Log in op uw bestaande Navionics-account om kaarten te synchroniseren</string>
+    <string name="updatingInfo">Het bijwerken van informatie is belangrijk. Controleer FAQ\'s \nBijdragers ontvangen extraatjes zoals extra kaarten downloads \nAlle community-informatie is gelicentieerd onder een Creative Commons-licentie.</string>
+    <string name="finalsunc">Eindelijk hoeven we alleen maar een eerste synchronisatie uit te voeren, dan kunt u beginnen met verkennen!</string>
+
+    <string-array name="faq">
+        <item>Waarom beperk je kaartdownloads?</item>
+        <item>We betalen per tegel die u downloadt. We geven u een royaal gratis bedrag dan moeten we in rekening brengen. De toewijzingen worden elke maand verlengd</item>
+        <item>Hoe kan ik meer kaartdownloads krijgen?</item>
+        <item>Patron-gebruikers krijgen onbeperkte downloads, u kunt er ook wat meer krijgen door nieuwe markeringen toe te voegen of opmerkingen toe te voegen over plaatsen waar u bent geweest</item>
+        <item>Waarom kan ik geen gebied selecteren om te downloaden?</item>
+        <item>Kosten en ruimte. Satellietgegevens zijn ingewikkeld en een kaart ter grootte van het VK zou 10 miljoen tegels kosten, meer dan $ 20.000 kosten en 160 gigabyte gecomprimeerd in beslag nemen. We hebben geprobeerd het u gemakkelijk te maken de gegevens te verkrijgen die u nodig heeft, zonder dat dit de aarde kost.</item>
+        <item>Waarom gebruikt u geen google /apple /arcgis /etc-kaarten?</item>
+        <item>Ze staan ons niet toe of zijn onbetaalbaar. Als u een gratis alternatief vindt, laat het ons dan weten.</item>
+        <item>Waarom kan ik niet navigeren /plotten /volgen?</item>
+        <item>Deze app is in de eerste plaats een cruisegids, geen navigatietool. We hebben simpelweg niet de middelen en mogelijkheden op dit punt om deze functies effectief aan te bieden.</item>
+        <item>Hoe wijzig ik de taal?</item>
+        <item>De vertaling wordt via uw apparaat afgehandeld. U moet uw systeemtaal wijzigen in Android-instellingen</item>
+        <item>Waarom heb je mijn taal niet?</item>
+        <item>We proberen waar mogelijk talen toe te voegen. als je wilt helpen, geef ons dan een e-mail</item>
+        <item>Kan ik mijn gegevens in bulk toevoegen vanuit mijn plotter /OPENCPN /kml /gpx /navionics?</item>
+        <item>Geef ons zeker een e-mail en we kunnen je er doorheen helpen. We hebben tools die in bulk kunnen worden geïmporteerd, maar ze zijn lastig te gebruiken.</item>
+    </string-array>
+    <string-array name="units">
+        <item>Metriek</item>
+        <item>Imperial</item>
+        <item>Nautisch</item>
+    </string-array>
+    <string-array name="icon_size">
+        <item>XSmall</item>
+        <item>Klein</item>
+        <item>Normaal</item>
+        <item>Groot</item>
+        <item>XLarge</item>
+    </string-array>
+    <string-array name="icon_size_val">
+        <item>30</item>
+        <item>20</item>
+        <item>12</item>
+        <item>8</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="units_name">
+        <item>Metrisch (m / km / h)</item>
+        <item>imperiaal (f / y / m / h)</item>
+        <item>Nautisch (m / nm / k)</item>
+    </string-array>
+    <string name="contact">" Neem contact op"</string>
+    <string name="facebook">Facebook</string>
+    <string name="search">zoeken</string>
+    <string name="zulu_offshore_is_a_global_cruising_guide_which_functions_offline">Zulu Offshore is een wereldwijde cruisegids die offline functioneert.</string>
+    <string name="satellite_hybrid_street_and_navionics_maps_for_download">Satelliet-, hybride-, straat- en Navionics-kaarten om te downloaden</string>
+    <string name="navionics_tute">Verbind een actief Navionics-account voor onbeperkte kaartdownloads in uw regio.</string>
+    <string name="dl_tute">Download via het markeermenu of Houd Finger Anywhere op de kaart 2 seconden vast Downloads zijn beperkt, maar u krijgt er 50 gratis per maand!</string>
+    <string name="sharing_information_is_what_zulu_is_all_about">Informatie delen is wat ZULU is alles over.</string>
+    <string name="all_community_information_is_licensed_under_a_creative_commons_by_nc_sa_and_therefore_remains_freely_available_n_n_adding_new_info_are_rewarded_with_extra_downloads">Alle community-informatie is gelicentieerd onder een  Creative Commons BY-NC-SA en blijft daarom vrij beschikbaar.   Het toevoegen van nieuwe info wordt beloond met extra downloads.</string>
+    <string name="lastly_you_can_help_support_zulu_though_our_online_shop">Ten slotte kunt u Zulu helpen ondersteunen via onze online winkel!</string>
+    <string name="a_wealth_of_free_community_information_n_n_contribute_new_markers_while_offline_n_n_download_satellite_imagery_and_charts">Een schat aan gratis gemeenschapsinformatie   Draag nieuwe markeringen bij terwijl u offline bent   Download satellietbeelden en grafieken</string>
+
+
+</resources>

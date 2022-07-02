@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/welcomeimage1"
+        android:contentDescription="@string/background_image" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/intro3"
+        android:contentDescription="@string/background_image" />
+    <LinearLayout
+        android:id="@+id/tuteIcons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#99000000"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:shadowColor="@color/black"
+        android:shadowRadius="15"
+        android:text="@string/zulu_offshore_is_a_global_cruising_guide_which_functions_offline"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#99000000"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:shadowColor="@color/black"
+        android:shadowRadius="15"
+        android:text="@string/a_wealth_of_free_community_information_n_n_contribute_new_markers_while_offline_n_n_download_satellite_imagery_and_charts"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

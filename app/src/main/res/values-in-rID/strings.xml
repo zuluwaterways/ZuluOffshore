@@ -1,0 +1,216 @@
+<resources>
+    <string name="app_name">Zulu Offshore</string>
+    <string name="title_activity_add_marker">Tambahkan Penanda Baru</string>
+    <string name="prompt_email">Surel</string>
+    <string name="prompt_password">Kata sandi</string>
+    <string name="action_sign_in">Masuk atau daftar</string>
+    <string name="action_sign_in_short">Masuk</string>
+    <string name="action_sign_out_short">Keluar</string>
+    <string name="welcome">"Selamat datang !"</string>
+    <string name="title_activity_login">Gabung</string>
+    <string name="addTitle">Judul</string>
+    <string name="loginSignup">Daftar</string>
+    <string name="loginButton">Gabung</string>
+    <string name="failedLogin">Gagal masuk. Silakan coba lagi \nAnda harus online untuk masuk</string>
+    <string name="password">Kata sandi</string>
+    <string name="email">Surel</string>
+    <string name="login_greeting">Login untuk menambah atau mengedit</string>
+    <string name="zulu_logo">Logo BN</string>
+    <string name="reposition">Reposisi</string>
+    <string name="description_hint">Deskripsi \nBagian ini untuk informasi faktual</string>
+    <string name="comment_hint">Pengalaman Pribadi \n(opsional)</string>
+    <string name="picture_add">Menambahkan</string>
+    <string name="upload_marker">Unggah</string>
+    <string name="photo_upload_placeholder">Tempat Pengunggahan Foto</string>
+    <string name="latitude">Garis Lintang</string>
+    <string name="longitude">garis bujur</string>
+    <string name="cancel">Membatalkan</string>
+    <string name="syncing_message">Menyinkronkan \nHarap tunggu ...</string>
+    <string name="logo">Logo</string>
+    <string name="marker_placement_icon">Ikon Penempatan Penanda</string>
+    <string name="infowindow_icon">Ikon Infowindow</string>
+    <string name="marker_title">Judul</string>
+    <string name="location_picture">Gambar Lokasi</string>
+    <string name="comments">Komentar</string>
+    <string name="add_a_comment">Tambahkan komentar…</string>
+    <string name="marker_add">Menambahkan</string>
+    <string name="title_activity_settings">Pengaturan</string>
+    <string name="sync_header">Sinkronkan</string>
+    <string name="maps_header">Opsi Peta</string>
+    <string name="mapbox_copy">© Mapbox, © OpenStreetMap</string>
+    <string name="run_out">Anda telah kehabisan unduhan gratis!</string>
+    <string name="downloads_why">Kami harus membatasi peta yang Anda unduh karena ini membutuhkan biaya. Kami membeli lisensi dan beberapa menyediakan secara gratis! jika Anda membutuhkan lebih banyak ada beberapa cara</string>
+    <string name="download_how"><a href="https://www.patreon.com/zuluwaterways"> Patreons</a> tidak terbatas! \nTambahkan penanda baru untuk 10 \nTambahkan komentar untuk 5</string>
+    <string name="download">Unduh</string>
+    <string name="measure">Mengukur</string>
+    <string name="zoom_in">Perbesar</string>
+    <string name="zoom_out">Perkecil</string>
+    <string name="share">Bagikan</string>
+    <string name="add_marker">Tambahkan Penanda</string>
+    <string name="arcgis_map">Peta ARCGIS</string>
+    <string name="bing_map">Peta Bing</string>
+    <string name="street_map">Peta jalan</string>
+    <string name="sat_map">Peta Satelit</string>
+    <string name="download_maps">Unduh Peta</string>
+    <string name="copyBing">© Bing Maps</string>
+    <string name="sync">Sinkronkan</string>
+    <string name="faq">Help</string>
+    <string name="login">Gabung</string>
+    <string name="navionics_login">Login Navionics</string>
+    <string name="navionics_maps">Peta Navionik</string>
+    <string name="zulu_online">Zulu Online</string>
+    <string name="my_markers">Spidol saya</string>
+    <string name="filters">Filter</string>
+    <string name="settings">Pengaturan</string>
+    <string name="language">Bahasa</string>
+    <string name="delete_marker">Hapus Marker</string>
+    <string name="distance">Jarak</string>
+    <string name="bearing">Bantalan</string>
+    <string name="cant_upload">Tidak Dapat Mengunggah. \N Coba masuk lagi</string>
+    <string name="limiting_icons">Membatasi ikon yang ditarik untuk kinerja</string>
+    <string name="download_complete">Unduh selesai!</string>
+    <string name="downloads_remaining">sisa unduhan</string>
+    <string name="comment_error">Kesalahan menambahkan Komentar !!!</string>
+    <string name="basemap_error">Kesalahan tidak dapat memuat basemap!</string>
+    <string name="marker_deleted">Penanda dihapus</string>
+    <string name="position_copied">Posisi disalin ke papan klip</string>
+    <string name="no_internet">Tidak Terdeteksi Internet. Silakan periksa koneksi Anda dan coba lagi.</string>
+    <string name="sync_complete">Sinkronisasi Selesai!</string>
+    <string name="marker_added">Marker berhasil ditambahkan! \NTanda total =</string>
+    <string name="not_logged_in">Silahkan masuk terlebih dahulu</string>
+    <string name="reset">Setel ulang</string>
+    <string name="downloading_maps">Mengunduh peta ...</string>
+    <string name="have_a_code">Punya kode? Aktifkan di sini</string>
+    <string name="paste_your_code_here">Tempel kode Anda di sini</string>
+    <string name="activate">mengaktifkan</string>
+    <string name="buy_a_code">Beli kode</string>
+    <string name="set_to_zero">Setel ke Nol</string>
+    <string name="current_size">Ukuran basis data saat ini:</string>
+    <string name="rate_the_app">Beri peringkat aplikasi</string>
+    <string name="cluster_icons">Ikon Klaster</string>
+    <string name="units">Unit</string>
+    <string name="delete_all">Hapus semua peta yang diunduh</string>
+    <string name="upload_in_sync">Unggah selama Sinkronisasi</string>
+    <string name="no_pics_uploaded">Tidak ada gambar yang akan diunggah selama sinkronisasi</string>
+    <string name="pics_uploaded">Gambar akan diunggah selama sinkronisasi</string>
+    <string name="upload_pics">Unggah Gambar</string>
+    <string name="bold" translatable="false">B</string>
+    <string name="Italics" translatable="false">I</string>
+    <string name="icon_image">Gambar Ikon</string>
+    <string name="delect_confirm">Apakah Anda yakin ingin menghapus semua peta yang Anda unduh?</string>
+    <string name="delete_title">Hapus semua peta yang diunduh</string>
+    <string name="free_up">\"Ini akan membebaskan \"</string>
+    <string name="download_navionics">Peta Navionik</string>
+    <string name="download_osm">Buka Peta Laut</string>
+    <string name="hybrid_map">Peta Hibrid</string>
+    <string name="navionics">Navionics</string>
+    <string name="more_settings">Lebih banyak pengaturan</string>
+    <string name="hints">Petunjuk</string>
+    <string name="activate_a_code">Aktifkan Kode A</string>
+    <string name="sign_out">Keluar</string>
+    <string name="paste_code">Tempel kode Anda di sini</string>
+    <string name="zulu_map_pack">Paket Peta Zulu</string>
+    <string name="downloading_map_pack">Mohon tunggu…</string>
+    <string name="error_downloading">Kesalahan: Tidak Dapat Menemukan File!</string>
+    <string name="pack_added">Paket Ditambahkan dengan Sukses!</string>
+    <string name="background_image">Gambar latar belakang</string>
+    <string name="linkme" translatable="false">§</string>
+    <string name="higher_res_info">Ini akan mengunduh tingkat zoom yang lebih tinggi jika tersedia tetapi akan menggandakan biaya</string>
+    <string name="hi_res_title">Unduhan Resolusi Tinggi</string>
+    <string name="navionics_charts">Grafik Navionics</string>
+    <string name="sonar_charts">Grafik Sonar</string>
+    <string name="navionics_settings">Pengaturan Navionics</string>
+    <string name="easy_view">Navionics Tampilan Mudah</string>
+    <string name="min_Zoom_sum">Tingkat zoom di mana cluster tidak ditampilkan (1–15)</string>
+    <string name="min_zoom">Zoom Cluster Minimum</string>
+    <string name="cluster_summary">Ikon Grup tempat mereka tumpang tindih</string>
+    <string name="screen_on">Biarkan layarnya menyala</string>
+    <string name="query_location">Lokasi Permintaan</string>
+    <string name="select_all">Pilih Semua</string>
+    <string name="download_region">Unduh Wilayah</string>
+    <string name="edit_marker_online">Edit Penanda Online</string>
+    <string name="next">Lanjut</string>
+    <string name="lets_go">Ayo pergi!</string>
+    <string name="skip">Melewatkan</string>
+    <string name="map_store">Toko Peta</string>
+    <string name="overlays">Overlay</string>
+    <string name="icon_size">Ukuran Ikon</string>
+    <string name="the_free_flow_of_information">Aliran Informasi yang Bebas</string>
+    <string name="no_pack">Tidak dapat mengaktifkan paket!</string>
+    <string name="add_a_new_nmarker_here">Tambahkan \nmarker baru di sini</string>
+    <string name="options_n_and_settings">Pilihan \ndan pengaturan</string>
+    <string name="change_maps_n_here">Ubah peta \ndi sini</string>
+    <string name="locate_gps">Temukan GPS</string>
+    <string name="click_anywhere_to_start">Klik Di Mana Saja Untuk Mulai</string>
+    <string name="long_press_anywhere_n_to_download_maps">Tekan lama di mana saja \nuntuk mengunduh peta</string>
+    <string name="click_on_the_markers_n_for_more_information">Klik pada marker \nuntuk informasi lebih lanjut</string>
+    <string name="to_the_zulu_offline_cruising_guide">Untuk Panduan Cruising Offshore Zulu</string>
+    <string name="let_s_get_started">... Mari kita mulai</string>
+    <string name="first_we_need_to_get_permissions">Pertama, kita perlu mendapatkan izin</string>
+    <string name="maps_are_too_large_to_store_in_the_app_so_we_need_access_to_your_storage_to_display_the_map">Peta terlalu besar untuk disimpan di aplikasi sehingga kami membutuhkan akses ke penyimpanan Anda untuk menampilkan peta</string>
+    <string name="storage_permissions">Izin Penyimpanan</string>
+    <string name="location_permissions">Izin Lokasi</string>
+    <string name="to_display_your_position_on_the_map_the_app_needs_access_to_the_gps_optional">Untuk menampilkan posisi Anda di peta, aplikasi ini memerlukan akses ke gps. (Pilihan)</string>
+    <string name="worldwide">Marker Seluruh Dunia Anda dapat menyinkronkan ke aplikasi \n\nTambahkan penanda dan komentar baru saat offline \n\nSinkronkan kontribusi baru dengan komunitas setelah kembali ke jangkauan</string>
+    <string name="basemaps">Catatan: Peta dasar memerlukan \ndownload lebih lanjut untuk citra terperinci</string>
+    <string name="base_map_types">Jenis Peta Dasar</string>
+    <string name="howtodownload">Cara Mengunduh Gambar Terperinci \n\n1. Tekan lama di mana saja di peta (2 detik) untuk membuka opsi untuk unduhan peta \n\n2.Download dari dalam menu Marker \n\n3.Download seluruh wilayah di Map Store \n\n4. Masuk ke akun Navionics Anda yang ada untuk menyinkronkan grafik</string>
+    <string name="updatingInfo">Memperbarui informasi itu penting. Periksa FAQ \\\\Kontributor kontributor menerima tunjangan seperti unduhan tambahan peta \nSemua informaiton komunitas dilisensikan di bawah Lisensi Creative Commons.</string>
+    <string name="finalsunc">Akhirnya kita hanya perlu melakukan sinkronisasi awal maka Anda dapat mulai menjelajah!</string>
+
+    <string-array name="faq">
+        <item>Mengapa Anda membatasi unduhan peta?</item>
+        <item>Kami membayar per ubin yang Anda unduh. Kami memberi Anda jumlah gratis yang besar maka kami harus mengenakan biaya. Alokasi diperbarui setiap bulan</item>
+        <item>Bagaimana saya bisa mendapatkan lebih banyak unduhan peta?</item>
+        <item>Pengguna pelindung mendapatkan unduhan tanpa batas, Anda juga bisa mendapatkan lebih banyak dengan menambahkan spidol baru atau menambahkan komentar di tempat-tempat yang pernah Anda kunjungi</item>
+        <item>Mengapa saya tidak dapat memilih area untuk diunduh?</item>
+        <item>Biaya dan ruang. Data satelit rumit dan peta ukuran Inggris akan mengambil 10 juta ubin, biaya lebih dari $ 20.000 dan memakan 160 gigabytes, terkompresi. Kami telah mencoba membuatnya mudah untuk mendapatkan data yang Anda butuhkan tanpa biaya.</item>
+        <item>Mengapa Anda tidak menggunakan peta google /apple /arcgis /etc?</item>
+        <item>Mereka tidak memungkinkan kita untuk atau sangat mahal. Jika Anda menemukan alternatif gratis, beri tahu kami.</item>
+        <item>Mengapa saya tidak bisa menavigasi /plot /track?</item>
+        <item>Aplikasi ini terutama merupakan panduan jelajah, bukan alat navigasi. Kami hanya tidak memiliki sumber daya dan kemampuan pada titik ini untuk menawarkan fitur-fitur ini secara efektif.</item>
+        <item>Bagaimana saya mengubah bahasa?</item>
+        <item>Terjemahan ditangani melalui perangkat Anda. Anda harus mengubah bahasa sistem di pengaturan Android</item>
+        <item>Mengapa Anda tidak memiliki bahasa saya?</item>
+        <item>Kami ingin menambahkan bahasa jika memungkinkan. Jika Anda ingin membantu, beri kami email</item>
+        <item>Bisakah saya menambahkan data saya secara massal dari plotter /OPENCPN /kml /gpx /navionics?</item>
+        <item>Tentu beri kami email dan kami dapat membantu Anda melewatinya Kami memiliki alat yang dapat mengimpor secara massal tetapi sulit digunakan.</item>
+    </string-array>
+    <string-array name="units">
+        <item>Metrik</item>
+        <item>Imperial</item>
+        <item>Bahari</item>
+    </string-array>
+    <string-array name="icon_size">
+        <item>XSmall</item>
+        <item>Kecil</item>
+        <item>Normal</item>
+        <item>Besar</item>
+        <item>XLarge</item>
+    </string-array>
+    <string-array name="icon_size_val">
+        <item>30</item>
+        <item>20</item>
+        <item>12</item>
+        <item>8</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="units_name">
+        <item>Metrik (m /km /jam)</item>
+        <item>Imperial (f /y /m /h)</item>
+        <item>Bahari (m /nm /k)</item>
+    </string-array>
+    <string name="contact">kontak</string>
+    <string name="facebook">Facebook</string>
+    <string name="search">Cari</string>
+    <string name="zulu_offshore_is_a_global_cruising_guide_which_functions_offline">Zulu Offshore adalah panduan jelajah global yang berfungsi secara offline.</string>
+    <string name="satellite_hybrid_street_and_navionics_maps_for_download">Peta Satelit, Hibrid, Jalan, dan Navionik untuk Diunduh</string>
+    <string name="navionics_tute">Hubungkan akun Navionics aktif untuk unduhan grafik tak terbatas di wilayah Anda.</string>
+    <string name="dl_tute">Unduh melalui menu penanda atau Pegang Jari Di Mana Saja pada Peta selama 2 Detik Unduhan terbatas tetapi Anda mendapatkan 50 gratis per bulan!</string>
+    <string name="sharing_information_is_what_zulu_is_all_about">Berbagi informasi adalah apa ZULU adalah segalanya.</string>
+    <string name="all_community_information_is_licensed_under_a_creative_commons_by_nc_sa_and_therefore_remains_freely_available_n_n_adding_new_info_are_rewarded_with_extra_downloads">Semua informasi komunitas dilisensikan di bawah a  Creative Commons BY-NC-SA dan karenanya tetap tersedia secara gratis.   Menambahkan info baru dihargai dengan unduhan tambahan.</string>
+    <string name="lastly_you_can_help_support_zulu_though_our_online_shop">Terakhir, Anda dapat membantu mendukung Zulu melalui toko online kami!</string>
+    <string name="a_wealth_of_free_community_information_n_n_contribute_new_markers_while_offline_n_n_download_satellite_imagery_and_charts">Kekayaan Informasi Komunitas Gratis   Kontribusikan Penanda Baru saat Offline   Unduh Grafik dan Citra Satelit</string>
+
+
+</resources>

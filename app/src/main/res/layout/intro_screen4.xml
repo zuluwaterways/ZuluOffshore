@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/welcomeimage1"
+        android:contentDescription="@string/background_image" />
+    <LinearLayout
+        android:id="@+id/tuteIcons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="-5dp"
+            android:layout_weight="0.5"
+            android:rotation="-10"
+            app:srcCompat="@drawable/map_base_arrow" />
+
+        <ImageView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:rotation="10"
+            app:srcCompat="@drawable/dl" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:background="#99000000"
+            android:fontFamily="@font/adamina"
+            android:text="@string/satellite_hybrid_street_and_navionics_maps_for_download"
+            android:shadowRadius="15"
+            android:shadowColor="@color/black"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#99000000"
+            android:fontFamily="@font/adamina"
+            android:text="@string/dl_tute"
+            android:textAlignment="center"
+            android:shadowRadius="15"
+            android:shadowColor="@color/black"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
+

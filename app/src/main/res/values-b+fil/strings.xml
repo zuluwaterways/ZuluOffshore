@@ -1,0 +1,205 @@
+<resources>
+    <string name="app_name">Zulu Offshore</string>
+    <string name="title_activity_add_marker">Magdagdag ng Bagong Marker</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Mag-sign in o magrehistro</string>
+    <string name="action_sign_in_short">Mag-sign In</string>
+    <string name="action_sign_out_short">Mag-sign Out</string>
+    <string name="welcome">"Maligayang pagdating!"</string>
+    <string name="title_activity_login">Mag log in</string>
+    <string name="addTitle">Pamagat</string>
+    <string name="loginSignup">Pag-signup</string>
+    <string name="loginButton">Mag log in</string>
+    <string name="failedLogin">Hindi tagumpay ang pag-login. Mangyaring subukang muli \nMaaari kang maging online upang mag-login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login_greeting">Mag-login upang magdagdag o mag-edit</string>
+    <string name="zulu_logo">Logo ng BN</string>
+    <string name="reposition">Reposisyon</string>
+    <string name="description_hint">Paglalarawan \nAng seksyon na ito ay para sa impormasyon na totoo</string>
+    <string name="comment_hint">Personal na Karanasan \n(opsyonal)</string>
+    <string name="picture_add">Idagdag</string>
+    <string name="upload_marker">Mag-upload</string>
+    <string name="photo_upload_placeholder">Placeholder ng Pag-upload ng Larawan</string>
+    <string name="latitude">latitude</string>
+    <string name="longitude">longitude</string>
+    <string name="cancel">Pagkansela</string>
+    <string name="syncing_message">Pag-sync ng Mangyaring maghintay ...</string>
+    <string name="logo">Logo</string>
+    <string name="marker_placement_icon">Icon ng Plate ng Plate</string>
+    <string name="infowindow_icon">Icon ng Infowindow</string>
+    <string name="marker_title">Pamagat</string>
+    <string name="location_picture">Larawan ng lokasyon</string>
+    <string name="comments">Mga Komento</string>
+    <string name="add_a_comment">Magdagdag ng komento…</string>
+    <string name="marker_add">Idagdag</string>
+    <string name="title_activity_settings">Mga setting</string>
+    <string name="sync_header">Pag-sync</string>
+    <string name="maps_header">Mga Pagpipilian sa Mga Mapa</string>
+    <string name="mapbox_copy">© Mapbox, © OpenStreetMap</string>
+    <string name="run_out">Naubusan ka ng mga libreng pag-download!</string>
+    <string name="downloads_why">Kailangan nating limitahan ang mga mapa na na-download mo bilang gastos sa amin ng pera. Bumili kami ng mga lisensya at anumang magbigay ng ilan nang libre! kung kailangan mo ng maraming maraming paraan</string>
+    <string name="download_how"><a href="https://www.patreon.com/zuluwaterways"> Mga Patreon</a> ay walang limitasyong! \nMagdagdag ng isang bagong marker para sa 10 \nAdd ng isang puna para sa 5</string>
+    <string name="download">Pag-download</string>
+    <string name="measure">Sukatin</string>
+    <string name="zoom_in">Palakihin</string>
+    <string name="zoom_out">Mag-zoom out</string>
+    <string name="share">Ibahagi</string>
+    <string name="add_marker">Idagdag ang Marker</string>
+    <string name="arcgis_map">ARCGIS Map</string>
+    <string name="bing_map">Bing Map</string>
+    <string name="street_map">Mapa ng Kalye</string>
+    <string name="sat_map">Satellite Map</string>
+    <string name="download_maps">I-download ang Mga Mapa</string>
+    <string name="copyBing">© Bing Maps</string>
+    <string name="sync">Pag-sync</string>
+    <string name="faq">Help</string>
+    <string name="login">Mag log in</string>
+    <string name="navionics_login">Pag-login sa Navionics</string>
+    <string name="navionics_maps">Mga Mapa sa Navionics</string>
+    <string name="zulu_online">Zulu Online</string>
+    <string name="my_markers">Aking Mga Marker</string>
+    <string name="filters">Mga Filter</string>
+    <string name="settings">Mga setting</string>
+    <string name="language">Wika</string>
+    <string name="delete_marker">Tanggalin ang Marker</string>
+    <string name="distance">Distansya</string>
+    <string name="bearing">Pagdadala</string>
+    <string name="cant_upload">Hindi ma-upload. \N Subukan muli ang pag-log in</string>
+    <string name="limiting_icons">Limitahan ang mga icon na iginuhit para sa pagganap</string>
+    <string name="download_complete">I-download Kumpletuhin!</string>
+    <string name="downloads_remaining">natitirang pag-download</string>
+    <string name="comment_error">Error sa pagdaragdag ng Komento !!!</string>
+    <string name="basemap_error">Ang pagkakamali ay hindi maaaring mag-load ng basemap!</string>
+    <string name="marker_deleted">Tinanggal ang marker</string>
+    <string name="position_copied">Posisyon na kinopya sa clipboard</string>
+    <string name="no_internet">Walang Natuklasan sa Internet Mangyaring suriin ang iyong koneksyon at subukang muli.</string>
+    <string name="sync_complete">Kumpletuhin ang I-sync!</string>
+    <string name="marker_added">Matagumpay na naidagdag ang marker! \NTotal marker =</string>
+    <string name="not_logged_in">Mangyaring mag-login muna</string>
+    <string name="reset">I-reset</string>
+    <string name="downloading_maps">Pag-download ng mga mapa ...</string>
+    <string name="have_a_code">May code ba? I-aktibo ito</string>
+    <string name="paste_your_code_here">Idikit dito ang iyong code</string>
+    <string name="activate">buhayin</string>
+    <string name="buy_a_code">Bumili ng isang code</string>
+    <string name="set_to_zero">Itakda sa Zero</string>
+    <string name="current_size">Sukat ng kasalukuyang database:</string>
+    <string name="rate_the_app">I-rate ang app</string>
+    <string name="cluster_icons">Mga Icon ng Cluster</string>
+    <string name="units">Mga Yunit</string>
+    <string name="delete_all">Tanggalin ang lahat ng na-download na mga mapa</string>
+    <string name="upload_in_sync">Mag-upload sa panahon ng Pag-sync</string>
+    <string name="no_pics_uploaded">Walang mga mai-upload na larawan sa pag-sync</string>
+    <string name="pics_uploaded">Mag-upload ang mga larawan sa panahon ng pag-sync</string>
+    <string name="upload_pics">Mag-upload ng Mga Larawan</string>
+    <string name="bold" translatable="false">B</string>
+    <string name="Italics" translatable="false">I</string>
+    <string name="icon_image">Icon ng Icon</string>
+    <string name="delect_confirm">Sigurado ka bang gusto mong tanggalin ang lahat ng iyong nai-download na mga mapa?</string>
+    <string name="delete_title">Tanggalin ang lahat ng na-download na mga mapa</string>
+    <string name="free_up">\"Ito ay magpapalaya \"</string>
+    <string name="download_navionics">Mga mapa ng Navionics</string>
+    <string name="download_osm">Buksan ang Mga Mapa ng Dagat</string>
+    <string name="hybrid_map">Hybrid Map</string>
+    <string name="navionics">Mga Navionics</string>
+    <string name="more_settings">Marami pang Mga Setting</string>
+    <string name="hints">Mga pahiwatig</string>
+    <string name="activate_a_code">Isaaktibo ang Isang Code</string>
+    <string name="sign_out">Mag-sign Out</string>
+    <string name="paste_code">Idikit dito ang iyong code</string>
+    <string name="zulu_map_pack">Zulu na Map Pack</string>
+    <string name="downloading_map_pack">Mangyaring Maghintay ...</string>
+    <string name="error_downloading">Error: Hindi Mahahanap ang File!</string>
+    <string name="pack_added">Matagumpay na naidagdag ang Pack!</string>
+    <string name="background_image">Imahe ng background</string>
+    <string name="linkme" translatable="false">§</string>
+    <string name="higher_res_info">Mag-download ito ng mas mataas na antas ng pag-zoom kung magagamit ngunit doble ang gastos</string>
+    <string name="hi_res_title">Mataas na Mga Pag-download ng Resolusyon</string>
+    <string name="navionics_charts">Mga tsart ng Navionics</string>
+    <string name="sonar_charts">Mga Sonar Charts</string>
+    <string name="navionics_settings">Mga Setting ng Navionics</string>
+    <string name="easy_view">Easy View ng Navionics</string>
+    <string name="min_Zoom_sum">Antas ng pag-zoom kung saan ang mga kumpol ay hindi ipinapakita (1–15)</string>
+    <string name="min_zoom">Pinakamababang Cluster Zoom</string>
+    <string name="cluster_summary">Mga Icon ng Grupo kung saan sila nag-overlay</string>
+    <string name="screen_on">Panatilihin ang Screen</string>
+    <string name="query_location">Kinaroroonan ng Query</string>
+    <string name="select_all">Piliin lahat</string>
+    <string name="download_region">Pag-download ng Rehiyon</string>
+    <string name="edit_marker_online">I-edit ang Marker Online</string>
+    <string name="next">Susunod</string>
+    <string name="lets_go">Hinahayaan ang Go!</string>
+    <string name="skip">Laktawan</string>
+    <string name="map_store">Tindahan ng Mapa</string>
+    <string name="overlays">Mga overlay</string>
+    <string name="icon_size">Laki ng Icon</string>
+    <string name="the_free_flow_of_information">Ang Libreng-Daloy ng Impormasyon</string>
+    <string name="no_pack">Hindi ma-activate ang pack!</string>
+    <string name="add_a_new_nmarker_here">Magdagdag ng isang bagong \nmarker dito</string>
+    <string name="options_n_and_settings">Mga pagpipilian at n setting</string>
+    <string name="change_maps_n_here">Baguhin ang mga mapa dito</string>
+    <string name="locate_gps">Hanapin ang GPS</string>
+    <string name="click_anywhere_to_start">Mag-click sa Kahit saan Upang Magsimula</string>
+    <string name="long_press_anywhere_n_to_download_maps">Long pindutin kahit saan upang i-download ang mga mapa</string>
+    <string name="click_on_the_markers_n_for_more_information">Mag-click sa mga marker \npara sa karagdagang impormasyon</string>
+    <string name="to_the_zulu_offline_cruising_guide">Sa Zulu Offline Cruising Guide</string>
+    <string name="let_s_get_started">…Magsimula na tayo</string>
+    <string name="first_we_need_to_get_permissions">Una kailangan naming makakuha ng mga pahintulot</string>
+    <string name="maps_are_too_large_to_store_in_the_app_so_we_need_access_to_your_storage_to_display_the_map">Ang mga mapa ay masyadong malaki upang maiimbak sa app kaya kailangan namin ng access sa iyong imbakan upang ipakita ang mapa</string>
+    <string name="storage_permissions">Mga Pahintulot sa Pag-iimbak</string>
+    <string name="location_permissions">Pahintulot sa lokasyon</string>
+    <string name="to_display_your_position_on_the_map_the_app_needs_access_to_the_gps_optional">Upang ipakita ang iyong posisyon sa mapa ang app ay nangangailangan ng pag-access sa mga gps. (Opsyonal)</string>
+    <string name="worldwide">Mga marker ng World-Wide maaari kang mag-sync sa app \n\nMagdagdag ng mga bagong marker at magkomento habang nasa offline \n\nMag-sync ng mga bagong kontribusyon sa komunidad sa sandaling bumalik sa saklaw</string>
+    <string name="basemaps">Tandaan: Ang mga mapa ng base ay nangangailangan ng karagdagang mga \ndownload para sa detalyadong imahe</string>
+    <string name="base_map_types">Mga Uri ng Base Map</string>
+    <string name="howtodownload">Paano I-download ang Detalyadong Imahe ng \n\n1. Long-pindutin kahit saan sa mapa (2 secs) upang buksan ang mga pagpipilian para sa pag-download ng mapa \n\n2.Download mula sa loob ng menu ng Marker \n\n3.Download ang buong rehiyon sa Map Store \n\n4.login sa iyong umiiral na Navionics account upang mag-sync ng mga tsart</string>
+    <string name="updatingInfo">Mahalaga ang pag-update ng impormasyon. Suriin ang FAQ ng mga kontribusyon ay makakatanggap ng mga perks tulad ng mga dagdag na pag-download ng mga mapa. Ang lahat ng impormasyon sa komunidad ay lisensyado sa ilalim ng Lisensya ng Creative Commons.</string>
+    <string name="finalsunc">Sa wakas kailangan lang nating gumawa ng isang paunang pag-sync pagkatapos ay maaari mong simulan ang paggalugad!</string>
+
+    <string-array name="faq">
+        <item>Bakit mo nililimitahan ang pag-download ng mapa?</item>
+        <item>Nagbabayad kami bawat tile na nai-download mo. Binibigyan ka namin ng isang mapagbigay na libreng halaga pagkatapos kailangan naming singilin. Ang mga paglalaan ay binago bawat buwan</item>
+        <item>Paano ako makakakuha ng higit pang mga pag-download ng mapa?</item>
+        <item>Ang mga gumagamit ng Patron ay nakakakuha ng walang limitasyong pag-download, maaari ka ring makakuha ng higit pa sa pagdaragdag ng mga bagong marker o pagdaragdag ng mga komento sa mga lugar na napuntahan mo</item>
+        <item>Bakit hindi ako pumili ng isang lugar upang mai-download?</item>
+        <item>Mga gastos at puwang. Ang data ng satellite ay kumplikado at isang mapa ang laki ng UK ay kukuha ng 10 milyong mga tile, nagkakahalaga ng higit sa $ 20000 at umabot ng 160 gigabytes, na naka-compress. Sinubukan naming gawing madali upang makuha ang data na kailangan mo nang wala itong gastos sa mundo.</item>
+        <item>Bakit hindi ka gumagamit ng google /apple /arcgis /etc maps?</item>
+        <item>Hindi nila kami pinahihintulutan o mahal na mahal. Kung nakakita ka ng isang libreng alternatibo ipaalam sa amin.</item>
+        <item>Bakit hindi ako mag-navigate /magplano /track?</item>
+        <item>Ang app na ito ay pangunahing isang gabay sa pag-cruise, hindi isang tool sa pag-navigate. Kami lamang ay walang mga mapagkukunan at mga kakayahan sa puntong ito upang maingat na mag-alok ng mga tampok na ito.</item>
+        <item>Paano ko mababago ang wika?</item>
+        <item>Hinahawak ang pagsasalin kahit na ang iyong aparato. Kailangan mong baguhin ang iyong wika ng system sa mga setting ng Android</item>
+        <item>Bakit wala ka sa aking wika?</item>
+        <item>Naghahanap kami upang magdagdag ng mga wika kung saan posible. kung nais mong makatulong sa iyo na bigyan kami ng isang email</item>
+        <item>Maaari ba akong madagdagan ang aking data mula sa aking plotter /OPENCPN /kml /gpx /navionics?</item>
+        <item>Sure bigyan kami ng isang email at maaari kaming tulungan ka sa pamamagitan nito. Mayroon kaming mga tool na maaaring mag-import ng malaki ngunit ang mga ito ay nakakalito na gagamitin.</item>
+    </string-array>
+    <string-array name="units">
+        <item>Sukatan</item>
+        <item>Imperyal</item>
+        <item>Nautical</item>
+    </string-array>
+    <string-array name="icon_size">
+        <item>XSmall</item>
+        <item>Maliit</item>
+        <item>Normal</item>
+        <item>Malaki</item>
+        <item>XLarge</item>
+    </string-array>
+    <string-array name="icon_size_val">
+        <item>30</item>
+        <item>20</item>
+        <item>12</item>
+        <item>8</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="units_name">
+        <item>Metric (m /km /h)</item>
+        <item>Imperyal (f /y /m /h)</item>
+        <item>Nautical (m /nm /k)</item>
+    </string-array>
+
+
+</resources>

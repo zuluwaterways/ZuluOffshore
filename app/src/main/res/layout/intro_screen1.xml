@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/welcomeimage1"
+        android:contentDescription="@string/background_image" />
+    <ImageView
+        android:id="@+id/tuteimageView"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/logozo"
+        android:scaleType="fitCenter"
+        android:background="@color/whiteish"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/zulu_logo" />
+
+    <TextView
+        android:id="@+id/tutewelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tuteimageView"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center_horizontal"
+        android:text="@string/welcome"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tutewelcome"
+        android:layout_marginTop="-2dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center_horizontal"
+        android:text="@string/to_the_zulu_offline_cruising_guide"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/let_s_get_started"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="85dp"/>
+
+</RelativeLayout>

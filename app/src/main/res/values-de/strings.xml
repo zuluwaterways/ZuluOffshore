@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">Zulu Offshore</string>
+    <string name="title_activity_add_marker">Neuen Marker hinzufügen</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Passwort</string>
+    <string name="action_sign_in">Einloggen oder Registrieren</string>
+    <string name="action_sign_in_short">Anmelden</string>
+    <string name="action_sign_out_short">Ausloggen</string>
+    <string name="welcome">"Herzlich willkommen !"</string>
+    <string name="title_activity_login">Anmeldung</string>
+    <string name="addTitle">Titel</string>
+    <string name="loginSignup">Anmelden</string>
+    <string name="loginButton">Anmeldung</string>
+    <string name="failedLogin">Login fehlgeschlagen. Bitte versuchen Sie es erneut \nSie müssen online sein, um sich anzumelden</string>
+    <string name="password">Passwort</string>
+    <string name="email">Email</string>
+    <string name="login_greeting">Zum Hinzufügen oder Bearbeiten anmelden</string>
+    <string name="zulu_logo">BN-Logo</string>
+    <string name="reposition">Umstellen</string>
+    <string name="description_hint">Beschreibung \nDieser Abschnitt dient der sachlichen Information</string>
+    <string name="comment_hint">Persönliche Erfahrungen \n(optional)</string>
+    <string name="picture_add">Hinzufügen</string>
+    <string name="upload_marker">Hochladen</string>
+    <string name="photo_upload_placeholder">Platzhalter für Foto-Upload</string>
+    <string name="latitude">Breite</string>
+    <string name="longitude">Längengrad</string>
+    <string name="cancel">Stornieren</string>
+    <string name="syncing_message">Synchronisieren \nBitte warten ...</string>
+    <string name="logo">Logo</string>
+    <string name="marker_placement_icon">Markierungsplatzierungssymbol</string>
+    <string name="infowindow_icon">Infowindow-Symbol</string>
+    <string name="marker_title">Titel</string>
+    <string name="location_picture">Standortbild</string>
+    <string name="comments">Bemerkungen</string>
+    <string name="add_a_comment">Einen Kommentar hinzufügen…</string>
+    <string name="marker_add">Hinzufügen</string>
+    <string name="title_activity_settings">die Einstellungen</string>
+    <string name="sync_header">Synchronisieren</string>
+    <string name="maps_header">Kartenoptionen</string>
+    <string name="mapbox_copy">© Mapbox, © OpenStreetMap</string>
+    <string name="run_out">Sie haben keine kostenlosen Downloads mehr!</string>
+    <string name="downloads_why">Wir müssen die von Ihnen heruntergeladenen Karten einschränken, da diese uns Geld kosten. Wir kaufen die Lizenzen und stellen sie kostenlos zur Verfügung! Wenn Sie mehr benötigen, gibt es mehrere Möglichkeiten</string>
+    <string name="download_how"><a href="https://www.patreon.com/zuluwaterways"> Patreons</a> sind unbegrenzt! \nFügen Sie einen neuen Marker für 10 hinzu \nFügen Sie einen Kommentar für 5 hinzu</string>
+    <string name="download">Herunterladen</string>
+    <string name="measure">Messen</string>
+    <string name="zoom_in">Hineinzoomen</string>
+    <string name="zoom_out">Rauszoomen</string>
+    <string name="share">Aktie</string>
+    <string name="add_marker">Marker hinzufügen</string>
+    <string name="arcgis_map">ARCGIS Karte</string>
+    <string name="bing_map">Bing Karte</string>
+    <string name="street_map">Straßenkarte</string>
+    <string name="sat_map">Satellitenkarte</string>
+    <string name="download_maps">Karten herunterladen</string>
+    <string name="copyBing">© Bing Maps</string>
+    <string name="sync">Synchronisieren</string>
+    <string name="faq">Help</string>
+    <string name="login">Anmeldung</string>
+    <string name="navionics_login">Navionics Login</string>
+    <string name="navionics_maps">Navionics-Karten</string>
+    <string name="zulu_online">Zulu Online</string>
+    <string name="my_markers">Meine Marker</string>
+    <string name="filters">Filter</string>
+    <string name="settings">die Einstellungen</string>
+    <string name="language">Sprache</string>
+    <string name="delete_marker">Marker löschen</string>
+    <string name="distance">Entfernung</string>
+    <string name="bearing">Lager</string>
+    <string name="cant_upload">Kann nicht hochladen. \N Versuchen Sie erneut, sich anzumelden</string>
+    <string name="limiting_icons">Begrenzungssymbole für die Leistung gezeichnet</string>
+    <string name="download_complete">Download abgeschlossen!</string>
+    <string name="downloads_remaining">verbleibende Downloads</string>
+    <string name="comment_error">Fehler beim Hinzufügen eines Kommentars !!!</string>
+    <string name="basemap_error">Fehler kann Grundkarte nicht laden!</string>
+    <string name="marker_deleted">Marker gelöscht</string>
+    <string name="position_copied">Position in Zwischenablage kopiert</string>
+    <string name="no_internet">Kein Internet erkannt. Überprüfen Sie bitte Ihre Verbindung und versuchen Sie es erneut.</string>
+    <string name="sync_complete">Synchronisierung abgeschlossen!</string>
+    <string name="marker_added">Marker erfolgreich hinzugefügt! \NTGesamtmarker =</string>
+    <string name="not_logged_in">Bitte loggen Sie sich zuerst ein</string>
+    <string name="reset">Zurücksetzen</string>
+    <string name="downloading_maps">Karten herunterladen…</string>
+    <string name="have_a_code">Haben Sie einen Code? Aktivieren Sie es hier</string>
+    <string name="paste_your_code_here">Fügen Sie hier Ihren Code ein</string>
+    <string name="activate">aktivieren Sie</string>
+    <string name="buy_a_code">Kaufen Sie einen Code</string>
+    <string name="set_to_zero">Auf Null setzen</string>
+    <string name="current_size">Aktuelle Datenbankgröße:</string>
+    <string name="rate_the_app">Bewerten Sie die App</string>
+    <string name="cluster_icons">Cluster-Symbole</string>
+    <string name="units">Einheiten</string>
+    <string name="delete_all">Löschen Sie alle heruntergeladenen Karten</string>
+    <string name="upload_in_sync">Hochladen während der Synchronisierung</string>
+    <string name="no_pics_uploaded">Während der Synchronisierung werden keine Bilder hochgeladen</string>
+    <string name="pics_uploaded">Bilder werden während der Synchronisierung hochgeladen</string>
+    <string name="upload_pics">Lade Bilder hoch</string>
+    <string name="bold" translatable="false">B</string>
+    <string name="Italics" translatable="false">I</string>
+    <string name="icon_image">Symbol Bild</string>
+    <string name="delect_confirm">Möchten Sie wirklich alle heruntergeladenen Karten löschen?</string>
+    <string name="delete_title">Löschen Sie alle heruntergeladenen Karten</string>
+    <string name="free_up">"Dies wird frei"</string>
+    <string name="download_navionics">Navionics-Karten</string>
+    <string name="download_osm">Offene Seekarten</string>
+    <string name="hybrid_map">Hybridkarte</string>
+    <string name="navionics">Navionik</string>
+    <string name="more_settings">Mehr Einstellungen</string>
+    <string name="hints">Hinweise</string>
+    <string name="activate_a_code">Aktivieren Sie einen Code</string>
+    <string name="sign_out">Ausloggen</string>
+    <string name="paste_code">Fügen Sie hier Ihren Code ein</string>
+    <string name="zulu_map_pack">Zulu Map Pack</string>
+    <string name="downloading_map_pack">Warten Sie mal…</string>
+    <string name="error_downloading">Fehler: Datei kann nicht gefunden werden!</string>
+    <string name="pack_added">Pack erfolgreich hinzugefügt!</string>
+    <string name="background_image">Hintergrundbild</string>
+    <string name="linkme" translatable="false">§</string>
+    <string name="higher_res_info">Dadurch werden höhere Zoomstufen heruntergeladen, sofern verfügbar, die Kosten werden jedoch verdoppelt</string>
+    <string name="hi_res_title">Hochauflösende Downloads</string>
+    <string name="navionics_charts">Navionics-Karten</string>
+    <string name="sonar_charts">Sonardiagramme</string>
+    <string name="navionics_settings">Navionics-Einstellungen</string>
+    <string name="easy_view">Navionics Easy View</string>
+    <string name="min_Zoom_sum">Zoomstufe, in der Cluster nicht angezeigt werden (1–15)</string>
+    <string name="min_zoom">Minimaler Cluster-Zoom</string>
+    <string name="cluster_summary">Gruppensymbole, bei denen sie sich überlappen</string>
+    <string name="screen_on">Bildschirm eingeschaltet lassen</string>
+    <string name="query_location">Abfrageort</string>
+    <string name="select_all">Wählen Sie Alle</string>
+    <string name="download_region">Region herunterladen</string>
+    <string name="edit_marker_online">Marker online bearbeiten</string>
+    <string name="next">Nächster</string>
+    <string name="lets_go">Lass uns gehen!</string>
+    <string name="skip">Überspringen</string>
+    <string name="map_store">Kartenspeicher</string>
+    <string name="overlays">Überlagerungen</string>
+    <string name="icon_size">Symbolgröße</string>
+    <string name="the_free_flow_of_information">Der freie Informationsfluss</string>
+    <string name="no_pack">Pack konnte nicht aktiviert werden!</string>
+    <string name="add_a_new_nmarker_here">Fügen Sie hier einen neuen \nMarker hinzu</string>
+    <string name="options_n_and_settings">Optionen \nund Einstellungen</string>
+    <string name="change_maps_n_here">Karten hier ändern \n</string>
+    <string name="locate_gps">Suchen Sie GPS</string>
+    <string name="click_anywhere_to_start">Klicken Sie auf Anywhere To Start</string>
+    <string name="long_press_anywhere_n_to_download_maps">Drücken Sie lange irgendwo \n, um Karten herunterzuladen</string>
+    <string name="click_on_the_markers_n_for_more_information">Klicken Sie auf die Markierungen \n, um weitere Informationen zu erhalten</string>
+    <string name="to_the_zulu_offline_cruising_guide">Zum Zulu Offshore Cruising Guide</string>
+    <string name="let_s_get_started">…Lass uns anfangen</string>
+    <string name="first_we_need_to_get_permissions">Zuerst müssen wir Berechtigungen erhalten</string>
+    <string name="maps_are_too_large_to_store_in_the_app_so_we_need_access_to_your_storage_to_display_the_map">Karten sind zu groß, um in der App gespeichert zu werden. Daher benötigen wir Zugriff auf Ihren Speicher, um die Karte anzuzeigen</string>
+    <string name="storage_permissions">Speicherberechtigungen</string>
+    <string name="location_permissions">Standortberechtigungen</string>
+    <string name="to_display_your_position_on_the_map_the_app_needs_access_to_the_gps_optional">Um Ihre Position auf der Karte anzuzeigen, benötigt die App Zugriff auf das GPS. (Optional)</string>
+    <string name="worldwide">Weltweite Marker, die Sie mit der App synchronisieren können \\ n \\ n Fügen Sie neue Marker hinzu und kommentieren Sie sie offline \\ n \\ n Synchronisieren Sie neue Beiträge mit der Community, sobald Sie wieder in Reichweite sind</string>
+    <string name="basemaps">Hinweis: Für Basiskarten sind weitere Downloads für detaillierte Bilder erforderlich</string>
+    <string name="base_map_types">Basiskartentypen</string>
+    <string name="howtodownload">So laden Sie detaillierte Bilder herunter \\ n \\ n 1. Drücken Sie lange auf eine beliebige Stelle auf der Karte (2 Sekunden \\\), um Optionen für das Herunterladen von Karten zu öffnen \\ n \\ n 2.Download aus dem Marker-Menü \\ n \\ n 3.Downloaden Sie ganze Regionen im Map Store \\ n \\ n4.Melden Sie sich bei Ihrem vorhandenen Navionics-Konto an, um Diagramme zu synchronisieren</string>
+    <string name="updatingInfo">Das Aktualisieren von Informationen ist wichtig. Überprüfen Sie die FAQs \\\ &amp;#x27;s \\ n Mitwirkende erhalten Vergünstigungen wie zusätzliche Karten-Downloads \\ nAlle Community-Informationen sind unter einer Creative Commons-Lizenz lizenziert.</string>
+    <string name="finalsunc">Schließlich müssen wir nur noch eine erste Synchronisierung durchführen, dann können Sie mit der Erkundung beginnen!</string>
+
+    <string-array name="faq">
+        <item>Warum beschränken Sie das Herunterladen von Karten?</item>
+        <item>Wir zahlen pro heruntergeladener Kachel. Wir geben Ihnen einen großzügigen Gratisbetrag, den wir dann berechnen müssen. Die Zuweisungen werden jeden Monat erneuert</item>
+        <item>Wie kann ich mehr Karten herunterladen?</item>
+        <item>Benutzer erhalten unbegrenzte Downloads. Sie können auch weitere herunterladen, indem Sie neue Markierungen hinzufügen oder Kommentare zu Orten hinzufügen, an denen Sie gewesen sind</item>
+        <item>Warum kann ich keinen Bereich zum Herunterladen auswählen?</item>
+        <item>Kosten und Platz. Satellitendaten sind kompliziert und eine Karte von der Größe Großbritanniens würde 10 Millionen Kacheln benötigen, über 20000 US-Dollar kosten und komprimiert 160 Gigabyte aufnehmen. Wir haben versucht, es einfach zu machen, die benötigten Daten zu erhalten, ohne dass dies die Welt kostet.</item>
+        <item>Warum verwenden Sie keine Google / Apple / Arcgis / etc-Karten?</item>
+        <item>Sie erlauben uns nicht oder sind unerschwinglich teuer. Wenn Sie eine kostenlose Alternative finden, lassen Sie es uns wissen.</item>
+        <item>Warum kann ich nicht navigieren / zeichnen / verfolgen?</item>
+        <item>Diese App ist in erster Linie eine Reiseleitung, kein Navigationswerkzeug. Wir haben einfach nicht die Ressourcen und Fähigkeiten, um diese Funktionen effektiv anzubieten.</item>
+        <item>Wie ändere ich die Sprache?</item>
+        <item>Die Übersetzung erfolgt über Ihr Gerät. Sie müssen Ihre Systemsprache in den Android-Einstellungen ändern</item>
+        <item>Warum hast du meine Sprache nicht?</item>
+        <item>Wir möchten nach Möglichkeit Sprachen hinzufügen. Wenn Sie helfen möchten, senden Sie uns eine E-Mail</item>
+        <item>Kann ich meine Daten von meinem Plotter / OPENCPN / kml / gpx / navionics in großen Mengen hinzufügen?</item>
+        <item>Geben Sie uns eine E-Mail und wir können Ihnen dabei helfen. Wir haben Tools, die Massenimporte durchführen können, deren Verwendung jedoch schwierig ist.</item>
+    </string-array>
+    <string-array name="units">
+        <item>Metrisch</item>
+        <item>Imperial</item>
+        <item>Nautisch</item>
+    </string-array>
+    <string-array name="icon_size">
+        <item>XSmall</item>
+        <item>Klein</item>
+        <item>Normal</item>
+       <item>Groß</item>
+        <item>XLarge</item>
+    </string-array>
+    <string-array name="icon_size_val">
+        <item>30</item>
+        <item>20</item>
+        <item>12</item>
+        <item>8</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="units_name">
+        <item>Metrisch (m / km / h)</item>
+        <item>Imperial (f / y / m / h)</item>
+        <item>Nautisch (m / nm / k)</item>
+    </string-array>
+    <string name="contact">Kontakt</string>
+    <string name="facebook">Facebook</string>
+    <string name="search">Suche</string>
+    <string name="zulu_offshore_is_a_global_cruising_guide_which_functions_offline">Zulu Offshore ist ein globaler Kreuzfahrtführer, der offline funktioniert.</string>
+    <string name="satellite_hybrid_street_and_navionics_maps_for_download">Cartes satellites, hybrides, routières et Navionics à télécharger</string>
+    <string name="navionics_tute">Verbinden Sie ein aktives Navionics-Konto für unbegrenzte Karten-Downloads in Ihrer Region.</string>
+    <string name="dl_tute">Téléchargez via le menu des marqueurs ou Maintenez le doigt n\'importe où sur la carte pendant 2 secondes Les téléchargements sont limités mais vous en obtenez 50 gratuits par mois!</string>
+    <string name="sharing_information_is_what_zulu_is_all_about">Informationen zu teilen ist was Bei ZULU dreht sich alles um.</string>
+    <string name="all_community_information_is_licensed_under_a_creative_commons_by_nc_sa_and_therefore_remains_freely_available_n_n_adding_new_info_are_rewarded_with_extra_downloads">Semua informasi komunitas dilisensikan di bawah a  Creative Commons BY-NC-SA dan karenanya tetap tersedia secara gratis.   Menambahkan info baru dihargai dengan unduhan tambahan.</string>
+    <string name="lastly_you_can_help_support_zulu_though_our_online_shop">Zuletzt können Sie Zulu in unserem Online-Shop unterstützen!</string>
+    <string name="a_wealth_of_free_community_information_n_n_contribute_new_markers_while_offline_n_n_download_satellite_imagery_and_charts">Eine Fülle kostenloser Community-Informationen   Tragen Sie offline neue Marker bei   Laden Sie Satellitenbilder und Diagramme herunter</string>
+</resources>

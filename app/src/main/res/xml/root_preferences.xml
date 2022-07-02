@@ -1,0 +1,99 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="@color/white">
+
+    <PreferenceCategory app:title="@string/maps_header">
+        <ListPreference
+            android:defaultValue="Metric"
+            android:entries="@array/units_name"
+            android:entryValues="@array/units"
+            android:key="units"
+            android:title="@string/units" />
+        <CheckBoxPreference
+            app:defaultValue="false"
+            app:key="icon_cluster"
+            app:summary="@string/cluster_summary"
+            app:title="@string/cluster_icons" />
+        <EditTextPreference
+            android:defaultValue="12"
+            android:key="minCluster"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/min_zoom"
+            app:summary="@string/min_Zoom_sum" />
+        <Preference
+            app:defaultValue="false"
+            app:key="import"
+            app:summary="@string/importd"
+            app:title="@string/importt" />
+
+        <CheckBoxPreference
+            app:defaultValue="false"
+            app:key="deleteDB"
+            app:summary="@string/current_size"
+            app:title="@string/delete_all" />
+        <CheckBoxPreference
+            app:defaultValue="false"
+            app:key="high_res"
+            app:summary="@string/higher_res_info"
+            app:title="@string/hi_res_title" />
+        <CheckBoxPreference
+            app:defaultValue="false"
+            app:key="screenOn"
+            app:title="@string/screen_on" />
+        <ListPreference
+            android:defaultValue="12"
+            android:entries="@array/icon_size"
+            android:entryValues="@array/icon_size_val"
+            android:key="iconSize"
+            android:title="@string/icon_size" />
+        <CheckBoxPreference
+            app:defaultValue="false"
+            app:key="altTiles"
+            app:title="@string/alttiles" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/navionics_settings">
+
+        <CheckBoxPreference
+            app:defaultValue="false"
+            app:key="nav_easy"
+            app:title="@string/easy_view" />
+        <EditTextPreference
+            android:defaultValue="10"
+            android:inputType="number"
+            android:key="shallow_depth"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Shallow Depth" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory app:title="@string/sync_header">
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:enabled="true"
+            app:key="sync_upload"
+            app:title="@string/upload_in_sync" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:dependency="sync_upload"
+            app:key="sync_pictures"
+            app:summaryOff="@string/no_pics_uploaded"
+            app:summaryOn="@string/pics_uploaded"
+            app:title="@string/upload_pics" />
+        <Preference
+            app:defaultValue="false"
+            app:key="forceSync"
+            app:summary="Use this to force a sync if it keeps failing"
+            app:title="Force Sync" />
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

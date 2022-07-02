@@ -1,0 +1,216 @@
+<resources>
+    <string name="app_name">Zulu Offshore</string>
+    <string name="title_activity_add_marker">Προσθήκη νέου δείκτη</string>
+    <string name="prompt_email">ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ</string>
+    <string name="prompt_password">Κωδικός πρόσβασης</string>
+    <string name="action_sign_in">Συνδεθείτε ή εγγραφείτε</string>
+    <string name="action_sign_in_short">Συνδεθείτε</string>
+    <string name="action_sign_out_short">Αποσύνδεση</string>
+    <string name="welcome">"Καλως ΗΡΘΑΤΕ !"</string>
+    <string name="title_activity_login">Σύνδεση</string>
+    <string name="addTitle">Τίτλος</string>
+    <string name="loginSignup">Εγγραφείτε</string>
+    <string name="loginButton">Σύνδεση</string>
+    <string name="failedLogin">Η σύνδεση απέτυχε. Δοκιμάστε ξανά \nΘα πρέπει να είστε συνδεδεμένοι για να συνδεθείτε</string>
+    <string name="password">Κωδικός πρόσβασης</string>
+    <string name="email">ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ</string>
+    <string name="login_greeting">Συνδεθείτε για προσθήκη ή επεξεργασία</string>
+    <string name="zulu_logo">Λογότυπο BN</string>
+    <string name="reposition">Επανατοποθέτηση</string>
+    <string name="description_hint">Περιγραφή \nΑυτή η ενότητα είναι για πραγματικές πληροφορίες</string>
+    <string name="comment_hint">Προσωπικές εμπειρίες \n(προαιρετικά)</string>
+    <string name="picture_add">Προσθήκη</string>
+    <string name="upload_marker">Μεταφόρτωση</string>
+    <string name="photo_upload_placeholder">Placeholder μεταφόρτωσης φωτογραφιών</string>
+    <string name="latitude">γεωγραφικό πλάτος</string>
+    <string name="longitude">γεωγραφικό μήκος</string>
+    <string name="cancel">Ματαίωση</string>
+    <string name="syncing_message">Συγχρονισμός \nΠεριμένετε…</string>
+    <string name="logo">Λογότυπο</string>
+    <string name="marker_placement_icon">Εικονίδιο τοποθέτησης μαρκαδόρου</string>
+    <string name="infowindow_icon">Εικονίδιο</string>
+    <string name="marker_title">Τίτλος</string>
+    <string name="location_picture">Εικόνα τοποθεσίας</string>
+    <string name="comments">Σχόλια</string>
+    <string name="add_a_comment">Πρόσθεσε ένα σχόλιο…</string>
+    <string name="marker_add">Προσθήκη</string>
+    <string name="title_activity_settings">Ρυθμίσεις</string>
+    <string name="sync_header">Συγχρονισμός</string>
+    <string name="maps_header">Επιλογές χαρτών</string>
+    <string name="mapbox_copy">© Mapbox, © OpenStreetMap</string>
+    <string name="run_out">Έχετε εξαντλήσει τις δωρεάν λήψεις!</string>
+    <string name="downloads_why">Πρέπει να περιορίσουμε τους χάρτες που κατεβάζετε, καθώς αυτοί μας κοστίζουν χρήματα. Αγοράζουμε τις άδειες και παρέχουμε κάποια δωρεάν! αν χρειάζεστε περισσότερα υπάρχουν διάφοροι τρόποι</string>
+    <string name="download_how"><a href="https://www.patreon.com/zuluwaterways"> Πατριώτες</a> είναι απεριόριστα! \nΠροσθήκη νέου δείκτη για 10 \nΠροσθήκη σχολίου για 5</string>
+    <string name="download">Κατεβάστε</string>
+    <string name="measure">Μετρήστε</string>
+    <string name="zoom_in">Μεγέθυνση</string>
+    <string name="zoom_out">Σμίκρυνση</string>
+    <string name="share">Μερίδιο</string>
+    <string name="add_marker">Προσθήκη δείκτη</string>
+    <string name="arcgis_map">Χάρτης ARCGIS</string>
+    <string name="bing_map">Χάρτης Bing</string>
+    <string name="street_map">Οδικός χάρτης</string>
+    <string name="sat_map">Δορυφορικός χάρτης</string>
+    <string name="download_maps">Λήψη χαρτών</string>
+    <string name="copyBing">© Χάρτες Bing</string>
+    <string name="sync">Συγχρονισμός</string>
+    <string name="faq">Συχνές ερωτήσεις</string>
+    <string name="login">Σύνδεση</string>
+    <string name="navionics_login">Σύνδεση Navionics</string>
+    <string name="navionics_maps">Χάρτες Navionics</string>
+    <string name="zulu_online">Zulu Online</string>
+    <string name="my_markers">Οι δείκτες μου</string>
+    <string name="filters">Φίλτρα</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="language">Γλώσσα</string>
+    <string name="delete_marker">Διαγραφή δείκτη</string>
+    <string name="distance">Απόσταση</string>
+    <string name="bearing">Ρουλεμάν</string>
+    <string name="cant_upload">Δεν είναι δυνατή η μεταφόρτωση. \N Δοκιμάστε να συνδεθείτε ξανά</string>
+    <string name="limiting_icons">Περιοριστικά εικονίδια σχεδιασμένα για απόδοση</string>
+    <string name="download_complete">Η λήψη ολοκληρώθηκε!</string>
+    <string name="downloads_remaining">απομένουν λήψεις</string>
+    <string name="comment_error">Σφάλμα κατά την προσθήκη σχολίου !!!</string>
+    <string name="basemap_error">Δεν είναι δυνατή η φόρτωση του βασικού χάρτη!</string>
+    <string name="marker_deleted">Ο δείκτης διαγράφηκε</string>
+    <string name="position_copied">Η θέση αντιγράφηκε στο πρόχειρο</string>
+    <string name="no_internet">Δεν εντοπίστηκε Διαδίκτυο. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.</string>
+    <string name="sync_complete">Ο συγχρονισμός ολοκληρώθηκε!</string>
+    <string name="marker_added">Ο δείκτης προστέθηκε με επιτυχία! \NΣυνολικοί δείκτες =</string>
+    <string name="not_logged_in">Παρακαλούμε συνδεθείτε πρώτα</string>
+    <string name="reset">Επαναφορά</string>
+    <string name="downloading_maps">Λήψη χαρτών…</string>
+    <string name="have_a_code">Έχετε κωδικό; Ενεργοποιήστε το εδώ</string>
+    <string name="paste_your_code_here">Επικολλήστε τον κωδικό σας εδώ</string>
+    <string name="activate">θέτω εις ενέργειαν</string>
+    <string name="buy_a_code">Αγοράστε έναν κωδικό</string>
+    <string name="set_to_zero">Ορισμός σε μηδέν</string>
+    <string name="current_size">Τρέχον μέγεθος βάσης δεδομένων:</string>
+    <string name="rate_the_app">Αξιολογήστε την εφαρμογή</string>
+    <string name="cluster_icons">Εικονίδια συμπλέγματος</string>
+    <string name="units">Μονάδες</string>
+    <string name="delete_all">Διαγράψτε όλους τους ληφθέντες χάρτες</string>
+    <string name="upload_in_sync">Μεταφόρτωση κατά τη διάρκεια του συγχρονισμού</string>
+    <string name="no_pics_uploaded">Δεν θα μεταφορτωθούν φωτογραφίες κατά τον συγχρονισμό</string>
+    <string name="pics_uploaded">Οι εικόνες θα μεταφορτωθούν κατά τη διάρκεια του συγχρονισμού</string>
+    <string name="upload_pics">Ανεβάστε φωτογραφίες</string>
+    <string name="bold" translatable="false">B</string>
+    <string name="Italics" translatable="false">I</string>
+    <string name="icon_image">Εικόνα εικονιδίου</string>
+    <string name="delect_confirm">Είστε βέβαιοι ότι θέλετε να διαγράψετε όλους τους χάρτες που έχετε κατεβάσει;</string>
+    <string name="delete_title">Διαγράψτε όλους τους ληφθέντες χάρτες</string>
+    <string name="free_up">\"Αυτό θα ελευθερωθεί \"</string>
+    <string name="download_navionics">Χάρτες Ναυτικής</string>
+    <string name="download_osm">Ανοίξτε τους Χάρτες της Θάλασσας</string>
+    <string name="hybrid_map">Υβριδικός χάρτης</string>
+    <string name="navionics">Ναυτική</string>
+    <string name="more_settings">Περισσότερες ρυθμίσεις</string>
+    <string name="hints">Συμβουλές</string>
+    <string name="activate_a_code">Ενεργοποιήστε έναν κωδικό</string>
+    <string name="sign_out">Αποσύνδεση</string>
+    <string name="paste_code">Επικολλήστε τον κωδικό σας εδώ</string>
+    <string name="zulu_map_pack">Πακέτο χαρτών εκτός σύνδεσης Zulu</string>
+    <string name="downloading_map_pack">Παρακαλώ περιμένετε…</string>
+    <string name="error_downloading">Σφάλμα: Δεν είναι δυνατή η εύρεση αρχείου!</string>
+    <string name="pack_added">Το πακέτο προστέθηκε με επιτυχία!</string>
+    <string name="background_image">Εικόνα φόντου</string>
+    <string name="linkme" translatable="false">§</string>
+    <string name="higher_res_info">Αυτό θα κατεβάσει υψηλότερα επίπεδα ζουμ εάν είναι διαθέσιμο, αλλά θα διπλασιάσει το κόστος</string>
+    <string name="hi_res_title">Λήψεις υψηλής ανάλυσης</string>
+    <string name="navionics_charts">Χάρτες Navionics</string>
+    <string name="sonar_charts">Διαγράμματα Sonar</string>
+    <string name="navionics_settings">Ρυθμίσεις Navionics</string>
+    <string name="easy_view">Εύκολη προβολή Navionics</string>
+    <string name="min_Zoom_sum">Επίπεδο ζουμ όπου δεν εμφανίζονται συστάδες (1-15)</string>
+    <string name="min_zoom">Ελάχιστο ζουμ συμπλέγματος</string>
+    <string name="cluster_summary">Ομαδικά εικονίδια όπου επικαλύπτονται</string>
+    <string name="screen_on">Διατηρήστε την οθόνη ενεργή</string>
+    <string name="query_location">Τοποθεσία ερωτήματος</string>
+    <string name="select_all">Επιλογή όλων</string>
+    <string name="download_region">Λήψη περιοχής</string>
+    <string name="edit_marker_online">Επεξεργασία δείκτη στο διαδίκτυο</string>
+    <string name="next">Επόμενο</string>
+    <string name="lets_go">Πάμε!</string>
+    <string name="skip">Παραλείπω</string>
+    <string name="map_store">Κατάστημα χαρτών</string>
+    <string name="overlays">Επικαλύψεις</string>
+    <string name="icon_size">Μέγεθος εικονιδίου</string>
+    <string name="the_free_flow_of_information">Η ελεύθερη ροή πληροφοριών</string>
+    <string name="no_pack">Δεν ήταν δυνατή η ενεργοποίηση του πακέτου!</string>
+    <string name="add_a_new_nmarker_here">Προσθέστε έναν νέο \nδείκτη εδώ</string>
+    <string name="options_n_and_settings">Επιλογές \nκαι ρυθμίσεις</string>
+    <string name="change_maps_n_here">Αλλαγή χαρτών \nεδώ</string>
+    <string name="locate_gps">Εντοπίστε το GPS</string>
+    <string name="click_anywhere_to_start">Κάντε κλικ οπουδήποτε για να ξεκινήσετε</string>
+    <string name="long_press_anywhere_n_to_download_maps">Πατήστε παρατεταμένα οπουδήποτε \nγια λήψη χαρτών</string>
+    <string name="click_on_the_markers_n_for_more_information">Κάντε κλικ στους δείκτες \nγια περισσότερες πληροφορίες</string>
+    <string name="to_the_zulu_offline_cruising_guide">Στον οδηγό Zulu Offshore Cruising</string>
+    <string name="let_s_get_started">…Ας αρχίσουμε</string>
+    <string name="first_we_need_to_get_permissions">Πρώτα πρέπει να λάβουμε δικαιώματα</string>
+    <string name="maps_are_too_large_to_store_in_the_app_so_we_need_access_to_your_storage_to_display_the_map">Οι χάρτες είναι πολύ μεγάλοι για αποθήκευση στην εφαρμογή, επομένως χρειαζόμαστε πρόσβαση στον αποθηκευτικό χώρο σας για την εμφάνιση του χάρτη</string>
+    <string name="storage_permissions">Άδειες αποθήκευσης</string>
+    <string name="location_permissions">Άδειες τοποθεσίας</string>
+    <string name="to_display_your_position_on_the_map_the_app_needs_access_to_the_gps_optional">Για να εμφανιστεί η θέση σας στο χάρτη, η εφαρμογή χρειάζεται πρόσβαση στο gps. (Προαιρετικός)</string>
+    <string name="worldwide">Παγκόσμιοι δείκτες που μπορείτε να συγχρονίσετε με την εφαρμογή \n\nΠροσθήκη νέων δεικτών και σχολιασμός ενώ είστε εκτός σύνδεσης \n\nΣυγχρονισμός νέων συνεισφορών με την κοινότητα μόλις επιστρέψει στο εύρος</string>
+    <string name="basemaps">Σημείωση: Οι βασικοί χάρτες απαιτούν περαιτέρω \nμεταφορτώσεις για λεπτομερείς εικόνες</string>
+    <string name="base_map_types">Τύποι βασικών χαρτών</string>
+    <string name="howtodownload">Τρόπος λήψης λεπτομερών εικόνων \n\n1. Πατήστε παρατεταμένα οπουδήποτε στον χάρτη (2 δευτερόλεπτα) για να ανοίξετε τις επιλογές για λήψεις χάρτη \n\n2. Λήψη από το μενού Μαρκαδόρος \n\n3. Λήψη ολόκληρων περιοχών στο Map Store \n\n4. Συνδεθείτε στον υπάρχοντα λογαριασμό σας Navionics για συγχρονισμό γραφημάτων</string>
+    <string name="updatingInfo">Η ενημέρωση των πληροφοριών είναι σημαντική. Ελέγξτε τις Συχνές Ερωτήσεις \nΟι συντελεστές λαμβάνουν προνόμια, όπως επιπλέον λήψεις χαρτών \nΌλα τα στοιχεία της κοινότητας διαθέτουν άδεια βάσει άδειας Creative Commons.</string>
+    <string name="finalsunc">Τέλος, απλώς πρέπει να κάνουμε έναν αρχικό συγχρονισμό, τότε μπορείτε να ξεκινήσετε την εξερεύνηση!</string>
+
+	<string-array name="faq">
+        <item>Γιατί περιορίζετε τις λήψεις χαρτών</item>
+        <item>Πληρώνουμε ανά πλακίδιο που κατεβάζετε. Σας δίνουμε ένα γενναιόδωρο δωρεάν ποσό, τότε πρέπει να χρεώσουμε. Οι κατανομές ανανεώνονται κάθε μήνα</item>
+        <item>Πώς μπορώ να λάβω περισσότερες λήψεις χαρτών </item>
+        <item>Οι χρήστες προστάτη λαμβάνουν απεριόριστες λήψεις, μπορείτε επίσης να πάρετε περισσότερα προσθέτοντας νέους δείκτες ή προσθέτοντας σχόλια σε μέρη που έχετε επισκεφτεί</item>
+        <item>Γιατί δεν μπορώ να επιλέξω μια περιοχή για λήψη</item>
+        <item>Κόστος και χώρος. Τα δορυφορικά δεδομένα είναι περίπλοκα και ένας χάρτης μεγέθους του Ηνωμένου Βασιλείου θα πάρει 10 εκατομμύρια πλακίδια, κόστισε πάνω από 20000 $ και θα καταλάμβανε 160 gigabyte, συμπιεσμένο. Προσπαθήσαμε να διευκολύνουμε τη λήψη των δεδομένων που χρειάζεστε χωρίς να κοστίζει η γη.</item>
+        <item>Γιατί δεν χρησιμοποιείτε χάρτες google / apple / arcgis / etc</item>
+        <item>Δεν μας επιτρέπουν ή είναι απαγορευτικά ακριβό. Εάν βρείτε μια δωρεάν εναλλακτική, ενημερώστε μας</item>
+        <item>Γιατί δεν μπορώ να πλοηγηθώ / plot / track;</item>
+        <item>Αυτή η εφαρμογή είναι κυρίως ένας οδηγός κρουαζιέρας και όχι ένα εργαλείο πλοήγησης. Απλώς δεν έχουμε τους πόρους και τις δυνατότητες σε αυτό το σημείο για να προσφέρουμε αυτές τις δυνατότητες αποτελεσματικά.</item>
+        <item>Πώς μπορώ να αλλάξω τη γλώσσα;</item>
+        <item>Η μετάφραση γίνεται μέσω της συσκευής σας. Θα πρέπει να αλλάξετε τη γλώσσα του συστήματός σας στις ρυθμίσεις Android</item>
+        <item>Γιατί δεν έχετε τη γλώσσα μου;</item>
+        <item>Προσπαθούμε να προσθέσουμε γλώσσες όπου είναι δυνατόν. αν θέλετε βοήθεια, δώστε μας ένα email</item>
+        <item>Μπορώ να προσθέσω μαζικά τα δεδομένα μου από το σχεδιαστή / OPENCPN / kml / gpx / navionics</item>
+        <item>Σίγουρα δώστε μας ένα email και μπορούμε να σας βοηθήσουμε μέσω αυτού. Έχουμε εργαλεία που μπορούν να εισαγάγουν μαζικά αλλά είναι δύσκολο στη χρήση.</item>
+    </string-array>
+    <string-array name="units">
+        <item>Μετρικό</item>
+        <item>Αυτοκρατορικό</item>
+        <item>Ναυτικός</item>
+    </string-array>
+    <string-array name="icon_size">
+        <item>XSmall</item>
+        <item>Μικρό</item>
+        <item>Κανονικό</item>
+        <item>Μεγάλο</item>
+        <item>XLarge</item>
+    </string-array>
+    <string-array name="icon_size_val">
+        <item>30</item>
+        <item>20</item>
+        <item>12</item>
+        <item>8</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="units_name">
+        <item>Μετρικό (m / km / h)</item>
+        <item>Imperial (f / y / m / h)</item>
+        <item>Ναυτικό (m / nm / k)</item>
+    </string-array>
+    <string name="facebook">Facebook</string>
+    <string name="contact">Επικοινωνία</string>
+    <string name="search">Αναζήτηση</string>
+    <string name="zulu_offshore_is_a_global_cruising_guide_which_functions_offline">Το Zulu Offshore είναι ένας παγκόσμιος οδηγός κρουαζιέρας που λειτουργεί εκτός σύνδεσης.</string>
+    <string name="satellite_hybrid_street_and_navionics_maps_for_download">Δορυφορικοί, υβριδικοί, δρόμοι και ναυτικοί χάρτες για λήψη</string>
+    <string name="navionics_tute">Συνδέστε έναν ενεργό λογαριασμό Navionics για απεριόριστες λήψεις γραφημάτων στην περιοχή σας.</string>
+    <string name="dl_tute">Πραγματοποιήστε λήψη μέσω του μενού δείκτη ή Κρατήστε το δάχτυλο οπουδήποτε στο χάρτη για 2 δευτερόλεπτα Οι λήψεις είναι περιορισμένες, αλλά λαμβάνετε 50 δωρεάν ανά μήνα!</string>
+    <string name="sharing_information_is_what_zulu_is_all_about">Η ανταλλαγή πληροφοριών είναι αυτό Το ZULU είναι το θέμα.</string>
+    <string name="all_community_information_is_licensed_under_a_creative_commons_by_nc_sa_and_therefore_remains_freely_available_n_n_adding_new_info_are_rewarded_with_extra_downloads">Alle Community-Informationen sind unter a lizenziert  Creative Commons BY-NC-SA und bleibt daher frei verfügbar.   Das Hinzufügen neuer Informationen wird mit zusätzlichen Downloads belohnt.</string>
+    <string name="lastly_you_can_help_support_zulu_though_our_online_shop">Zuletzt können Sie Zulu in unserem Online-Shop unterstützen!</string>
+    <string name="a_wealth_of_free_community_information_n_n_contribute_new_markers_while_offline_n_n_download_satellite_imagery_and_charts">Ένας πλούτος δωρεάν κοινοτικών πληροφοριών   Συνεισφέρετε νέους δείκτες ενώ είστε εκτός σύνδεσης   Λήψη δορυφορικών εικόνων και γραφημάτων</string>
+
+
+</resources>

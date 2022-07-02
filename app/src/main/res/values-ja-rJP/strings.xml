@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">Zulu Offshore</string>
+    <string name="title_activity_add_marker">新しいマーカーを追加</string>
+    <string name="prompt_email">Eメール</string>
+    <string name="prompt_password">パスワード</string>
+    <string name="action_sign_in">サインインまたは登録</string>
+    <string name="action_sign_in_short">サインイン</string>
+    <string name="action_sign_out_short">サインアウト</string>
+    <string name="welcome">"ようこそ ！"</string>
+    <string name="title_activity_login">ログインする</string>
+    <string name="addTitle">題名</string>
+    <string name="loginSignup">サインアップ</string>
+    <string name="loginButton">ログインする</string>
+    <string name="failedLogin">ログインに失敗しました。もう一度やり直してください\nログインするにはオンラインである必要があります</string>
+    <string name="password">パスワード</string>
+    <string name="email">Eメール</string>
+    <string name="login_greeting">追加または編集するにはログインしてください</string>
+    <string name="zulu_logo">ズールー語のロゴ</string>
+    <string name="reposition">再配置</string>
+    <string name="description_hint">説明\nこのセクションは、事実情報です</string>
+    <string name="comment_hint">個人的な体験\n（オプション）</string>
+    <string name="picture_add">追加</string>
+    <string name="upload_marker">アップロードする</string>
+    <string name="photo_upload_placeholder">写真アップロードプレースホルダー</string>
+    <string name="latitude">緯度</string>
+    <string name="longitude">経度</string>
+    <string name="cancel">キャンセル</string>
+    <string name="syncing_message">同期中\nお待ちください…</string>
+    <string name="logo">ロゴ</string>
+    <string name="marker_placement_icon">マーカー配置アイコン</string>
+    <string name="infowindow_icon">情報ウィンドウのアイコン</string>
+    <string name="marker_title">題名</string>
+    <string name="location_picture">ロケーション写真</string>
+    <string name="comments">コメント</string>
+    <string name="add_a_comment">コメントを追加…</string>
+    <string name="marker_add">追加</string>
+    <string name="title_activity_settings">設定</string>
+    <string name="sync_header">同期</string>
+    <string name="maps_header">マップオプション</string>
+    <string name="mapbox_copy">©Mapbox、©OpenStreetMap</string>
+    <string name="run_out">無料ダウンロードが不足しています！</string>
+    <string name="downloads_why">ダウンロードする地図は費用がかかるため、制限する必要があります。私たちはライセンスを購入し、どれでも無料で提供しています！もっと必要な場合はいくつかの方法があります</string>
+    <string name="download_how"><a href="https://www.patreon.com/zuluwaterways"> パトレオン</a> 無制限です！\n10の新しいマーカーを追加\n5のコメントを追加</string>
+    <string name="download">ダウンロード</string>
+    <string name="measure">測る</string>
+    <string name="zoom_in">ズームイン</string>
+    <string name="zoom_out">ズームアウトする</string>
+    <string name="share">共有</string>
+    <string name="add_marker">マーカーを追加</string>
+    <string name="arcgis_map">ARCGISマップ</string>
+    <string name="bing_map">Bingマップ</string>
+    <string name="street_map">ストリートマップ</string>
+    <string name="sat_map">衛星地図</string>
+    <string name="download_maps">マップをダウンロード</string>
+    <string name="copyBing">©Bing Maps</string>
+    <string name="sync">同期</string>
+    <string name="faq">よくある質問</string>
+    <string name="login">ログインする</string>
+    <string name="navionics_login">ナビオニクスログイン</string>
+    <string name="navionics_maps">ナビオニクスマップ</string>
+    <string name="zulu_online">Zulu Online</string>
+    <string name="my_markers">私のマーカー</string>
+    <string name="filters">フィルター</string>
+    <string name="settings">設定</string>
+    <string name="language">言語</string>
+    <string name="delete_marker">マーカーを削除</string>
+    <string name="distance">距離</string>
+    <string name="bearing">ベアリング</string>
+    <string name="cant_upload">アップロードできません。\nもう一度ログインしてください</string>
+    <string name="limiting_icons">パフォーマンスのために描画されるアイコンを制限する</string>
+    <string name="download_complete">ダウンロード完了！</string>
+    <string name="downloads_remaining">残りのダウンロード</string>
+    <string name="comment_error">コメント追加エラー!!!</string>
+    <string name="basemap_error">エラーはベースマップをロードできません！</string>
+    <string name="marker_deleted">マーカーを削除しました</string>
+    <string name="position_copied">位置をクリップボードにコピーしました</string>
+    <string name="no_internet">インターネットが検出されませんでした。接続を確認して、もう一度お試しください。</string>
+    <string name="sync_complete">同期が完了しました！</string>
+    <string name="marker_added">マーカーが正常に追加されました！\n合計マーカー=</string>
+    <string name="not_logged_in">最初にログインしてください</string>
+    <string name="reset">リセット</string>
+    <string name="downloading_maps">地図をダウンロードしています…</string>
+    <string name="have_a_code">コードをお持ちですか？ここでアクティブ化</string>
+    <string name="paste_your_code_here">ここにコードを貼り付けます</string>
+    <string name="activate">活性化する</string>
+    <string name="buy_a_code">コードを購入する</string>
+    <string name="set_to_zero">ゼロに設定</string>
+    <string name="current_size">データベースの現在のサイズ：</string>
+    <string name="rate_the_app">アプリを評価してください</string>
+    <string name="cluster_icons">クラスターアイコン</string>
+    <string name="units">単位</string>
+    <string name="delete_all">ダウンロードした地図をすべて削除</string>
+    <string name="upload_in_sync">同期中にアップロード</string>
+    <string name="no_pics_uploaded">同期中に画像はアップロードされません</string>
+    <string name="pics_uploaded">画像は同期中にアップロードされます</string>
+    <string name="upload_pics">写真をアップロード</string>
+    <string name="bold" translatable="false">B</string>
+    <string name="Italics" translatable="false">I</string>
+    <string name="icon_image">アイコン画像</string>
+    <string name="delect_confirm">ダウンロードした地図をすべて削除してもよろしいですか？</string>
+    <string name="delete_title">ダウンロードした地図をすべて削除</string>
+    <string name="free_up">\"これにより解放されます\"</string>
+    <string name="download_navionics">ナビオニクスマップ</string>
+    <string name="download_osm">オープンシーマップ</string>
+    <string name="hybrid_map">ハイブリッドマップ</string>
+    <string name="navionics">ナビオニクス</string>
+    <string name="more_settings">その他の設定</string>
+    <string name="hints">ヒント</string>
+    <string name="activate_a_code">コードをアクティブ化する</string>
+    <string name="sign_out">サインアウト</string>
+    <string name="paste_code">ここにコードを貼り付けます</string>
+    <string name="zulu_map_pack">ズールーオフラインマップパック</string>
+    <string name="downloading_map_pack">お待ちください…</string>
+    <string name="error_downloading">エラー：ファイルが見つかりません！</string>
+    <string name="pack_added">パックが正常に追加されました！</string>
+    <string name="background_image">背景画像</string>
+    <string name="linkme" translatable="false">§</string>
+    <string name="higher_res_info">これにより、可能な場合はより高いズームレベルがダウンロードされますが、コストは2倍になります</string>
+    <string name="hi_res_title">高解像度ダウンロード</string>
+    <string name="navionics_charts">ナビオニクスチャート</string>
+    <string name="sonar_charts">ソナーチャート</string>
+    <string name="navionics_settings">ナビオニクス設定</string>
+    <string name="easy_view">Navionics Easy View</string>
+    <string name="min_Zoom_sum">クラスタが表示されないズームレベル（1〜15）</string>
+    <string name="min_zoom">最小クラスターズーム</string>
+    <string name="cluster_summary">アイコンが重なるところにアイコンをグループ化する</string>
+    <string name="screen_on">画面をオンのままにする</string>
+    <string name="query_location">クエリの場所</string>
+    <string name="select_all">すべて選択</string>
+    <string name="download_region">地域をダウンロード</string>
+    <string name="edit_marker_online">オンラインでマーカーを編集</string>
+    <string name="next">次</string>
+    <string name="lets_go">行こう！</string>
+    <string name="skip">スキップ</string>
+    <string name="map_store">地図店</string>
+    <string name="overlays">オーバーレイ</string>
+    <string name="icon_size">アイコンサイズ</string>
+    <string name="the_free_flow_of_information">情報の自由な流れ</string>
+    <string name="no_pack">パックをアクティブ化できませんでした！</string>
+    <string name="add_a_new_nmarker_here">ここに新しいマーカーを\n追加</string>
+    <string name="options_n_and_settings">オプション\nと設定</string>
+    <string name="change_maps_n_here">ここでマップを変更\n</string>
+    <string name="locate_gps">GPSを見つける</string>
+    <string name="click_anywhere_to_start">どこでもクリックして開始</string>
+    <string name="long_press_anywhere_n_to_download_maps">地図をダウンロードするには、どこでも長押し\n</string>
+    <string name="click_on_the_markers_n_for_more_information">詳細については、マーカーをクリックしてください\n</string>
+    <string name="to_the_zulu_offline_cruising_guide">ズールーオフラインクルージングガイドへ</string>
+    <string name="let_s_get_started">…始めましょう</string>
+    <string name="first_we_need_to_get_permissions">まず、権限を取得する必要があります</string>
+    <string name="maps_are_too_large_to_store_in_the_app_so_we_need_access_to_your_storage_to_display_the_map">地図が大きすぎてアプリに保存できないため、地図を表示するにはストレージにアクセスする必要があります</string>
+    <string name="storage_permissions">ストレージのアクセス許可</string>
+    <string name="location_permissions">場所のアクセス許可</string>
+    <string name="to_display_your_position_on_the_map_the_app_needs_access_to_the_gps_optional">地図上に自分の位置を表示するには、アプリがGPSにアクセスする必要があります。 （オプション）</string>
+    <string name="worldwide">アプリに同期できる世界規模のマーカー\n\nオフライン時に新しいマーカーとコメントを追加\n\n範囲内に戻ったら、新しい投稿をコミュニティと同期します</string>
+    <string name="basemaps">注：ベースマップでは、詳細な画像を表示するためにさらに\\ nダウンロードが必要です</string>
+    <string name="base_map_types">ベースマップタイプ</string>
+    <string name="howtodownload">詳細な画像をダウンロードする方法\\ n \\ n 1.マップ上の任意の場所（2秒）を長押しして、マップのダウンロードオプションを開きます\\ n \\ n 2.マーカーメニューからダウンロードします\\ n \\ n 3.マップストアでリージョン全体をダウンロードします\\ n \\ n4。既存のNavionicsアカウントにログインして、チャートを同期します</string>
+    <string name="updatingInfo">情報の更新は重要です。チェックFAQ \\\の\\ n寄稿者は、追加の地図のダウンロードなどの特典を受け取ります\\ nすべてのコミュニティ情報は、クリエイティブコモンズライセンスに基づいてライセンスされます。</string>
+    <string name="finalsunc">最後に、最初の同期を行うだけで、探索を開始できます！</string>
+
+    <string-array name="faq">
+        <item>マップのダウンロードを制限するのはなぜですか？</item>
+        <item>ダウンロードしたタイルごとに支払います。私たちはあなたに寛大な無料の金額を与え、それから私たちは請求しなければなりません。割り当ては毎月更新されます</item>
+        <item>マップのダウンロードを増やすにはどうすればよいですか？</item>
+        <item>Patronユーザーは無制限にダウンロードできます。新しいマーカーを追加したり、行ったことのある場所にコメントを追加したりして、さらに多くを取得することもできます</item>
+        <item>ダウンロードするエリアを選択できないのはなぜですか？</item>
+        <item>コストとスペース。衛星データは複雑であり、英国のサイズのマップは1000万タイルを要し、20000ドル以上のコストがかかり、圧縮すると160ギガバイトを消費します。地球に負担をかけずに、必要なデータを簡単に取得できるように努めています。</item>
+        <item>google / apple / arcgis / etcマップを使用しないのはなぜですか？</item>
+        <item>彼らは私たちに許可しないか、法外に高価です。無料の代替案が見つかった場合はお知らせください。</item>
+        <item>ナビゲート/プロット/追跡できないのはなぜですか？</item>
+        <item>このアプリは主にクルージングガイドであり、ナビゲーションツールではありません。現時点では、これらの機能を効果的に提供するためのリソースと機能がありません。</item>
+        <item>言語を変更するにはどうすればよいですか？</item>
+        <item>翻訳はデバイスを介して処理されます。 Android設定でシステム言語を変更する必要があります</item>
+        <item>どうして私の言葉がないの？</item>
+        <item>可能な限り言語を追加する予定です。あなたが助けて欲しいなら私たちにメールを送ってください</item>
+        <item>プロッタ/ OPENCPN / kml / gpx / navionicsからデータを一括で追加できますか？</item>
+        <item>メールを送っていただければ、お手伝いします。一括インポートできるツールはありますが、使いにくいツールです。</item>
+    </string-array>
+    <string-array name="units">
+        <item>メトリック</item>
+        <item>インペリアル</item>
+        <item>航海</item>
+    </string-array>
+    <string-array name="icon_size">
+        <item>XSmall</item>
+        <item>小</item>
+        <item>通常</item>
+        <item>大</item>
+        <item>XLarge</item>
+    </string-array>
+    <string-array name="icon_size_val">
+        <item>30</item>
+        <item>20</item>
+        <item>12</item>
+        <item>8</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="units_name">
+        <item>メートル法（m / km / h）</item>
+        <item>インペリアル（f / y / m / h）</item>
+        <item>航海（m / nm / k）</item>
+    </string-array>
+    <string name="facebook">" フェイスブック"</string>
+    <string name="contact">お問い合わせ</string>
+    <string name="search">探す</string>
+    <string name="zulu_offshore_is_a_global_cruising_guide_which_functions_offline">ズールーオフショアはオフラインで機能するグローバルクルージングガイドです。</string>
+    <string name="satellite_hybrid_street_and_navionics_maps_for_download">ダウンロード用の衛星、ハイブリッド、ストリート、およびナビオニクスのマップ</string>
+    <string name="navionics_tute">お住まいの地域で無制限にチャートをダウンロードするには、アクティブなNavionicsアカウントを接続してください。</string>
+    <string name="dl_tute">マーカーメニューからダウンロードするか、 地図上のどこでも2秒間指を押し続ける ダウンロードは限られていますが、毎月50が無料になります。</string>
+    <string name="sharing_information_is_what_zulu_is_all_about">情報の共有とは ZULUがすべてです。</string>
+    <string name="all_community_information_is_licensed_under_a_creative_commons_by_nc_sa_and_therefore_remains_freely_available_n_n_adding_new_info_are_rewarded_with_extra_downloads">Tutte le informazioni della comunità sono concesse in licenza con estensione  Creative Commons BY-NC-SA e quindi rimane liberamente disponibile.   L\'aggiunta di nuove informazioni viene premiata con download aggiuntivi.</string>
+    <string name="lastly_you_can_help_support_zulu_though_our_online_shop">最後に、オンラインショップでZuluのサポートを手伝ってください！</string>
+    <string name="a_wealth_of_free_community_information_n_n_contribute_new_markers_while_offline_n_n_download_satellite_imagery_and_charts">豊富な無料コミュニティ情報   オフライン時に新しいマーカーを提供する   衛星画像とチャートをダウンロード</string>
+</resources>

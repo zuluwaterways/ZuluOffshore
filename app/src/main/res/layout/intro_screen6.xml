@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/gray">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/welcomeimage1" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_weight="0.5"
+                android:layout_width="0dip"
+                android:rotation="-10"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/icon8" />
+            <ImageView
+                android:layout_weight="0.5"
+                android:layout_width="0dip"
+                android:rotation="10"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/cluster" />
+
+        </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/freeFlow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:background="#99000000"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:shadowRadius="15"
+        android:shadowColor="@color/black"
+        android:text="@string/sharing_information_is_what_zulu_is_all_about"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_below="@+id/freeFlow"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/cc" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="51dp"
+        android:background="#99000000"
+        android:fontFamily="@font/adamina"
+        android:gravity="center|center_horizontal"
+        android:shadowRadius="15"
+        android:shadowColor="@color/black"
+        android:text="@string/all_community_information_is_licensed_under_a_creative_commons_by_nc_sa_and_therefore_remains_freely_available_n_n_adding_new_info_are_rewarded_with_extra_downloads"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>

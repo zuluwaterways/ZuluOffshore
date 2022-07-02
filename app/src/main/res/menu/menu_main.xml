@@ -1,0 +1,84 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/online_mode" />
+    <item android:title="@string/filters" >
+        <menu>
+        </menu>
+    </item>
+    <item android:title="@string/my_markers"
+        android:onClick="showMyMarkers" >
+        <menu >
+
+        </menu>
+    </item>
+
+    <item android:title="@string/navionics"
+        android:id="@+id/navionics_options_menu"
+        android:visible="false">
+        <menu>
+            <item android:title="@string/navionics_login" />
+            <item android:title="@string/navionics_maps">
+                <menu>
+                    <item android:title="@string/navionics_charts" />
+                    <item android:title="@string/sonar_charts" />
+                    <item android:title="@string/download_maps"
+                        />
+                </menu>
+            </item>
+        </menu>
+
+    </item>
+    <item android:title="@string/login" android:id="@+id/loginMenu"/>
+    <item android:title="@string/map_store" />
+    <item android:title="@string/search" />
+    <item android:title="@string/faq">
+        <menu>
+            <item android:title="@string/frequently_asked_questions" />
+            <item android:title="@string/downloading_single_maps_video" />
+            <item android:title="@string/navionics_video" />
+            <item android:title="@string/installing_map_packs_video" />
+            <item android:title="@string/advanced_function_video" />
+            <item android:title="@string/email" />
+            <item android:title="@string/facebook" />
+        </menu>
+    </item>
+
+
+
+
+    <item android:title="@string/settings">
+        <menu>
+            <item android:title="@string/sync"/>
+            <item android:title="@string/activate_a_code"/>
+            <item android:title="@string/rate_the_app"/>
+            <item android:title="@string/language" >
+                <menu tools:ignore="HardcodedText">
+                    <item android:title="العربية" android:onClick="changeLang" />
+                    <item android:title="普通话" android:onClick="changeLang"/>
+                    <item android:title="Nederlands" android:onClick="changeLang"/>
+                    <item android:title="English" android:onClick="changeLang"/>
+                    <item android:title="Filipino" android:onClick="changeLang"/>
+                    <item android:title="Français" android:onClick="changeLang"/>
+                    <item android:title="Deutsch" android:onClick="changeLang"/>
+                    <item android:title="ελληνικά" android:onClick="changeLang"/>
+                    <item android:title="हिन्दी" android:onClick="changeLang"/>
+                    <item android:title="Bahasa Indonesia" android:onClick="changeLang"/>
+                    <item android:title="italiano" android:onClick="changeLang"/>
+                    <item android:title="Bahasa Melayu" android:onClick="changeLang"/>
+                    <item android:title="Português" android:onClick="changeLang"/>
+                    <item android:title="Русский язык" android:onClick="changeLang"/>
+                    <item android:title="español" android:onClick="changeLang"/>
+                    <item android:title="ภาษาไทย" android:onClick="changeLang"/>
+                    <item android:title="Tiếng Việt" android:onClick="changeLang"/>
+                    <item android:title="isiZulu" android:onClick="changeLang"/>
+                </menu>
+            </item>
+            <item android:title="@string/hints" />
+            <item android:title="Version"
+                tools:ignore="HardcodedText" />
+            <item android:title="@string/more_settings" />
+        </menu>
+    </item>
+
+
+</menu>

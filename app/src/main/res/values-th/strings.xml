@@ -1,0 +1,214 @@
+<resources>
+ <string name="app_name">Zulu Offshore</string>
+    <string name="title_activity_add_marker">เพิ่มเครื่องหมายใหม่</string>
+    <string name="prompt_email">อีเมล์</string>
+    <string name="prompt_password">รหัสผ่าน</string>
+    <string name="action_sign_in">เข้าสู่ระบบหรือลงทะเบียน</string>
+    <string name="action_sign_in_short">ลงชื่อเข้าใช้</string>
+    <string name="action_sign_out_short">ลงชื่อออก</string>
+    <string name="welcome">&amp;quot;ยินดีต้อนรับ!&amp;quot;</string>
+    <string name="title_activity_login">เข้าสู่ระบบ</string>
+    <string name="addTitle">ชื่อเรื่อง</string>
+    <string name="loginSignup">ลงทะเบียน</string>
+    <string name="loginButton">เข้าสู่ระบบ</string>
+    <string name="failedLogin">การเข้าสู่ระบบล้มเหลว โปรดลองอีกครั้ง \\ n คุณจะต้องออนไลน์เพื่อเข้าสู่ระบบ</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="email">อีเมล์</string>
+    <string name="login_greeting">เข้าสู่ระบบเพื่อเพิ่มหรือแก้ไข</string>
+    <string name="zulu_logo">โลโก้ซูลู</string>
+    <string name="reposition">เปลี่ยนตำแหน่ง</string>
+    <string name="description_hint">คำอธิบาย \\ n ส่วนนี้ใช้เพื่อเป็นข้อมูลจริง</string>
+    <string name="comment_hint">ประสบการณ์ส่วนตัว \\ n (ไม่บังคับ)</string>
+    <string name="picture_add">เพิ่ม</string>
+    <string name="upload_marker">อัปโหลด</string>
+    <string name="photo_upload_placeholder">ตัวเลือกอัปโหลดรูปภาพ</string>
+    <string name="latitude">รุ้ง</string>
+    <string name="longitude">แวง</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="syncing_message">กำลังซิงค์ \\ n โปรดรอสักครู่ ...</string>
+    <string name="logo">โลโก้</string>
+    <string name="marker_placement_icon">ไอคอนตำแหน่งเครื่องหมาย</string>
+    <string name="infowindow_icon">ไอคอน Infowindowวันที่ 31 </string>
+    <string name="marker_title">ชื่อเรื่อง</string>
+    <string name="location_picture">ภาพสถานที่</string>
+    <string name="comments">ความคิดเห็น</string>
+    <string name="add_a_comment">เพิ่มความคิดเห็น ...</string>
+    <string name="marker_add">เพิ่ม</string>
+    <string name="title_activity_settings">การตั้งค่า</string>
+    <string name="sync_header">ซิงค์</string>
+    <string name="maps_header">ตัวเลือกแผนที่</string>
+    <string name="mapbox_copy">© Mapbox, © OpenStreetMap</string>
+    <string name="run_out">คุณดาวน์โหลดหมดแล้ว!</string>
+    <string name="downloads_why">เราต้อง จำกัด แผนที่ที่คุณดาวน์โหลดเนื่องจากค่าใช้จ่ายเหล่านี้คือเงินของเรา เราซื้อสิทธิ์ใช้งานและให้บริการฟรี! หากคุณต้องการมากกว่านี้มีหลายวิธี</string>
+    <string name="download_how"> ไม่ จำกัด ! \\ n เพิ่มเครื่องหมายใหม่สำหรับ 10 \\ n เพิ่มความคิดเห็นสำหรับ 5</string>
+    <string name="download">ดาวน์โหลด</string>
+    <string name="measure">วัด</string>
+    <string name="zoom_in">ซูมเข้า</string>
+    <string name="zoom_out">ซูมออก</string>
+    <string name="share">แบ่งปัน</string>
+    <string name="add_marker">เพิ่มเครื่องหมาย</string>
+    <string name="arcgis_map">แผนที่ ARCGIS</string>
+    <string name="bing_map">Bing Map</string>
+    <string name="street_map">แผนที่ถนน</string>
+    <string name="sat_map">แผนที่ดาวเทียม</string>
+    <string name="download_maps">ดาวน์โหลดแผนที่</string>
+    <string name="copyBing">© Bing Maps</string>
+    <string name="sync">ซิงค์</string>
+    <string name="faq">คำถามที่พบบ่อย</string>
+    <string name="login">เข้าสู่ระบบ</string>
+    <string name="navionics_login">การเข้าสู่ระบบ Navionics</string>
+    <string name="navionics_maps">แผนที่ Navionics</string>
+    <string name="zulu_online">Zulu Online</string>
+    <string name="my_markers">เครื่องหมายของฉัน</string>
+    <string name="filters">กรอง</string>
+    <string name="settings">การตั้งค่า</string>
+    <string name="language">ภาษา</string>
+    <string name="delete_marker">ลบเครื่องหมาย</string>
+    <string name="distance">ระยะทาง</string>
+    <string name="bearing">แบริ่ง</string>
+    <string name="cant_upload">ไม่สามารถอัปโหลด \\ n ลองลงชื่อเข้าใช้อีกครั้ง</string>
+    <string name="limiting_icons">การ จำกัด ไอคอนที่วาดเพื่อประสิทธิภาพ</string>
+    <string name="download_complete">ดาวน์โหลดเสร็จสิ้น!</string>
+    <string name="downloads_remaining">ดาวน์โหลดที่เหลืออยู่</string>
+    <string name="comment_error">ข้อผิดพลาดในการเพิ่มความคิดเห็น !!!</string>
+    <string name="basemap_error">ข้อผิดพลาดไม่สามารถโหลดแผนที่ฐาน!</string>
+    <string name="marker_deleted">ลบเครื่องหมายแล้ว</string>
+    <string name="position_copied">ตำแหน่งคัดลอกไปยังคลิปบอร์ด</string>
+    <string name="no_internet">ไม่พบอินเทอร์เน็ต โปรดตรวจสอบการเชื่อมต่อของคุณแล้วลองอีกครั้ง</string>
+    <string name="sync_complete">ซิงค์เสร็จสมบูรณ์!</string>
+    <string name="marker_added">เพิ่มเครื่องหมายสำเร็จแล้ว \\ n เครื่องหมายรวม =</string>
+    <string name="not_logged_in">กรุณาเข้าสู่ระบบก่อน</string>
+    <string name="reset">รีเซ็ต</string>
+    <string name="downloading_maps">กำลังดาวน์โหลดแผนที่ ...</string>
+    <string name="have_a_code">มีรหัสไหม? เปิดใช้งานได้ที่นี่</string>
+    <string name="paste_your_code_here">วางรหัสของคุณที่นี่</string>
+    <string name="activate">เปิดใช้งาน</string>
+    <string name="buy_a_code">ซื้อรหัส</string>
+    <string name="set_to_zero">ตั้งค่าเป็นศูนย์</string>
+    <string name="current_size">ฐานข้อมูลขนาดปัจจุบัน:</string>
+    <string name="rate_the_app">ให้คะแนนแอป</string>
+    <string name="cluster_icons">ไอคอนคลัสเตอร์</string>
+    <string name="units">หน่วย</string>
+    <string name="delete_all">ลบแผนที่ที่ดาวน์โหลดทั้งหมด</string>
+    <string name="upload_in_sync">อัปโหลดระหว่างการซิงค์</string>
+    <string name="no_pics_uploaded">จะไม่มีการอัพโหลดรูปภาพระหว่างการซิงค์</string>
+    <string name="pics_uploaded">รูปภาพจะถูกอัพโหลดระหว่างการซิงค์</string>
+    <string name="upload_pics">อัพโหลดรูปภาพ</string>
+    <string name="bold" translatable="false">B</string>
+    <string name="Italics" translatable="false">I</string>
+    <string name="icon_image">ภาพไอคอน</string>
+    <string name="delect_confirm">คุณแน่ใจหรือว่าต้องการลบแผนที่ที่ดาวน์โหลดมาทั้งหมด?</string>
+    <string name="delete_title">ลบแผนที่ที่ดาวน์โหลดทั้งหมด</string>
+    <string name="free_up">"สิ่งนี้จะทำให้ว่างขึ้น "</string>
+    <string name="download_navionics">แผนที่ Navionics</string>
+    <string name="download_osm">แผนที่ทะเลเปิด</string>
+    <string name="hybrid_map">แผนที่ไฮบริด</string>
+    <string name="navionics">Navionics</string>
+    <string name="more_settings">การตั้งค่าเพิ่มเติม</string>
+    <string name="hints">คำแนะนำ</string>
+    <string name="activate_a_code">เปิดใช้งานรหัส</string>
+    <string name="sign_out">ออกจากระบบ</string>
+    <string name="paste_code">วางรหัสของคุณที่นี่</string>
+    <string name="zulu_map_pack">Zulu Map Pack</string>
+    <string name="downloading_map_pack">โปรดรอสักครู่ ...</string>
+    <string name="error_downloading">ข้อผิดพลาด: ไม่พบไฟล์!</string>
+    <string name="pack_added">เพิ่มแพ็คสำเร็จแล้ว!</string>
+    <string name="background_image">ภาพพื้นหลัง</string>
+    <string name="linkme" translatable="false">§</string>
+    <string name="higher_res_info">สิ่งนี้จะดาวน์โหลดระดับการซูมที่สูงขึ้นถ้ามี แต่จะเพิ่มเป็นสองเท่า</string>
+    <string name="hi_res_title">การดาวน์โหลดความละเอียดสูง</string>
+    <string name="navionics_charts">แผนภูมิ Navionics</string>
+    <string name="sonar_charts">แผนภูมิโซนาร์</string>
+    <string name="navionics_settings">การตั้งค่า Navionics</string>
+    <string name="easy_view">Navionics Easy View</string>
+    <string name="min_Zoom_sum">ระดับการซูมที่ไม่แสดงกลุ่ม (1–15)</string>
+    <string name="min_zoom">การซูมกลุ่มขั้นต่ำ</string>
+    <string name="cluster_summary">ไอคอนกลุ่มที่ซ้อนทับกัน</string>
+    <string name="screen_on">เปิดหน้าจอ</string>
+    <string name="query_location">ที่ตั้งแบบสอบถาม</string>
+    <string name="select_all">เลือกทั้งหมด</string>
+    <string name="download_region">ภูมิภาคการดาวน์โหลด</string>
+    <string name="edit_marker_online">แก้ไขเครื่องหมายออนไลน์</string>
+    <string name="next">ถัดไป</string>
+    <string name="lets_go">ไปกันเถอะ!</string>
+    <string name="skip">ข้าม</string>
+    <string name="map_store">แผนที่ร้าน</string>
+    <string name="overlays">ซ้อนทับ</string>
+    <string name="icon_size">ขนาดไอคอน</string>
+    <string name="the_free_flow_of_information">การไหลของข้อมูลฟรี</string>
+    <string name="no_pack">ไม่สามารถเปิดใช้งานแพ็คได้!</string>
+    <string name="add_a_new_nmarker_here">เพิ่ม \\ nmarker ใหม่ที่นี่</string>
+    <string name="options_n_and_settings">ตัวเลือก \\ n และการตั้งค่า</string>
+    <string name="change_maps_n_here">เปลี่ยนแผนที่ \\ n ที่นี่</string>
+    <string name="locate_gps">ค้นหา GPS</string>
+    <string name="click_anywhere_to_start">คลิกที่ใดก็ได้เพื่อเริ่ม</string>
+    <string name="long_press_anywhere_n_to_download_maps">กดที่ใดก็ได้ \\ n เพื่อดาวน์โหลดแผนที่</string>
+    <string name="click_on_the_markers_n_for_more_information">คลิกที่เครื่องหมาย \\ n เพื่อดูข้อมูลเพิ่มเติม</string>
+    <string name="to_the_zulu_offline_cruising_guide">ถึงคู่มือการล่องเรือซูลูออฟไลน์</string>
+    <string name="let_s_get_started">…เริ่มกันเลย </string>
+    <string name="first_we_need_to_get_permissions">ก่อนอื่นเราต้องได้รับอนุญาต</string>
+    <string name="maps_are_too_large_to_store_in_the_app_so_we_need_access_to_your_storage_to_display_the_map">แผนที่มีขนาดใหญ่เกินไปที่จะจัดเก็บในแอปดังนั้นเราจำเป็นต้องเข้าถึงที่เก็บข้อมูลของคุณเพื่อแสดงแผนที่</string>
+    <string name="storage_permissions">สิทธิ์การจัดเก็บ</string>
+    <string name="location_permissions">การอนุญาตตำแหน่ง</string>
+    <string name="to_display_your_position_on_the_map_the_app_needs_access_to_the_gps_optional">ในการแสดงตำแหน่งของคุณบนแผนที่แอปจำเป็นต้องเข้าถึง gps (ไม่จำเป็น)</string>
+	<string name="worldwide">เครื่องหมายทั่วโลกคุณสามารถซิงค์กับแอป \\ n \\ n เพิ่มเครื่องหมายและความคิดเห็นใหม่ในขณะที่ออฟไลน์ \\ n \\ n ซิงค์การมีส่วนร่วมใหม่กับชุมชนเมื่อย้อนกลับไปในช่วง</string>
+	<string name="basemaps">หมายเหตุ: แผนที่ฐานต้องการ \\ ndownloads เพิ่มเติมสำหรับภาพโดยละเอียด</string>
+	<string name="base_map_types">ประเภทแผนที่ฐาน</string>
+    <string name="howtodownload">วิธีดาวน์โหลดภาพโดยละเอียด \\ n \\ n 1. กดที่ใดก็ได้บนแผนที่ (2 วินาที \\\ &amp;#x27;s) เพื่อเปิดตัวเลือกสำหรับการดาวน์โหลดแผนที่ \\ n \\ n 2. ดาวน์โหลดจากภายในเมนูมาร์กเกอร์ \\ n \\ n 3. ดาวน์โหลดทั้งภูมิภาคที่ Map Store \\ n \\ n4 เข้าสู่บัญชี Navionics ที่มีอยู่เพื่อซิงค์ชาร์ต</string>
+    <string name="updatingInfo">การอัพเดทข้อมูลเป็นสิ่งสำคัญ ตรวจสอบคำถามที่พบบ่อย \\\\\ n ผู้ร่วมให้ข้อมูลได้รับสิทธิพิเศษเช่นการดาวน์โหลดแผนที่เพิ่มเติม \\ n ข้อมูลชุมชนทั้งหมดได้รับอนุญาตภายใต้ใบอนุญาตครีเอทีฟคอมมอนส์</string>
+    <string name="finalsunc">ในที่สุดเราแค่ต้องทำการซิงค์ครั้งแรกจากนั้นคุณสามารถเริ่มสำรวจ!</string>
+
+    <string-array name="faq">
+        <item>ทำไมคุณ จำกัด การดาวน์โหลดแผนที่</item>
+        <item>เราจ่ายต่อกระเบื้องที่คุณดาวน์โหลด เราให้จำนวนฟรีแก่คุณจากนั้นเราจะต้องเรียกเก็บเงิน การจัดสรรจะมีการต่ออายุทุกเดือน</item>
+        <item>ฉันจะดาวน์โหลดแผนที่เพิ่มเติมได้อย่างไร</item>
+        <item>ผู้ใช้ที่เป็นผู้อุปถัมภ์จะได้รับการดาวน์โหลดไม่ จำกัด คุณสามารถเพิ่มได้อีกด้วยการเพิ่มเครื่องหมายใหม่หรือเพิ่มความคิดเห็นเกี่ยวกับสถานที่ที่คุณเคยไป</item>
+        <item>ทำไมฉันไม่สามารถเลือกพื้นที่ที่จะดาวน์โหลดได้?</item>
+        <item>ราคาและพื้นที่ ข้อมูลดาวเทียมมีความซับซ้อนและแผนที่ขนาดของสหราชอาณาจักรจะใช้เวลา 10 ล้านแผ่นค่าใช้จ่ายมากกว่า $ 20,000 และใช้ขนาด 160 กิกะไบต์บีบอัด เราได้พยายามทำให้ง่ายต่อการรับข้อมูลที่คุณต้องการโดยไม่ต้องเสียค่าใช้จ่ายบนโลก</item>
+        <item>ทำไมคุณไม่ใช้แผนที่ google / apple / arcgis / etc?</item>
+        <item>พวกเขาไม่อนุญาตให้เราหรือมีราคาแพงอย่างเด็ดขาด หากคุณพบทางเลือกฟรีให้เราทราบ</item>
+        <item>ทำไมฉันไม่สามารถนำทาง / วางแผน / ติดตามได้</item>
+        <item>แอพนี้เป็นคู่มือการล่องเรือเป็นหลักไม่ใช่เครื่องมือนำทาง เราเพียง แต่ไม่มีทรัพยากรและความสามารถในจุดนี้เพื่อเสนอคุณสมบัติเหล่านี้อย่างมีประสิทธิภาพ</item>
+        <item>ฉันจะเปลี่ยนภาษาได้อย่างไร</item>
+        <item>การแปลถูกจัดการผ่านอุปกรณ์ของคุณ คุณจะต้องเปลี่ยนภาษาของระบบในการตั้งค่า Android</item>
+        <item>ทำไมคุณไม่มีภาษาของฉัน</item>
+        <item>เราต้องการเพิ่มภาษาที่เป็นไปได้ หากคุณต้องการความช่วยเหลือจากคุณโปรดส่งอีเมลถึงเรา</item>
+        <item>ฉันสามารถเพิ่มข้อมูลของฉันจากล็อตเตอร์ / OPENCPN / kml / gpx / navionics ของฉันได้ไหม?</item>
+        <item>แน่นอนว่าให้อีเมลกับเราและเราจะช่วยคุณผ่านมัน เรามีเครื่องมือที่สามารถนำเข้าจำนวนมาก แต่ใช้งานยาก</item></string-array>
+    <string-array name="units">
+        <item>เมตริก</item>
+        <item>อิมพีเรียล</item>
+        <item>การเดินเรือ</item>
+	</string-array>
+    <string-array name="icon_size">
+        <item>Xขนาดเล็ก</item>
+        <item>ขนาดเล็ก</item>
+        <item>ปกติ</item>
+        <item>ขนาดใหญ่</item>
+        <item>Xขนาดใหญ่</item>
+	</string-array>
+    <string-array name="icon_size_val">
+        <item>30</item>
+        <item>20</item>
+        <item>12</item>
+        <item>8</item>
+        <item>6</item>
+	</string-array>
+    <string-array name="units_name">
+        <item>ตัวชี้วัด (m / km / h)</item>
+        <item>จักรวรรดิ (f / y / m / h)</item>
+        <item>ทะเล (m / nm / k)</item>
+	</string-array>
+    <string name="contact">ติดต่อ</string>
+   <string name="facebook">Facebook</string>
+    <string name="search">ค้นหา</string>
+    <string name="zulu_offshore_is_a_global_cruising_guide_which_functions_offline">Zulu Offshore เป็นคู่มือการล่องเรือระดับโลกที่ทำงานแบบออฟไลน์</string>
+   <string name="satellite_hybrid_street_and_navionics_maps_for_download">แผนที่ดาวเทียมไฮบริดสตรีทและ Navionics สำหรับดาวน์โหลด</string>
+   <string name="navionics_tute">เชื่อมต่อบัญชี Navionics ที่ใช้งานอยู่เพื่อดาวน์โหลดแผนภูมิไม่ จำกัด ในภูมิภาคของคุณ</string>
+   <string name="dl_tute">ดาวน์โหลดผ่านเมนูเครื่องหมายหรือ ถือนิ้วที่ใดก็ได้บนแผนที่เป็นเวลา 2 วินาที การดาวน์โหลดมีจำนวน จำกัด แต่คุณจะได้รับ 50 ฟรีต่อเดือน!</string>
+   <string name="sharing_information_is_what_zulu_is_all_about">การแบ่งปันข้อมูลคือสิ่งที่ ZULU เป็นข้อมูลเกี่ยวกับ</string>
+   <string name="all_community_information_is_licensed_under_a_creative_commons_by_nc_sa_and_therefore_remains_freely_available_n_n_adding_new_info_are_rewarded_with_extra_downloads">ข้อมูลชุมชนทั้งหมดได้รับอนุญาตภายใต้ก  ครีเอทีฟคอมมอนส์ BY-NC-SA จึงยังคงใช้ได้อย่างอิสระ   การเพิ่มข้อมูลใหม่จะได้รับรางวัลจากการดาวน์โหลดเพิ่มเติม</string>
+   <string name="lastly_you_can_help_support_zulu_though_our_online_shop">สุดท้ายนี้คุณสามารถช่วยสนับสนุน Zulu ผ่านทางร้านค้าออนไลน์ของเรา!</string>
+   <string name="a_wealth_of_free_community_information_n_n_contribute_new_markers_while_offline_n_n_download_satellite_imagery_and_charts">ความมั่งคั่งของข้อมูลชุมชนฟรี   ร่วมให้ข้อมูลใหม่ในขณะออฟไลน์   ดาวน์โหลดภาพถ่ายดาวเทียมและแผนภูมิ</string>
+
+</resources>

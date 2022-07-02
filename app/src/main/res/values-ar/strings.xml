@@ -1,0 +1,216 @@
+<resources>
+    <string name="app_name">Zulu Offshore</string>
+    <string name="title_activity_add_marker">إضافة علامة جديدة</string>
+    <string name="prompt_email">البريد الإلكتروني</string>
+    <string name="prompt_password">كلمه السر</string>
+    <string name="action_sign_in">تسجيل الدخول أو التسجيل</string>
+    <string name="action_sign_in_short">تسجيل الدخول</string>
+    <string name="action_sign_out_short">خروج</string>
+    <string name="welcome">"أهلا بك !"</string>
+    <string name="title_activity_login">تسجيل الدخول</string>
+    <string name="addTitle">عنوان</string>
+    <string name="loginSignup">سجل</string>
+    <string name="loginButton">تسجيل الدخول</string>
+    <string name="failedLogin">فشل تسجيل الدخول. الرجاء المحاولة مرة أخرى \nيجب أن تكون متصلاً لتسجيل الدخول</string>
+    <string name="password">كلمه السر</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="login_greeting">تسجيل الدخول لإضافة أو تحرير</string>
+    <string name="zulu_logo">شعار الزولو</string>
+    <string name="reposition">إعادة</string>
+    <string name="description_hint">الوصف \nهذا القسم لمعلومات واقعية</string>
+    <string name="comment_hint">تجارب شخصية \n(اختياري)</string>
+    <string name="picture_add">أضف</string>
+    <string name="upload_marker">رفع</string>
+    <string name="photo_upload_placeholder">تحميل عنصر نائب للصور</string>
+    <string name="latitude">خط العرض</string>
+    <string name="longitude">خط الطول</string>
+    <string name="cancel">إلغاء</string>
+    <string name="syncing_message">جاري المزامنة \nالرجاء الانتظار ...</string>
+    <string name="logo">شعار</string>
+    <string name="marker_placement_icon">رمز وضع العلامة</string>
+    <string name="infowindow_icon">أيقونة Infowindow</string>
+    <string name="marker_title">عنوان</string>
+    <string name="location_picture">صورة الموقع</string>
+    <string name="comments">تعليقات</string>
+    <string name="add_a_comment">اضف تعليق…</string>
+    <string name="marker_add">أضف</string>
+    <string name="title_activity_settings">الإعدادات</string>
+    <string name="sync_header">تزامن</string>
+    <string name="maps_header">خيارات الخرائط</string>
+    <string name="mapbox_copy">© Mapbox ، © OpenStreetMap</string>
+    <string name="run_out">لقد نفدت منك التنزيلات المجانية!</string>
+    <string name="downloads_why">علينا تحديد الخرائط التي تقوم بتنزيلها لأن هذه تكلفنا المال. نشتري التراخيص وأي نقدمها مجانا! إذا كنت بحاجة إلى المزيد فهناك عدة طرق</string>
+    <string name="download_how"><a href="https://www.patreon.com/zuluwaterways"> رعاة</a> غير محدودة! \nأضف علامة جديدة لـ 10 \nأضف تعليقًا لـ 5</string>
+    <string name="download">تحميل</string>
+    <string name="measure">قياس</string>
+    <string name="zoom_in">تكبير</string>
+    <string name="zoom_out">تصغير</string>
+    <string name="share">شارك</string>
+    <string name="add_marker">أضف علامة</string>
+    <string name="arcgis_map">خريطة ARCGIS</string>
+    <string name="bing_map">خريطة Bing</string>
+    <string name="street_map">خريطة الشارع</string>
+    <string name="sat_map">خريطة القمر الصناعي</string>
+    <string name="download_maps">تنزيل الخرائط</string>
+    <string name="copyBing">© خرائط Bing</string>
+    <string name="sync">تزامن</string>
+    <string name="faq">التعليمات</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="navionics_login">تسجيل الدخول Navionics</string>
+    <string name="navionics_maps">خرائط نافونيكس</string>
+    <string name="zulu_online">زولو اون لاين</string>
+    <string name="my_markers">علاماتي</string>
+    <string name="filters">مرشحات</string>
+    <string name="settings">الإعدادات</string>
+    <string name="language">لغة</string>
+    <string name="delete_marker">حذف العلامة</string>
+    <string name="distance">مسافة</string>
+    <string name="bearing">تحمل</string>
+    <string name="cant_upload">لا يمكن التحميل. \nحاول تسجيل الدخول مرة أخرى</string>
+    <string name="limiting_icons">تحديد الرموز المرسومة للأداء</string>
+    <string name="download_complete">تم التحميل!</string>
+    <string name="downloads_remaining">التنزيلات المتبقية</string>
+    <string name="comment_error">خطأ في إضافة تعليق !!!</string>
+    <string name="basemap_error">خطأ ، لا يمكن تحميل خريطة الأساس!</string>
+    <string name="marker_deleted">تم حذف العلامة</string>
+    <string name="position_copied">تم نسخ الموقف إلى الحافظة</string>
+    <string name="no_internet">لم يتم اكتشاف إنترنت. يرجى التحقق من اتصالك وحاول مرة أخرى.</string>
+    <string name="sync_complete">اكتملت المزامنة!</string>
+    <string name="marker_added">تمت إضافة العلامة بنجاح! \nإجمالي المحددات =</string>
+    <string name="not_logged_in">الرجاء تسجيل الدخول أولا</string>
+    <string name="reset">إعادة تعيين</string>
+    <string name="downloading_maps">جارٍ تنزيل الخرائط ...</string>
+    <string name="have_a_code">هل لديك رمز؟ قم بتنشيطه هنا</string>
+    <string name="paste_your_code_here">الصق كودك هنا</string>
+    <string name="activate">تفعيل</string>
+    <string name="buy_a_code">شراء رمز</string>
+    <string name="set_to_zero">تعيين على صفر</string>
+    <string name="current_size">حجم قاعدة البيانات الحالية:</string>
+    <string name="rate_the_app">قيم التطبيق</string>
+    <string name="cluster_icons">رموز الكتلة</string>
+    <string name="units">الوحدات</string>
+    <string name="delete_all">حذف جميع الخرائط التي تم تنزيلها</string>
+    <string name="upload_in_sync">تحميل أثناء المزامنة</string>
+    <string name="no_pics_uploaded">لن يتم تحميل أي صور أثناء المزامنة</string>
+    <string name="pics_uploaded">سيتم تحميل الصور أثناء المزامنة</string>
+    <string name="upload_pics">تحميل الصور</string>
+    <string name="bold" translatable="false">B</string>
+    <string name="Italics" translatable="false">I</string>
+    <string name="icon_image">صورة الرمز</string>
+    <string name="delect_confirm">هل أنت متأكد أنك تريد حذف جميع الخرائط التي تم تنزيلها؟</string>
+    <string name="delete_title">حذف جميع الخرائط التي تم تنزيلها</string>
+    <string name="free_up">\"سيؤدي هذا إلى تحرير \"</string>
+    <string name="download_navionics">خرائط الملاحة</string>
+    <string name="download_osm">افتح خرائط البحر</string>
+    <string name="hybrid_map">خريطة هجينة</string>
+    <string name="navionics">نافونيك</string>
+    <string name="more_settings">المزيد من الإعدادات</string>
+    <string name="hints">تلميحات</string>
+    <string name="activate_a_code">تنشيط الكود</string>
+    <string name="sign_out">خروج</string>
+    <string name="paste_code">الصق كودك هنا</string>
+    <string name="zulu_map_pack">Zulu Map Pack</string>
+    <string name="downloading_map_pack">أرجو الإنتظار…</string>
+    <string name="error_downloading">خطأ: لا يمكن البحث عن الملف!</string>
+    <string name="pack_added">تمت إضافة الحزمة بنجاح!</string>
+    <string name="background_image">الصورة الخلفية</string>
+    <string name="linkme" translatable="false">§</string>
+    <string name="higher_res_info">سيؤدي ذلك إلى تنزيل مستويات تكبير أعلى إذا كانت متاحة ، ولكنه سيضاعف التكلفة</string>
+    <string name="hi_res_title">تنزيلات عالية الدقة</string>
+    <string name="navionics_charts">خرائط الملاحة</string>
+    <string name="sonar_charts">مخططات السونار</string>
+    <string name="navionics_settings">إعدادات Navionics</string>
+    <string name="easy_view">Navionics Easy View</string>
+    <string name="min_Zoom_sum">مستوى التكبير /التصغير حيث لا تظهر الكتل (1-15)</string>
+    <string name="min_zoom">الحد الأدنى من تكبير الكتلة</string>
+    <string name="cluster_summary">أيقونات المجموعة حيث تتداخل</string>
+    <string name="screen_on">إبقاء الشاشة قيد التشغيل</string>
+    <string name="query_location">موقع الاستعلام</string>
+    <string name="select_all">اختر الكل</string>
+    <string name="download_region">منطقة التحميل</string>
+    <string name="edit_marker_online">تعديل Marker Online</string>
+    <string name="next">التالى</string>
+    <string name="lets_go">لنذهب!</string>
+    <string name="skip">تخطى</string>
+    <string name="map_store">متجر خرائط</string>
+    <string name="overlays">التراكبات</string>
+    <string name="icon_size">حجم الرمز</string>
+    <string name="the_free_flow_of_information">التدفق الحر للمعلومات</string>
+    <string name="no_pack">تعذر تنشيط الحزمة!</string>
+    <string name="add_a_new_nmarker_here">أضف \nعلامة جديدة هنا</string>
+    <string name="options_n_and_settings">خيارات \nوالإعدادات</string>
+    <string name="change_maps_n_here">تغيير الخرائط \nهنا</string>
+    <string name="locate_gps">حدد موقع GPS</string>
+    <string name="click_anywhere_to_start">انقر فوق أي مكان للبدء</string>
+    <string name="long_press_anywhere_n_to_download_maps">اضغط مع الاستمرار في أي مكان \nلتنزيل الخرائط</string>
+    <string name="click_on_the_markers_n_for_more_information">انقر فوق العلامات \nلمزيد من المعلومات</string>
+    <string name="to_the_zulu_offline_cruising_guide">إلى دليل الرحلات البحرية بلا إنترنت</string>
+    <string name="let_s_get_started">…هيا بنا نبدأ</string>
+    <string name="first_we_need_to_get_permissions">نحتاج أولاً إلى الحصول على أذونات</string>
+    <string name="maps_are_too_large_to_store_in_the_app_so_we_need_access_to_your_storage_to_display_the_map">الخرائط كبيرة جدًا بحيث لا يمكن تخزينها في التطبيق ، لذا نحتاج إلى الوصول إلى مساحة التخزين الخاصة بك لعرض الخريطة</string>
+    <string name="storage_permissions">أذونات التخزين</string>
+    <string name="location_permissions">أذونات الموقع</string>
+    <string name="to_display_your_position_on_the_map_the_app_needs_access_to_the_gps_optional">لعرض موقعك على الخريطة ، يحتاج التطبيق إلى الوصول إلى نظام تحديد المواقع العالمي. (اختياري)</string>
+    <string name="worldwide">محددات عالمية يمكنك مزامنتها مع التطبيق \n\nإضافة علامات جديدة والتعليق أثناء عدم الاتصال \n\nمزامنة المساهمات الجديدة مع المجتمع بمجرد الوصول إلى النطاق</string>
+    <string name="basemaps">ملاحظة: تتطلب الخرائط الأساسية المزيد من التنزيلات \nللصور التفصيلية</string>
+    <string name="base_map_types">أنواع الخرائط الأساسية</string>
+    <string name="howtodownload">كيفية تنزيل الصور التفصيلية \n\n1. اضغط مع الاستمرار على أي مكان على الخريطة (ثانيتان) لفتح الخيارات لتنزيلات الخريطة \n\n2. التنزيل من داخل قائمة Marker \n\n3. تنزيل مناطق بأكملها في متجر الخرائط \n\n4 قم بتسجيل الدخول إلى حسابك الحالي في Navionics لمزامنة المخططات</string>
+    <string name="updatingInfo">تحديث المعلومات مهم. تحقق من الأسئلة الشائعة \n\nيتلقى المساهمون مزايا مثل تنزيلات الخرائط الإضافية \nتم ترخيص جميع معلومات المجتمع بموجب ترخيص Creative Commons.</string>
+    <string name="finalsunc">أخيرًا ، نحتاج فقط إلى إجراء مزامنة أولية ، ثم يمكنك بدء الاستكشاف!</string>
+
+    <string-array name="faq">
+        <item>لماذا تحد من تنزيلات الخرائط؟</item>
+        <item>نحن ندفع لكل بلاطة تقوم بتنزيلها. نعطيك مبلغًا مجانيًا وسخياً ثم يتعين علينا تحصيل رسوم. يتم تجديد المخصصات كل شهر</item>
+        <item>كيف يمكنني الحصول على المزيد من تنزيلات الخرائط؟</item>
+        <item>يحصل مستخدمو المستفيد على تنزيلات غير محدودة ، ويمكنك أيضًا الحصول على المزيد من خلال إضافة علامات جديدة أو إضافة تعليقات على الأماكن التي زرتها</item>
+        <item>لماذا لا يمكنني تحديد منطقة للتحميل؟</item>
+        <item>التكاليف والمساحة. بيانات الأقمار الصناعية معقدة ، وستتطلب خريطة بحجم المملكة المتحدة 10 ملايين بلاط ، وتبلغ تكلفتها أكثر من 20000 دولار وتستهلك 160 غيغابايت ، مضغوطة. لقد حاولنا أن نجعل من السهل الحصول على البيانات التي تحتاجها دون أن تكلف الأرض.</item>
+        <item>لماذا لا تستخدم خرائط google /apple /arcgis /etc؟</item>
+        <item>فهي لا تسمح لنا أو أنها باهظة الثمن. إذا وجدت بديلاً مجانيًا ، فأخبرنا بذلك.</item>
+        <item>لماذا لا يمكنني التنقل /الرسم /المسار؟</item>
+        <item>هذا التطبيق هو في الأساس دليل تجوال ، وليس أداة تنقل. ببساطة ليس لدينا الموارد والقدرات هذه النقطة لتقديم هذه الميزات بشكل فعال.</item>
+        <item>كيف أغير اللغة؟</item>
+        <item>تتم معالجة الترجمة من خلال جهازك. سيكون عليك تغيير لغة النظام في إعدادات Android</item>
+        <item>لماذا لا تملك لغتي؟</item>
+        <item>نحن نتطلع لإضافة لغات حيثما أمكن. إذا كنت تريد مساعدتنا ، فأرسل إلينا بريدًا إلكترونيًا</item>
+        <item>هل يمكنني إضافة بياناتي من الراسمة /OPENCPN /kml /gpx /navionics بالجملة؟</item>
+        <item>بالتأكيد أعطنا بريدًا إلكترونيًا ويمكننا مساعدتك من خلاله. لدينا أدوات يمكنها الاستيراد بكميات كبيرة ولكنها صعبة الاستخدام.</item>
+    </string-array>
+    <string-array name="units">
+        <item>قياس</item>
+        <item>إمبراطوري</item>
+        <item>بحري</item>
+    </string-array>
+    <string-array name="icon_size">
+        <item>XS صغير</item>
+        <item>صغير</item>
+        <item>عادي</item>
+        <item>كبير</item>
+        <item>X-كبير</item>
+    </string-array>
+    <string-array name="icon_size_val">
+        <item>30</item>
+        <item>20</item>
+        <item>12</item>
+        <item>8</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="units_name">
+        <item>متري (م /كم /ساعة)</item>
+        <item>إمبراطوري (f /y /m /h)</item>
+        <item>بحري (م /نانومتر /ك)</item>
+    </string-array>
+    <string name="contact">اتصل</string>
+    <string name="facebook">موقع التواصل الاجتماعي الفيسبوك</string>
+    <string name="search">بحث</string>
+    <string name="zulu_offshore_is_a_global_cruising_guide_which_functions_offline">Zulu Offshore هو دليل إبحار عالمي يعمل في وضع عدم الاتصال.</string>
+    <string name="satellite_hybrid_street_and_navionics_maps_for_download">خرائط الأقمار الصناعية والهجينة والشوارع و Navionics للتنزيل</string>
+    <string name="navionics_tute">قم بتوصيل حساب Navionics نشط لتنزيلات مخططات غير محدودة في منطقتك.</string>
+    <string name="dl_tute">قم بالتنزيل عبر قائمة العلامة أو امسك الإصبع في أي مكان على الخريطة لمدة ثانيتين التنزيلات محدودة ولكن تحصل على 50 مجانًا شهريًا!</string>
+    <string name="sharing_information_is_what_zulu_is_all_about">تبادل المعلومات هو ما ZULU هو كل شيء عن.</string>
+    <string name="all_community_information_is_licensed_under_a_creative_commons_by_nc_sa_and_therefore_remains_freely_available_n_n_adding_new_info_are_rewarded_with_extra_downloads">جميع معلومات المجتمع مرخصة بموجب أ  المشاع الإبداعي BY-NC-SA ، وبالتالي تظل متاحة مجانًا.   تتم مكافأة إضافة معلومات جديدة بتنزيلات إضافية.</string>
+    <string name="lastly_you_can_help_support_zulu_though_our_online_shop">أخيرًا ، يمكنك المساعدة في دعم الزولو من خلال متجرنا عبر الإنترنت!</string>
+    <string name="a_wealth_of_free_community_information_n_n_contribute_new_markers_while_offline_n_n_download_satellite_imagery_and_charts">ثروة من معلومات المجتمع المجانية   المساهمة بعلامات جديدة أثناء عدم الاتصال بالإنترنت   تنزيل صور الأقمار الصناعية والرسوم البيانية</string>
+
+
+</resources>

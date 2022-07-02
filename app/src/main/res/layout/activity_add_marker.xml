@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addMarker">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/add_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/addLocationLat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autofillHints="latitude"
+                        android:hint="@string/latitude"
+                        android:inputType="number"
+                        android:maxWidth="150dp"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/addLocationLon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autofillHints="longitude"
+                        android:hint="@string/longitude"
+                        android:inputType="number"
+                        android:maxWidth="150dp"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/blank"
+                    android:drawableStart="@drawable/osm_ic_center_map"
+                    android:onClick="finetuneLoc"
+                    android:text="">
+
+                    <requestFocus />
+                </Button>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <EditText
+                android:id="@+id/addTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/addItemMargin"
+                android:autofillHints="title"
+                android:background="@drawable/textbox_border"
+                android:ems="14"
+                android:hint="@string/addTitle"
+                android:inputType="text|textCapWords"
+                android:padding="10dp" />
+
+            <Spinner
+                android:id="@+id/addTypeSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/addItemMargin"
+
+                android:autofillHints="Type"
+                android:background="@drawable/spinner_border" />
+
+            <EditText
+                android:id="@+id/addDiscription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/addItemMargin"
+                android:autofillHints="Description"
+                android:background="@drawable/textbox_border"
+                android:ems="14"
+                android:hint="@string/description_hint"
+                android:inputType="textMultiLine|textCapSentences"
+                android:minHeight="150dp"
+                android:padding="10dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:onClick="boldme"
+                    android:padding="0dp"
+                    android:text="@string/bold"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:onClick="Italicsme"
+                    android:padding="0dp"
+                    android:text="@string/Italics"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:onClick="linkMe"
+                    android:padding="0dp"
+                    android:text="@string/linkme"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/addComment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/addItemMargin"
+                android:autofillHints="comment"
+                android:background="@drawable/textbox_border"
+                android:hint="@string/comment_hint"
+                android:inputType="textMultiLine"
+                android:minHeight="100dp"
+                android:padding="10dp" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/addPicture1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/photo_upload_placeholder"
+
+                    android:maxWidth="150dp"
+                    android:maxHeight="150dp"
+                    android:onClick="editImage" />
+
+                <ImageView
+                    android:id="@+id/addPicture2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/photo_upload_placeholder"
+                    android:maxWidth="150dp"
+                    android:maxHeight="150dp"
+                    android:onClick="editImage" />
+
+                <ImageView
+                    android:id="@+id/addPicture3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/photo_upload_placeholder"
+                    android:maxWidth="180dp"
+                    android:maxHeight="180dp"
+                    android:onClick="editImage" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/blank"
+                    android:drawableStart="@android:drawable/ic_menu_camera"
+                    android:onClick="addPicture"
+                    android:text="@string/picture_add" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:backgroundTint="@color/actionsheet_text_blue"
+                android:drawableEnd="@android:drawable/checkbox_on_background"
+                android:onClick="adtheMarker"
+                android:text="@string/upload_marker"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:background="#A5A4A2"
+                android:onClick="cancelMarker"
+                android:paddingHorizontal="30dp"
+                android:text="@string/cancel"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+
+        android:backgroundTint="@color/Black_color"
+        android:clickable="true"
+        android:focusable="true"
+
+        android:onClick="cancelMarker"
+        android:padding="5dp"
+        android:tint="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/scrollView3"
+        app:layout_constraintTop_toTopOf="@+id/scrollView3"
+        app:maxImageSize="60dp"
+        app:srcCompat="@drawable/ic_arrow_back_base_blue_36dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

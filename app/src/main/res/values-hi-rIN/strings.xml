@@ -1,0 +1,215 @@
+<resources>
+    <string name="app_name">Zulu Offshore</string>
+    <string name="title_activity_add_marker">नया मार्कर जोड़ें</string>
+    <string name="prompt_email">ईमेल</string>
+    <string name="prompt_password">कुंजिका</string>
+    <string name="action_sign_in">हस्ताक्षर और रजिस्टर</string>
+    <string name="action_sign_in_short">साइन इन करें</string>
+    <string name="action_sign_out_short">प्रस्थान करें</string>
+    <string name="welcome">"स्वागत हे !"</string>
+    <string name="title_activity_login">लॉग इन करें</string>
+    <string name="addTitle">शीर्षक</string>
+    <string name="loginSignup">साइन अप करें</string>
+    <string name="loginButton">लॉग इन करें</string>
+    <string name="failedLogin">लॉगिन विफल। कृपया पुनः प्रयास करें \nआपको लॉगिन करने के लिए ऑनलाइन होना चाहिए</string>
+    <string name="password">कुंजिका</string>
+    <string name="email">ईमेल</string>
+    <string name="login_greeting">जोड़ने या संपादित करने के लिए लॉग इन करें</string>
+    <string name="zulu_logo">ज़ुलु लोगो</string>
+    <string name="reposition">स्थान बदलने</string>
+    <string name="description_hint">विवरण \nयह खंड तथ्यात्मक जानकारी के लिए है</string>
+    <string name="comment_hint">व्यक्तिगत अनुभव \n(वैकल्पिक)</string>
+    <string name="picture_add">जोड़ना</string>
+    <string name="upload_marker">डालना</string>
+    <string name="photo_upload_placeholder">फोटो अपलोड प्लेसहोल्डर</string>
+    <string name="latitude">अक्षांश</string>
+    <string name="longitude">देशान्तर</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="syncing_message">सिंकिंग \nकृपया प्रतीक्षा करें ...</string>
+    <string name="logo">प्रतीक चिन्ह</string>
+    <string name="marker_placement_icon">मार्कर प्लेसमेंट आइकन</string>
+    <string name="infowindow_icon">Infowindow आइकन</string>
+    <string name="marker_title">शीर्षक</string>
+    <string name="location_picture">स्थान चित्र</string>
+    <string name="comments">टिप्पणियाँ</string>
+    <string name="add_a_comment">एक टिप्पणी जोड़ने…</string>
+    <string name="marker_add">जोड़ना</string>
+    <string name="title_activity_settings">समायोजन</string>
+    <string name="sync_header">सिंक</string>
+    <string name="maps_header">मैप्स विकल्प</string>
+    <string name="mapbox_copy">© Mapbox, © OpenStreetMap</string>
+    <string name="run_out">आप मुफ्त डाउनलोड से बाहर भाग गए हैं!</string>
+    <string name="downloads_why">हमें आपके द्वारा डाउनलोड किए गए मानचित्रों को सीमित करना होगा क्योंकि ये हमारे पैसे खर्च करते हैं। हम लाइसेंस खरीदते हैं और कोई भी मुफ्त में कुछ प्रदान करता है! अगर आपको ज्यादा जरूरत है तो कई तरीके हैं</string>
+    <string name="download_how"><a href="https://www.patreon.com/zuluwaterways"> Patreons</a> असीमित हैं! \10 के लिए एक नया मार्कर जोड़ें \n5 के लिए टिप्पणी करें</string>
+    <string name="download">डाउनलोड</string>
+    <string name="measure">उपाय</string>
+    <string name="zoom_in">ज़ूम इन</string>
+    <string name="zoom_out">ज़ूम आउट</string>
+    <string name="share">शेयर</string>
+    <string name="add_marker">मार्कर जोड़ें</string>
+    <string name="arcgis_map">ARCGIS मैप</string>
+    <string name="bing_map">बिंग मैप</string>
+    <string name="street_map">मार्ग मानचित्र</string>
+    <string name="sat_map">उपग्रह मानचित्र</string>
+    <string name="download_maps">मैप्स डाउनलोड करें</string>
+    <string name="copyBing">© बिंग मैप्स</string>
+    <string name="sync">सिंक</string>
+    <string name="faq">सामान्य प्रश्न</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="navionics_login">Navionics लॉगिन करें</string>
+    <string name="navionics_maps">नौसैनिक मानचित्र</string>
+    <string name="zulu_online">Zulu Online</string>
+    <string name="my_markers">माई मार्कर</string>
+    <string name="filters">फिल्टर</string>
+    <string name="settings">समायोजन</string>
+    <string name="language">भाषा: हिन्दी</string>
+    <string name="delete_marker">मार्कर को हटा दें</string>
+    <string name="distance">दूरी</string>
+    <string name="bearing">सहनशीलता</string>
+    <string name="cant_upload">अपलोड नहीं किया जा सकता। \nपुन: लॉग इन करने का प्रयास करें</string>
+    <string name="limiting_icons">प्रदर्शन के लिए सीमित प्रतीक</string>
+    <string name="download_complete">डाउनलोड सम्पन्न हुआ!</string>
+    <string name="downloads_remaining">डाउनलोड शेष है</string>
+    <string name="comment_error">टिप्पणी जोड़ने में त्रुटि !!!</string>
+    <string name="basemap_error">बासमाप लोड नहीं कर सकता त्रुटि!</string>
+    <string name="marker_deleted">मार्कर हटा दिया गया</string>
+    <string name="position_copied">क्लिपबोर्ड पर कॉपी की गई स्थिति</string>
+    <string name="no_internet">कोई इंटरनेट का पता नहीं। कृपया अपने संपर्क की जांच करे और फिर से प्रयास करें।</string>
+    <string name="sync_complete">सिंक पूरा!</string>
+    <string name="marker_added">मार्कर सफलतापूर्वक जोड़ा गया! \NTotal मार्कर =</string>
+    <string name="not_logged_in">पहले प्रवेश करें</string>
+    <string name="reset">रीसेट</string>
+    <string name="downloading_maps">नक्शे डाउनलोड हो रहे हैं ...</string>
+    <string name="have_a_code">एक कोड है? इसे यहां सक्रिय करें</string>
+    <string name="paste_your_code_here">यहां अपना कोड पेस्ट करें</string>
+    <string name="activate">सक्रिय</string>
+    <string name="buy_a_code">एक कोड खरीदें</string>
+    <string name="set_to_zero">शून्य पर सेट करें</string>
+    <string name="current_size">डेटाबेस वर्तमान आकार:</string>
+    <string name="rate_the_app">एप्लिकेशन की श्रेणी बताओ</string>
+    <string name="cluster_icons">क्लस्टर आइकॉन</string>
+    <string name="units">इकाइयों</string>
+    <string name="delete_all">सभी डाउनलोड किए गए नक्शे हटाएं</string>
+    <string name="upload_in_sync">सिंक के दौरान अपलोड करें</string>
+    <string name="no_pics_uploaded">सिंक के दौरान कोई चित्र अपलोड नहीं किया जाएगा</string>
+    <string name="pics_uploaded">तस्वीरों को सिंक के दौरान अपलोड किया जाएगा</string>
+    <string name="upload_pics">चित्र अपलोड करें</string>
+    <string name="bold" translatable="false">B</string>
+    <string name="Italics" translatable="false">I</string>
+    <string name="icon_image">आइकन छवि</string>
+    <string name="delect_confirm">क्या आप वाकई अपने सभी डाउनलोड किए गए मानचित्रों को हटाना चाहते हैं?</string>
+    <string name="delete_title">सभी डाउनलोड किए गए नक्शे हटाएं</string>
+    <string name="free_up">\"यह मुफ्त होगा \"</string>
+    <string name="download_navionics">नौसिखियों के नक्शे</string>
+    <string name="download_osm">समुद्र के नक्शे खोलें</string>
+    <string name="hybrid_map">हाइब्रिड मैप</string>
+    <string name="navionics">Navionics</string>
+    <string name="more_settings">अधिक सेटिंग्स</string>
+    <string name="hints">संकेत</string>
+    <string name="activate_a_code">एक कोड को सक्रिय करें</string>
+    <string name="sign_out">प्रस्थान करें</string>
+    <string name="paste_code">यहां अपना कोड पेस्ट करें</string>
+    <string name="zulu_map_pack">ज़ुलु ऑफ़लाइन मानचित्र पैक</string>
+    <string name="downloading_map_pack">कृपया प्रतीक्षा करें…</string>
+    <string name="error_downloading">त्रुटि: फ़ाइल नहीं मिल रही है!</string>
+    <string name="pack_added">पैक सफलतापूर्वक जोड़ा गया!</string>
+    <string name="background_image">पृष्ठभूमि छवि</string>
+    <string name="linkme" translatable="false">§</string>
+    <string name="higher_res_info">यह उपलब्ध होने पर उच्च ज़ूम स्तर डाउनलोड करेगा लेकिन लागत को दोगुना कर देगा</string>
+    <string name="hi_res_title">उच्च संकल्प डाउनलोड</string>
+    <string name="navionics_charts">नौसैनिक चार्ट</string>
+    <string name="sonar_charts">सोनार चार्ट</string>
+    <string name="navionics_settings">नौसिखिया सेटिंग्स</string>
+    <string name="easy_view">Navionics आसान दृश्य</string>
+    <string name="min_Zoom_sum">ज़ूम स्तर जहां क्लस्टर नहीं दिखाए गए हैं (1-15)</string>
+    <string name="min_zoom">न्यूनतम क्लस्टर ज़ूम</string>
+    <string name="cluster_summary">समूह चिह्न जहां वे ओवरलैप करते हैं</string>
+    <string name="screen_on">स्क्रीन को चालू रखें</string>
+    <string name="query_location">क्वेरी स्थान</string>
+    <string name="select_all">सभी का चयन करे</string>
+    <string name="download_region">डाउनलोड क्षेत्र</string>
+    <string name="edit_marker_online">मार्कर ऑनलाइन संपादित करें</string>
+    <string name="next">आगे</string>
+    <string name="lets_go">चलो चलते हैं!</string>
+    <string name="skip">छोड़ें</string>
+    <string name="map_store">मैप स्टोर</string>
+    <string name="overlays">ओवरले</string>
+    <string name="icon_size">चिह्न का आकार</string>
+    <string name="the_free_flow_of_information">सूचना का मुक्त प्रवाह</string>
+    <string name="no_pack">सक्रिय नहीं हो सका पैक!</string>
+    <string name="add_a_new_nmarker_here">यहां एक नया \Nmarker जोड़ें</string>
+    <string name="options_n_and_settings">विकल्प \nऔर सेटिंग्स</string>
+    <string name="change_maps_n_here">यहां नक्शे \nबदलें</string>
+    <string name="locate_gps">जीपीएस का पता लगाएँ</string>
+    <string name="click_anywhere_to_start">कहीं भी शुरू करने के लिए क्लिक करें</string>
+    <string name="long_press_anywhere_n_to_download_maps">नक्शे डाउनलोड करने के लिए कहीं भी लंबे प्रेस \n</string>
+    <string name="click_on_the_markers_n_for_more_information">अधिक जानकारी के लिए मार्कर \nपर क्लिक करें</string>
+    <string name="to_the_zulu_offline_cruising_guide">करने के लिए ज़ुलु ऑफ़लाइन क्रूज गाइड</string>
+    <string name="let_s_get_started">…आएँ शुरू करें</string>
+    <string name="first_we_need_to_get_permissions">पहले हमें परमिशन लेने की जरूरत है</string>
+    <string name="maps_are_too_large_to_store_in_the_app_so_we_need_access_to_your_storage_to_display_the_map">ऐप में स्टोर करने के लिए मैप्स बहुत बड़े हैं इसलिए हमें मैप दिखाने के लिए आपके स्टोरेज तक पहुंचने की जरूरत है</string>
+    <string name="storage_permissions">भंडारण अनुमतियाँ</string>
+    <string name="location_permissions">स्थान अनुमतियाँ</string>
+    <string name="to_display_your_position_on_the_map_the_app_needs_access_to_the_gps_optional">मानचित्र पर अपनी स्थिति प्रदर्शित करने के लिए ऐप को जीपीएस तक पहुंच की आवश्यकता होती है। (वैकल्पिक)</string>
+	<string name="worldwide">वर्ल्ड-वाइड मार्कर आप ऐप में सिंक कर सकते हैं \\ n \\ n नए मार्कर जोड़ें और टिप्पणी करें जबकि ऑफ़लाइन \\ n \\ n समुदाय के साथ नया योगदान एक बार वापस सीमा में</string>
+    <string name="basemaps">नोट: विस्तृत मानचित्रण के लिए आधार मानचित्र को और \\ ndownloads की आवश्यकता होती है</string>
+    <string name="base_map_types">बेस मैप प्रकार</string>
+    <string name="howtodownload">विस्तृत इमेजरी कैसे डाउनलोड करें \\ n \\ n 1. नक्शे पर कहीं भी लंबे समय तक दबाएं (2 सेकंड \\\ &amp;#x27;) मानचित्र डाउनलोड के विकल्प खोलने के लिए \\ n \\ n 2. मार्कर के भीतर से डाउनलोड करें \\ n \\ n 3. मानचित्र स्टोर पर पूरे क्षेत्र डाउनलोड करें \\ n \\ n4।</string>
+    <string name="updatingInfo">अद्यतन जानकारी महत्वपूर्ण है। जाँच करें FAQ \\\ &amp;#x27;s \\ n योगदानकर्ताओं को ऐसे नक्शे मिलते हैं जैसे कि अतिरिक्त नक्शे डाउनलोड \\ n समुदाय समुदाय Informaiton को एक क्रिएटिव कॉमन्स लाइसेंस के तहत लाइसेंस प्राप्त होता है।</string>
+    <string name="finalsunc">अंत में हमें बस एक प्रारंभिक सिंक करने की आवश्यकता है तब आप खोज शुरू कर सकते हैं!</string>
+
+    <string-array name="faq">
+        <item>आप मैप डाउनलोड को सीमित क्यों करते हैं?</item>
+        <item>हम प्रति टाइल भुगतान करते हैं जिसे आप डाउनलोड करते हैं। हम आपको एक उदार राशि देते हैं, फिर हमें शुल्क देना होता है। आवंटन हर महीने नवीनीकृत किए जाते हैं</item>
+        <item>मैं अधिक मानचित्र डाउनलोड कैसे प्राप्त कर सकता हूं?</item>
+        <item>संरक्षक उपयोगकर्ताओं को असीमित डाउनलोड मिलते हैं, आप नए मार्करों को जोड़कर या आपके द्वारा किए गए स्थानों पर टिप्पणी जोड़कर कुछ और भी प्राप्त कर सकते हैं</item>
+        <item>मैं डाउनलोड करने के लिए एक क्षेत्र का चयन क्यों नहीं कर सकता?</item>
+        <item>लागत और स्थान। सैटेलाइट डेटा जटिल है और एक नक्शा यूके का आकार 10 मिलियन टाइल लेगा, जिसकी लागत $ 20000 होगी और संपीड़ित 160 गीगाबाइट ले जाएगा। हमने यह प्रयास किया है कि पृथ्वी को खर्च किए बिना आपके लिए आवश्यक डेटा प्राप्त करना आसान हो।</item>
+        <item>आप google / apple / arcgis / etc नक्शे का उपयोग क्यों नहीं करते हैं?</item>
+        <item>वे हमें निषेधात्मक रूप से महँगी करने की अनुमति नहीं देते हैं। यदि आप एक मुफ्त विकल्प पाते हैं तो हमें बताएं।</item>
+        <item>मैं नेविगेट / साजिश / ट्रैक क्यों नहीं कर सकता?</item>
+        <item>यह ऐप मुख्य रूप से एक परिभ्रमण मार्गदर्शिका है, न कि नेविगेशन उपकरण। हमारे पास इन सुविधाओं को प्रभावी ढंग से पेश करने के लिए बस एक संसाधन और क्षमता नहीं है।</item>
+        <item>मैं भाषा कैसे बदलूं?</item>
+        <item>अनुवाद को आपके डिवाइस द्वारा नियंत्रित किया जाता है। आपको एंड्रॉइड सेटिंग्स में अपनी सिस्टम भाषा बदलनी होगी</item>
+        <item>आपको मेरी भाषा क्यों नहीं आती?</item>
+        <item>हम उन भाषाओं को जोड़ना चाह रहे हैं जहाँ संभव हो। यदि आप चाहते हैं कि यो मदद करें तो हमें एक ईमेल दें</item>
+        <item>क्या मैं अपने प्लॉटर / OPENCPN / kml / gpx / navionics से अपना डेटा थोक कर सकता हूं?</item>
+        <item>ज़रूर हमें एक ईमेल दीजिए और हम इसके ज़रिए आपकी मदद कर सकते हैं। हमारे पास ऐसे उपकरण हैं जो आयात कर सकते हैं लेकिन वे उपयोग करने के लिए मुश्किल हैं।</item>
+    </string-array>
+    <string-array name="units">
+        <item>मीट्रिक</item>
+        <item>इंपीरियल</item>
+        <item>समुद्री</item>
+    </string-array>
+    <string-array name="icon_size">
+        <item>XSmall</item>
+        <item>छोटे</item>
+        <item>सामान्य</item>
+        <item>बड़े</item>
+        <item>XLarge</item>
+    </string-array>
+    <string-array name="icon_size_val">
+        <item>30</item>
+        <item>20</item>
+        <item>12</item>
+        <item>8</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="units_name">
+        <item>मीट्रिक (एम / किमी / घंटा)</item>
+        <item>शाही (f / y / m / h)</item>
+        <item>समुद्री (एम / एनएम / के)</item>
+    </string-array>
+    <string name="contact">" संपर्क करें"</string>
+    <string name="facebook">फेसबुक</string>
+    <string name="search">खोज</string>
+    <string name="zulu_offshore_is_a_global_cruising_guide_which_functions_offline">ज़ुलु अपतटीय एक वैश्विक परिभ्रमण मार्गदर्शिका है जो ऑफ़लाइन कार्य करती है।</string>
+    <string name="satellite_hybrid_street_and_navionics_maps_for_download">सैटेलाइट, हाइब्रिड, स्ट्रीट और नेओनिक्स डाउनलोड के लिए नक्शे</string>
+    <string name="navionics_tute">अपने क्षेत्र में असीमित चार्ट डाउनलोड के लिए एक सक्रिय Navionics खाते को कनेक्ट करें।</string>
+    <string name="dl_tute">Πραγματοποιήστε λήψη μέσω του μενού δείκτη ή Κρατήστε το δάχτυλο οπουδήποτε στο χάρτη για 2 δευτερόλεπτα Οι λήψεις είναι περιορισμένες, αλλά λαμβάνετε 50 δωρεάν ανά μήνα!</string>
+    <string name="sharing_information_is_what_zulu_is_all_about">जानकारी साझा करना क्या है ZULU सब के बारे में है।</string>
+    <string name="all_community_information_is_licensed_under_a_creative_commons_by_nc_sa_and_therefore_remains_freely_available_n_n_adding_new_info_are_rewarded_with_extra_downloads">सभी सामुदायिक जानकारी एक के तहत लाइसेंस प्राप्त है  क्रिएटिव कॉमन्स BY-NC-SA और इसलिए स्वतंत्र रूप से उपलब्ध है।   नई जानकारी जोड़ने पर अतिरिक्त डाउनलोड के साथ पुरस्कृत किया जाता है।</string>
+    <string name="lastly_you_can_help_support_zulu_though_our_online_shop">अंत में आप हमारी ऑनलाइन दुकान हालांकि ज़ुलु का समर्थन करने में मदद कर सकते हैं!</string>
+    <string name="a_wealth_of_free_community_information_n_n_contribute_new_markers_while_offline_n_n_download_satellite_imagery_and_charts">नि: शुल्क सामुदायिक सूचना का एक धन   ऑफ़लाइन रहते हुए नए मार्करों का योगदान करें   सैटेलाइट इमेजरी और चार्ट डाउनलोड करें</string>
+
+</resources>

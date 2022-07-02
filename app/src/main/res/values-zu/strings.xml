@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">Zulu Offshore</string>
+    <string name="title_activity_add_marker">Faka Umaki Omusha</string>
+    <string name="prompt_email">I-imeyili</string>
+    <string name="prompt_password">Iphasiwedi</string>
+    <string name="action_sign_in">Sayina ungene noma ubhalise</string>
+    <string name="action_sign_in_short">Ngena ngemvume</string>
+    <string name="action_sign_out_short">Sayinela ukuphuma</string>
+    <string name="welcome">"Uyemukelwa!"</string>
+    <string name="title_activity_login">Ngena ngemvume</string>
+    <string name="addTitle">Isihloko</string>
+    <string name="loginSignup">Bhalisela</string>
+    <string name="loginButton">Ngena ngemvume</string>
+    <string name="failedLogin">Ukungena kokuyimfihlo ayiphumelelanga. Sicela uzame futhi \nI kumele ube ku-inthanethi ukuze ungene ngemvume</string>
+    <string name="password">Iphasiwedi</string>
+    <string name="email">I-imeyili</string>
+    <string name="login_greeting">Ngena ngemvume ukuze ungeze noma uhlele</string>
+    <string name="zulu_logo">Ilogo yesiBN</string>
+    <string name="reposition">Isikhundla</string>
+    <string name="description_hint">Incazelo \nLesi sigaba sokwaziswa okuyiqiniso</string>
+    <string name="comment_hint">Ukuhlangenwe nakho komuntu siqu \n(kuyakhetheka)</string>
+    <string name="picture_add">Faka</string>
+    <string name="upload_marker">Layisha</string>
+    <string name="photo_upload_placeholder">Isithali Sokulayisha Izithombe</string>
+    <string name="latitude">latitude</string>
+    <string name="longitude">ubude</string>
+    <string name="cancel">Khansela</string>
+    <string name="syncing_message">Iyavumelanisa \nSicela ulinde…</string>
+    <string name="logo">I-logo</string>
+    <string name="marker_placement_icon">Isithonjana Sokubekwa Kwamarker</string>
+    <string name="infowindow_icon">Isithonjana se-infowindow</string>
+    <string name="marker_title">Isihloko</string>
+    <string name="location_picture">Indawo Yesithombe</string>
+    <string name="comments">Amazwana</string>
+    <string name="add_a_comment">Faka amazwana…</string>
+    <string name="marker_add">Faka</string>
+    <string name="title_activity_settings">Izilungiselelo</string>
+    <string name="sync_header">Vumelanisa</string>
+    <string name="maps_header">Izinketho zamamephu</string>
+    <string name="mapbox_copy">© Mapbox, © OpenStreetMap</string>
+    <string name="run_out">Usuphelelwe ukulanda kwamahhala!</string>
+    <string name="downloads_why">Kufanele sinciphise amamephu owalandayo njengoba lokhu kusidla imali. Sithenga amalayisense futhi amanye ahlinzeka amanye mahhala! uma udinga okuningi kunezindlela eziningana</string>
+    <string name="download_how"><a href="https://www.patreon.com/zuluwaterways"> Patreons</a> azinamkhawulo! \nEngeza umaki omusha we-10 \nEngeza amazwana ka-5</string>
+    <string name="download">Landa</string>
+    <string name="measure">Linganisa</string>
+    <string name="zoom_in">Sondeza</string>
+    <string name="zoom_out">Sondeza</string>
+    <string name="share">Yabelana</string>
+    <string name="add_marker">Faka umaki</string>
+    <string name="arcgis_map">Imephu ye-ARCGIS</string>
+    <string name="bing_map">Imephu ye-Bing</string>
+    <string name="street_map">Imephu Yomgwaqo</string>
+    <string name="sat_map">I-Satellite Map</string>
+    <string name="download_maps">Landa amamephu</string>
+    <string name="copyBing">© Bing Amamephu</string>
+    <string name="sync">Vumelanisa</string>
+    <string name="faq">Help</string>
+    <string name="login">Ngena ngemvume</string>
+    <string name="navionics_login">Ukungena ngemvume kwama-Navionics</string>
+    <string name="navionics_maps">Amamephu we-Navionics</string>
+    <string name="zulu_online">Zulu Online</string>
+    <string name="my_markers">Omaka bami</string>
+    <string name="filters">Izihlungi</string>
+    <string name="settings">Izilungiselelo</string>
+    <string name="language">Ulimi</string>
+    <string name="delete_marker">Susa umaki</string>
+    <string name="distance">Ibanga</string>
+    <string name="bearing">Ukuthwala</string>
+    <string name="cant_upload">Ayikwazi ukulayisha. \N Zama ukungena ngemvume futhi</string>
+    <string name="limiting_icons">Ukunciphisa umkhawulo wezimpawu ezidwetshelwe ukusebenza</string>
+    <string name="download_complete">Landa Qedela!</string>
+    <string name="downloads_remaining">okulandwayo okusele</string>
+    <string name="comment_error">Iphutha ekungezeni amazwana !!!</string>
+    <string name="basemap_error">Iphutha alikwazi ukulayisha i-besap!</string>
+    <string name="marker_deleted">Umaka ususiwe</string>
+    <string name="position_copied">Isikhundla sikopishwe kubhodi yokunameka</string>
+    <string name="no_internet">Ayikho i-Intanethi etholakele. Sicela ubheke ukuxhumana kwakho bese uzama futhi.</string>
+    <string name="sync_complete">Vumelanisa Qedile!</string>
+    <string name="marker_added">Umaki ungezwe ngempumelelo! \NAmamaki ayisisekelo =</string>
+    <string name="not_logged_in">Sicela ungene ngemvume kuqala</string>
+    <string name="reset">Setha kabusha</string>
+    <string name="downloading_maps">Ilanda amamephu…</string>
+    <string name="have_a_code">Unekhodi? Ukusebenzise lapha</string>
+    <string name="paste_your_code_here">Namathisela ikhodi yakho lapha</string>
+    <string name="activate">yenza kusebenze</string>
+    <string name="buy_a_code">Thenga ikhodi</string>
+    <string name="set_to_zero">Setha kuZero</string>
+    <string name="current_size">Usayizi wamanje wedatha:</string>
+    <string name="rate_the_app">Linganisela uhlelo lokusebenza</string>
+    <string name="cluster_icons">Izithonjana ze-Cluster</string>
+    <string name="units">Amayunithi</string>
+    <string name="delete_all">Susa wonke amamephu alandiwe</string>
+    <string name="upload_in_sync">Layisha ngesikhathi sokuvumelanisa</string>
+    <string name="no_pics_uploaded">Azikho izithombe ezizolayishwa ngesikhathi sokuvumelanisa</string>
+    <string name="pics_uploaded">Izithombe zizolayishwa ngesikhathi sokuvumelanisa</string>
+    <string name="upload_pics">Layisha Izithombe</string>
+    <string name="bold" translatable="false">B</string>
+    <string name="Italics" translatable="false">I</string>
+    <string name="icon_image">Isithonjana Sesithombe</string>
+    <string name="delect_confirm">Uqinisekile ukuthi ufuna ukususa wonke amamephu wakho owalandile?</string>
+    <string name="delete_title">Susa wonke amamephu alandiwe</string>
+    <string name="free_up">\"Lokhu kuzokhulula \"</string>
+    <string name="download_navionics">Amamephu we-Navionics</string>
+    <string name="download_osm">Vula Amamephu Olwandle</string>
+    <string name="hybrid_map">Imephu yeHybrid</string>
+    <string name="navionics">Ama-Navionics</string>
+    <string name="more_settings">Izilungiselelo Ngini</string>
+    <string name="hints">Amacebo</string>
+    <string name="activate_a_code">Yenza iKhodi isebenze</string>
+    <string name="sign_out">Sayinela ukuphuma</string>
+    <string name="paste_code">Namathisela ikhodi yakho lapha</string>
+    <string name="zulu_map_pack">IsiZulu Esingaxhunyiwe ku-Map Pack</string>
+    <string name="downloading_map_pack">Ngicela ulinde…</string>
+    <string name="error_downloading">Iphutha: Ayikwazi Ukuthola Ifayela!</string>
+    <string name="pack_added">Iphakethe lingezwe ngempumelelo!</string>
+    <string name="background_image">Isithombe sangemuva</string>
+    <string name="linkme" translatable="false">§</string>
+    <string name="higher_res_info">Lokhu kuzolanda amazinga aphezulu wokusondeza uma etholakala kepha azophinda kabili izindleko</string>
+    <string name="hi_res_title">Ukulanda Okuphezulu Kokulanda</string>
+    <string name="navionics_charts">Amashadi we-Navionics</string>
+    <string name="sonar_charts">Amashadi Sonar</string>
+    <string name="navionics_settings">Izilungiselelo ze-Navionics</string>
+    <string name="easy_view">Ukubuka Okulula kwe-Navionics</string>
+    <string name="min_Zoom_sum">Ileveli yokusondeza lapho amaqoqo engakhonjiswanga (1 - 15)</string>
+    <string name="min_zoom">Zoom Minusum Climter</string>
+    <string name="cluster_summary">Izithonjana zeqembu lapho zidlula khona</string>
+    <string name="screen_on">Gcina Isikrini Sivuliwe</string>
+    <string name="query_location">Indawo yombuzo</string>
+    <string name="select_all">Khetha konke</string>
+    <string name="download_region">Khipha ku-internet Isifunda</string>
+    <string name="edit_marker_online">Hlela umaki ku-inthanethi</string>
+    <string name="next">Olandelayo</string>
+    <string name="lets_go">Asambe!</string>
+    <string name="skip">Yeqa</string>
+    <string name="map_store">Isitolo Semephu</string>
+    <string name="overlays">Ukweqa</string>
+    <string name="icon_size">Usayizi we-Icon</string>
+    <string name="the_free_flow_of_information">I-Free-flow yolwazi</string>
+    <string name="no_pack">Ayikwazanga ukusebenza nge-pack!</string>
+    <string name="add_a_new_nmarker_here">Ngeza okusha okusha lapha</string>
+    <string name="options_n_and_settings">Izinketho \nnezilungiselelo</string>
+    <string name="change_maps_n_here">Guqula amamephu \nlapha</string>
+    <string name="locate_gps">Thola i-GPS</string>
+    <string name="click_anywhere_to_start">Chofoza noma yikuphi ukuze uqale</string>
+    <string name="long_press_anywhere_n_to_download_maps">Cindezela isikhathi eside noma kuphi \nukulanda amamephu</string>
+    <string name="click_on_the_markers_n_for_more_information">Chofoza kumaki \nukuthola eminye imininingwane</string>
+    <string name="to_the_zulu_offline_cruising_guide">To the Zulu Offshore Cruising Guide</string>
+    <string name="let_s_get_started">… Masiqale</string>
+    <string name="first_we_need_to_get_permissions">Okokuqala sidinga ukuthola izimvume</string>
+    <string name="maps_are_too_large_to_store_in_the_app_so_we_need_access_to_your_storage_to_display_the_map">Amamephu akhulu kakhulu ukuba angakwazi ukugcina kuhlelo lokusebenza ngakho-ke sidinga ukufinyelela kwisitoreji sakho ukubonisa imephu</string>
+    <string name="storage_permissions">Izimvume Zokugcina</string>
+    <string name="location_permissions">Izimvume Zendawo</string>
+    <string name="to_display_your_position_on_the_map_the_app_needs_access_to_the_gps_optional">Ukubonisa isikhundla sakho emephini uhlelo lokusebenza lidinga ukufinyelela kuma-gps. (Ngokuzithandela)</string>
+    <string name="worldwide">Omaka bomhlaba wonke ungavumelanisa kuhlelo lokusebenza \n\nengeza abamaki abasha futhi ubeke amazwana ngenkathi ungaxhunyiwe ku-inthanethi \n\nVumelanisa iminikelo emisha nomphakathi uma usubuyiselwe ebangeni</string>
+    <string name="basemaps">Qaphela: Amamephu wesisekelo adinga okunye ukulayishwa kwesithombe esinemininingwane</string>
+    <string name="base_map_types">Izinhlobo Zamamephu Esisekelo</string>
+    <string name="howtodownload">Ungasilanda kanjani izithombe ezinemininingwane] esitolo semephu \n\n4.Login ku-akhawunti yakho ekhona yeNasionics ukuvumelanisa amashadi</string>
+    <string name="updatingInfo">Ukuvuselela imininingwane kubalulekile. Bheka Abaphikisi be-FAQ \nAbanikeli bathola izilinganiso ezifana nokulandwa okwengeziwe kwamamephu \nLonke i-informaiton yomphakathi inelayisense ngaphansi kwelayisense le-Creative Commons.</string>
+    <string name="finalsunc">Ekugcineni sidinga nje ukuvumelanisa kokuqala bese ungaqala ukuhlola!</string>
+
+    <string-array name="faq">
+        <item>Kungani ukhawula ukulanda imephu?</item>
+        <item>Sikhokha ngethayile ngayinye oyithwalayo. Sikunikeza isamba samahhala semali lapho kufanele sikhokhise. Ukwabiwa kuvuselelwa inyanga nenyanga</item>
+        <item>Ngingakuthola kanjani ukulanda okwengeziwe kwemephu?</item>
+        <item>Abasebenzisi be-Patron bathola ukulanda okungenamkhawulo, ungathola okunye ngokungeza abamaki abasha noma ngokungeza amazwana ezindaweni oke waba kuzo</item>
+        <item>Kungani ngingenakukhetha indawo engizoyilanda?</item>
+        <item>Izindleko nendawo. Idatha yesatellite iyinkimbinkimbi futhi imephu kasayizi wase-UK ingathatha amathayela ayizigidi eziyi-10, ibize ngaphezulu kwama- $ 20000 futhi ithathe nama-gigabytes ayi-160, acindezelwe. Sizamile ukwenza ukuthi kube lula ukuthola imininingwane oyidingayo ngaphandle kokubiza umhlaba.</item>
+        <item>Kungani ungasebenzisi amamephu we-google /apula /arcgis /njll?</item>
+        <item>Abasivumeli thina noma babiza ngokungavunyelwe. Uma uthola enye indlela yamahhala sazise.</item>
+        <item>Kungani ngikwazi ukuhamba /ukuhlela /ukulandelela?</item>
+        <item>Lolu hlelo lokusebenza empeleni luyisiqondisi sokuhamba, hhayi ithuluzi lokuhambisa. Simane nje asinazo izinsiza namakhono aleli phuzu lokunikeza lezi zici ngempumelelo.</item>
+        <item>Ngilushintsha kanjani ulimi?</item>
+        <item>Ukuhunyushwa kusingathwa yize kudivayisi yakho. Kuzofanele ushintshe ulimi lwakho lohlelo kuzilungiselelo ze-Android</item>
+        <item>Kungani ungenalo ulimi lwami?</item>
+        <item>sibheke ukwengeza izilimi lapho kungenzeka. uma ufuna ukusizwa usinike i-imeyili</item>
+        <item>Ngingakwazi ukufaka idatha yami enkulu kusuka ku-plotter yami / OPENCPN / kml / gpx / navionics?</item>
+        <item>Impela usinike i-imeyili futhi singakusiza ngayo. Sinamathuluzi angangenisa ngobuningi kepha ayakhohlisa ukuwasebenzisa.</item>
+    </string-array>
+    <string-array name="units">
+		<item>Metric</item>
+        <item>Imperi</item>
+        <item>Nautical</item>
+    </string-array>
+    <string-array name="icon_size">
+		<item>XEncane</item>
+        <item>Encane</item>
+        <item>Okujwayelekile</item>
+        <item>Mkhulu</item>
+        <item>X Mkhulu</item>
+    </string-array>
+    <string-array name="icon_size_val">
+		<item>30</item>
+        <item>20</item>
+        <item>12</item>
+        <item>8</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="units_name">
+		<item>Metric (m / km / h)</item>
+        <item>Imperi (f / y / m / h)</item>
+        <item>I-Nautical (m / nm / k)</item>
+    </string-array>
+    <string name="contact">" Xhumana nathi"</string>
+    <string name="facebook">Facebook</string>
+    <string name="search">sesha</string>
+    <string name="zulu_offshore_is_a_global_cruising_guide_which_functions_offline">I-Zulu Offshore iyi-global cruising guide esebenza ngokungaxhunyiwe ku-inthanethi.</string>
+    <string name="satellite_hybrid_street_and_navionics_maps_for_download">Amamephu we-Satellite, Hybrid, Street kanye ne-Navionics we-Download</string>
+    <string name="navionics_tute">Xhuma i-akhawunti ye-Navionics esebenzayo yokulandwa kwamashadi angenamkhawulo esifundeni sakho.</string>
+    <string name="dl_tute">Landa ngemenyu yomaka noma Bamba Umunwe Noma Kuphi Emephini Amasekhondi Ama-2 Ukulanda kunqunyelwe kepha uthola ama-50 mahhala ngenyanga!</string>
+    <string name="sharing_information_is_what_zulu_is_all_about">Chia sẻ thông tin là gì ZULU là tất cả về.</string>
+    <string name="all_community_information_is_licensed_under_a_creative_commons_by_nc_sa_and_therefore_remains_freely_available_n_n_adding_new_info_are_rewarded_with_extra_downloads">Yonke imininingwane yomphakathi inamalayisense ngaphansi kwe-  ICreative Commons BY-NC-SA ngakho-ke ihlala itholakala mahhala.   Ukungeza ulwazi olusha kuvuzwa ngokulanda okungeziwe.</string>
+    <string name="lastly_you_can_help_support_zulu_though_our_online_shop">Okokugcina ungasiza ukuxhasa isiZulu yize isitolo sethu esiku-inthanethi!</string>
+    <string name="a_wealth_of_free_community_information_n_n_contribute_new_markers_while_offline_n_n_download_satellite_imagery_and_charts">Nguồn thông tin cộng đồng miễn phí phong phú   Đóng góp điểm đánh dấu mới khi ngoại tuyến   Tải xuống Hình ảnh và Biểu đồ Vệ tinh</string>
+</resources>

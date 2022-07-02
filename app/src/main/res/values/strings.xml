@@ -1,0 +1,258 @@
+<resources>
+    <string name="app_name">Zulu Offshore</string>
+    <string name="facebook_app_id" translatable="false">915230759034148</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb915230759034148</string>
+    <string name="facebook_client_token" translatable="false">828bb84b7c8c1d3fcd5b4c1720fa58da</string>
+    <string name="title_activity_add_marker">Add New Marker</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <string name="action_sign_out_short">Sign Out</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="title_activity_login">Login</string>
+    <string name="addTitle">Title</string>
+    <string name="loginSignup">Signup</string>
+    <string name="loginButton">Login</string>
+    <string name="failedLogin">Login failed. Please try again\n You must be online to login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login_greeting">Login to add or edit</string>
+    <string name="zulu_logo">Zulu Offshore logo</string>
+    <string name="reposition">Reposition</string>
+    <string name="description_hint">Description\n This section is for factual information</string>
+    <string name="comment_hint">Personal Experiences \n(optional)</string>
+    <string name="picture_add">Add</string>
+    <string name="upload_marker">Upload</string>
+    <string name="photo_upload_placeholder">Photo Upload Placeholder</string>
+    <string name="latitude">latitude</string>
+    <string name="longitude">longitude</string>
+    <string name="cancel">Cancel</string>
+    <string name="syncing_message">Syncing \n Please wait…</string>
+    <string name="logo">Logo</string>
+    <string name="marker_placement_icon">Marker Placement Icon</string>
+    <string name="infowindow_icon">Infowindow Icon</string>
+    <string name="marker_title">Title</string>
+    <string name="location_picture">Location Picture</string>
+    <string name="comments">Comments</string>
+    <string name="add_a_comment">Add A Comment…</string>
+    <string name="marker_add">Add</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="sync_header">Sync</string>
+    <string name="maps_header">Maps Options</string>
+    <string name="mapbox_copy">©Mapbox, ©OpenStreetMap</string>
+    <string name="run_out">You have run out of free downloads!</string>
+    <string name="downloads_why">We have to limit the maps you download as these cost us money. We buy the licences and any provide some for free! if you need more there are several ways</string>
+    <string name="download_how"><a href="https://www.patreon.com/zuluwaterways">Patreons</a> are unlimited!\n Add a new marker for 10\n Add a comment for 5</string>
+    <string name="download">Download</string>
+    <string name="measure">Measure</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="zoom_out">Zoom Out</string>
+    <string name="share">Share</string>
+    <string name="add_marker">Add Marker</string>
+    <string name="arcgis_map">ARCGIS Map</string>
+    <string name="bing_map">Bing Map</string>
+    <string name="street_map">Street Map</string>
+    <string name="sat_map">Satellite Map</string>
+    <string name="download_maps">Download Maps</string>
+    <string name="copyBing">©Bing Maps</string>
+    <string name="sync">Sync</string>
+    <string name="faq">Help</string>
+    <string name="login">Login</string>
+    <string name="navionics_login">Navionics Login</string>
+    <string name="navionics_maps">Navionics Maps</string>
+    <string name="zulu_online">Zulu Online</string>
+    <string name="my_markers">My Markers</string>
+    <string name="filters">Filters</string>
+    <string name="settings">More</string>
+    <string name="language">Language</string>
+    <string name="delete_marker">Delete Marker</string>
+    <string name="distance">Distance</string>
+    <string name="bearing">Bearing</string>
+    <string name="cant_upload">Can not Upload.\n Try logging in again</string>
+    <string name="limiting_icons">Limiting icons drawn for performance</string>
+    <string name="download_complete">Download Complete!</string>
+    <string name="downloads_remaining"> downloads remaining</string>
+    <string name="comment_error">Error adding Comment!!!</string>
+    <string name="basemap_error">Error can not load basemap!</string>
+    <string name="marker_deleted">Marker deleted</string>
+    <string name="position_copied">Position copied to clipboard</string>
+    <string name="no_internet">No Internet Detected. Please check your connection and try again.</string>
+    <string name="sync_complete">Sync Complete!</string>
+    <string name="marker_added">Marker added successfully!\n Total markers =</string>
+    <string name="not_logged_in">Please login first</string>
+    <string name="reset">Reset</string>
+    <string name="downloading_maps">Downloading maps…</string>
+    <string name="have_a_code">Have a code? Activate it here</string>
+    <string name="paste_your_code_here">Paste your code here</string>
+    <string name="activate">activate</string>
+    <string name="buy_a_code">Buy a code</string>
+    <string name="set_to_zero">Set to Zero</string>
+    <string name="current_size">Database current size:</string>
+    <string name="rate_the_app">Rate the app</string>
+    <string name="cluster_icons">Cluster Icons</string>
+    <string name="units">Units</string>
+    <string name="delete_all">Delete all downloaded maps</string>
+    <string name="upload_in_sync">Upload during Sync</string>
+    <string name="no_pics_uploaded">No pictures will be uploaded during sync</string>
+    <string name="pics_uploaded">Pictures will be uploaded during sync</string>
+    <string name="upload_pics">Upload Pictures</string>
+    <string name="bold" translatable="false">B</string>
+    <string name="Italics" translatable="false">I</string>
+    <string name="icon_image">Icon Image</string>
+    <string name="delect_confirm">Are you sure you want to delete all your downloaded maps?</string>
+    <string name="delete_title">Delete all downloaded maps</string>
+    <string name="free_up">\"This will free up \"</string>
+    <string name="download_navionics">Navionics maps</string>
+    <string name="download_osm">Open Sea Maps</string>
+    <string name="hybrid_map">Hybrid Map</string>
+    <string name="navionics">Navionics</string>
+    <string name="more_settings">Preferences</string>
+    <string name="hints">Tutorial</string>
+    <string name="activate_a_code">Activate A Code</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="paste_code">Paste your code here</string>
+    <string name="zulu_map_pack">Zulu Map Pack</string>
+    <string name="downloading_map_pack">Please Wait…</string>
+    <string name="error_downloading">Error: Can Not Find File!</string>
+    <string name="pack_added">Pack Added Successfully!</string>
+    <string name="background_image">Background image</string>
+    <string name="linkme" translatable="false">§</string>
+    <string name="higher_res_info">This will download higher zoom levels if available but will double the cost</string>
+    <string name="hi_res_title">High Resolution Downloads</string>
+    <string name="navionics_charts">Navionics Charts</string>
+    <string name="sonar_charts">Sonar Charts</string>
+    <string name="navionics_settings">Navionics Settings</string>
+    <string name="easy_view">Navionics Easy View</string>
+    <string name="min_Zoom_sum">Zoom level where clusters are not shown (1–15)</string>
+    <string name="min_zoom">Minimum Cluster Zoom</string>
+    <string name="cluster_summary">Group Icons where they overlap</string>
+    <string name="screen_on">Keep Screen On</string>
+    <string name="query_location">Query Location</string>
+    <string name="select_all">Select All</string>
+    <string name="download_region">Download Region</string>
+    <string name="edit_marker_online">Edit Marker Online</string>
+    <string name="next">Next</string>
+    <string name="lets_go">Lets Go!</string>
+    <string name="skip">Skip</string>
+    <string name="map_store">Map Store</string>
+    <string name="overlays">Overlays</string>
+    <string name="icon_size">Icon Size</string>
+    <string name="the_free_flow_of_information">The Free-Flow of Information</string>
+    <string name="no_pack">Could not activate pack!</string>
+    <string name="add_a_new_nmarker_here">Add a new \n marker here</string>
+    <string name="options_n_and_settings">Options \n and settings</string>
+    <string name="change_maps_n_here">Change maps \n here</string>
+    <string name="locate_gps">Locate GPS</string>
+    <string name="click_anywhere_to_start">Click Anywhere To Start</string>
+    <string name="long_press_anywhere_n_to_download_maps">Long press anywhere\n to download maps</string>
+    <string name="click_on_the_markers_n_for_more_information">Click on the markers\n for more information</string>
+    <string name="to_the_zulu_offline_cruising_guide">To the Zulu Offshore Cruising Guide</string>
+    <string name="let_s_get_started">…Let\'s get started</string>
+    <string name="first_we_need_to_get_permissions">First we need to get permissions</string>
+    <string name="maps_are_too_large_to_store_in_the_app_so_we_need_access_to_your_storage_to_display_the_map">Maps are too large to store in the app so we need access to your storage to display the map</string>
+    <string name="storage_permissions">Storage Permissions</string>
+    <string name="location_permissions">Location Permissions</string>
+    <string name="to_display_your_position_on_the_map_the_app_needs_access_to_the_gps_optional">To display your position on the map the app needs access to the gps. (Completly optional, the app will work fine without location)</string>
+    <string name="worldwide">World-Wide markers you can sync to the app \n\n Add new markers and comment while offline\n\n Sync new contributions with the community once back in range</string>
+    <string name="basemaps">Note: Base maps require further \n downloads for detailed imagery</string>
+    <string name="base_map_types">Base Map Types</string>
+    <string name="howtodownload">How to Download Detailed Imagery \n\n 1. Long-press anywhere on map (2 sec\'s) to open options for map downloads\n\n 2.Download from within Marker menu\n\n 3.Download entire regions at the Map Store\n\n4.Login to your existing Navionics account to sync charts</string>
+    <string name="updatingInfo">Updating information is important. Check FAQ\'s\n Contributors receive perks such as extra maps downloads\n All community information is licensed under a Creative Commons License.</string>
+    <string name="finalsunc">Finally we just need to do an initial sync then you can start exploring!</string>
+    <string name="contact">Contact</string>
+    <string name="facebook">Facebook</string>
+    <string name="search">Search</string>
+    <string name="patreon" translatable="false">Patreon</string>
+    <string name="hd_satellite_map" translatable="false">HD Satellite Map (x2)</string>
+    <string name="zulu_offshore_is_a_global_cruising_guide_which_functions_offline">Zulu Offshore is a global cruising guide which functions offline.</string>
+    <string name="satellite_hybrid_street_and_navionics_maps_for_download">Satellite, Hybrid, Street and Navionics maps for Download</string>
+    <string name="navionics_tute">Connect an active Navionics account for unlimited chart downloads in your region. \n\n Tap arrow button left to toggle navigation options.</string>
+    <string name="dl_tute">Download via the marker menu or \n Hold finger anywhere on the Map for 2 Seconds \n Downloads are limited but you get 50 free per month!</string>
+    <string name="sharing_information_is_what_zulu_is_all_about">Sharing information is what \n Zulu is all about.</string>
+    <string name="all_community_information_is_licensed_under_a_creative_commons_by_nc_sa_and_therefore_remains_freely_available_n_n_adding_new_info_are_rewarded_with_extra_downloads">All community information is licensed under a \n Creative Commons BY-NC-SA and therefore remains freely available. \n\n Adding new info is rewarded with extra downloads.</string>
+    <string name="lastly_you_can_help_support_zulu_though_our_online_shop">Lastly you can help support Zulu though our online shop!</string>
+    <string name="a_wealth_of_free_community_information_n_n_contribute_new_markers_while_offline_n_n_download_satellite_imagery_and_charts">A Wealth of Free Community Information \n\n Contribute New Markers while Offline \n\n Download Satellite Imagery and Charts</string>
+    <string name="alttiles" translatable="false">Alternate Tile Source</string>
+    <string name="frequently_asked_questions" translatable="false">Frequently Asked Questions</string>
+    <string name="downloading_single_maps_video" translatable="false">Downloading Single Maps Video</string>
+    <string name="navionics_video" translatable="false">Navionics Video</string>
+    <string name="installing_map_packs_video" translatable="false">Installing Map Packs Video</string>
+    <string name="advanced_function_video" translatable="false">Advanced Function Video</string>
+    <string name="facebook_application_id" translatable="false">915230759034148</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">915230759034148</string>
+
+    <string-array name="faq">
+        <item>How do I download satellite and Street imagery?</item>
+        <item>If you open any marker and click on the menu in the top right of the marker window you will see options for ‘Download Maps’. You can also choose an area on the map and long press (hold your finger on a part of the map for 2 seconds) which will open up a menu. In this menu is the option to download maps. Select the map type you want to download. Once download is complete you will see a 2km by 2km area which is of a higher resolution. For highest resolution use HD maps but remember that they use 2 tokens per download.</item>
+        <item>Do I have to pay for markers?</item>
+        <item>All the world wide community markers and information from Zulu are free. All the functions such as gps navigation, measuring tools, search, share, comment and create markers are free. Offline satellite imagery is limited and we offer regional packs through our map shop, as well as other cruising guides and merchandise. </item>
+        <item>Why do you limit map downloads?</item>
+        <item>We pay per tile you download. We give you a generous free amount then we have to charge. Allocations are renewed every month</item>
+        <item>I’ve run out of downloads! How do I get more?</item>
+        <item>Everyone gets 50 free downloads per month. These recharge back to 50 on the first of the month. If you need more you can purchase a variety of packages from the Map Store. Patreon supporters and contributors of new information receive extra map downloads.</item>
+        <item>Why do you need my location?</item>
+        <item>Location is only needed to show your position on the map. We dont send this info anywhere. The guide works just fine if you deny location functionality.</item>
+        <item>More map downloads for contributors?</item>
+        <item>Yes, when you contribute to the community by adding new markers or commenting on existing markers we give you more downloads. Give it go and see what happens!</item>
+        <item>Why can’t I just select a whole area to download?</item>
+        <item>Maps for offline use are just too big and too expensive to do this way. If you were to download an area the size of the UK it would require downloading 10 million tiles, cost over $20,000 and require 160 gigabytes of space to store it. And that’s when compressed! We have tried to get the cost/space/quality balance right in order to offer you what you need most while not costing you the earth.</item>
+        <item>How do I add a marker?</item>
+        <item>To add a marker you must first click on the button in the bottom right of the map page. A target will appear on the screen. You can move around and zoom in and out to find the exact position where you wish to add the marker. Once you have found the correct position tap on the target to open the ‘add new marker’ window. From here, follow the prompts and fill out the different fields such as marker type, title and description. Note: from the add new marker screen you can manually input lon/lat coordinates.</item>
+        <item>How do I edit/delete/comment on a Marker?</item>
+        <item>You can’t edit markers at this time. Through the marker menu select edit online, to edit markers. Markers you have added before you sync can be deleted here too. Comments can also be added though this menu.</item>
+        <item>Why do you not use google/apple/arcgis/etc maps?</item>
+        <item>Most of the big map providers don’t allow offline use of their maps. The ones who do are prohibitively expensive. We offer what we believe to be a good balance between quality and price. </item>
+        <item>How do I get the latest markers on my app?</item>
+        <item>You need to Sync from time to time to get new information added by the community and to upload any markers you have added to the app. You can do so via the main menu.</item>
+        <item>How do I know how many downloads I have left?</item>
+        <item>When you open the menu to download a map the number in the brackets next to Download is your remaining amount. Download (43).</item>
+        <item>How do I share my markers with other boaters?</item>
+        <item>In the menu of each marker (top right button in the marker) there is an option to Share. This will send a link to whomever you choose. If that person has Zulu Offshore it will ask them to open it in the app otherwise it will open on the Zulu Waterways website.</item>
+        <item>Why can I not navigate/plot/track?</item>
+        <item>This app is primarily a cruising guide, not a navigation tool. We simply do not have the resources and capabilities at this point to offer these features effectively. </item>
+        <item>How do I change language?</item>
+        <item>Translation is handled though your device. You will have to change your system language in Android settings</item>
+        <item>Why do you not have my language?</item>
+        <item>We are looking to add languages where possible. if you want you help out give us an email</item>
+        <item>Can I bulk add my data from my plotter/OPENCPN/kml/gpx/navionics?</item>
+        <item>Sure give us an email and we can help you through it. We have tools that can bulk import but they are tricky to use. \n We would like to thank you for reading this far. Email us the codeword \'Factual\' for a street map pack in your region</item>
+        <item>Can I move the app to my SD Card?</item>
+        <item>By default the app will store maps on your sd card where available. </item>
+    </string-array>
+    <string-array name="units">
+        <item>Metric</item>
+        <item>Imperial</item>
+        <item>Nautical</item>
+    </string-array>
+    <string-array name="icon_size">
+        <item>XSmall</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>XLarge</item>
+    </string-array>
+    <string-array name="icon_size_val">
+        <item>30</item>
+        <item>20</item>
+        <item>12</item>
+        <item>8</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="units_name">
+        <item>Metric (m/km/h)</item>
+        <item>Imperial (f/y/m/h)</item>
+        <item>Nautical (m/nm/k)</item>
+    </string-array>
+    <string name="offlineMode" translatable="false">Offline Mode</string>
+    <string name="online_mode" translatable="false">Online Mode</string>
+    <string name="importd" translatable="false">Import saved maps</string>
+    <string name="importt" translatable="false">Import File</string>
+    <string name="token2" translatable="false">nope!</string>
+    <string name="mapboxToken2" translatable="false">nope!</string>
+    <string name="ARCGISToken2" translatable="false">nope!</string>
+    <string name="project2" translatable="false">nope</string>
+    <string name="config2" translatable="false">nope!</string>
+    <string name="privateKey2" translatable="false">nope!</string>
+
+</resources>

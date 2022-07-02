@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="contact">Makipag-ugnayan sa amin</string>
+    <string name="facebook">Facebook</string>
+    <string name="search">paghahanap</string>
+    <string name="zulu_offshore_is_a_global_cruising_guide_which_functions_offline">Ang Zulu Offshore ay isang pandaigdigang gabay sa paglalakbay na gumana offline.</string>
+    <string name="satellite_hybrid_street_and_navionics_maps_for_download">Mga mapa para sa Pag-download ng Satellite, Hybrid, Street at Navionics</string>
+    <string name="navionics_tute">Ikonekta ang isang aktibong Navionics account para sa walang limitasyong mga pag-download ng tsart sa iyong rehiyon.  I-tap ang arrow button pakaliwa upang i-toggle ang mga pagpipilian sa nabigasyon.</string>
+    <string name="dl_tute">Download via het markeermenu of Houd Finger Anywhere op de kaart 2 seconden vast Downloads zijn beperkt, maar u krijgt er 50 gratis per maand!</string>
+    <string name="sharing_information_is_what_zulu_is_all_about">Informatie delen is wat ZULU is alles over.</string>
+    <string name="all_community_information_is_licensed_under_a_creative_commons_by_nc_sa_and_therefore_remains_freely_available_n_n_adding_new_info_are_rewarded_with_extra_downloads">Ang lahat ng impormasyon sa pamayanan ay lisensyado sa ilalim ng a  Creative Commons BY-NC-SA at samakatuwid ay mananatiling malayang magagamit.   Ang pagdaragdag ng bagong impormasyon ay gagantimpalaan ng labis na mga pag-download.</string>
+    <string name="lastly_you_can_help_support_zulu_though_our_online_shop">Panghuli maaari kang makatulong na suportahan ang Zulu bagaman ang aming online shop!</string>
+    <string name="a_wealth_of_free_community_information_n_n_contribute_new_markers_while_offline_n_n_download_satellite_imagery_and_charts">Isang Yaman ng Libreng Impormasyon sa Komunidad   Mag-ambag ng Mga Bagong Marker habang Offline   Mag-download ng Mga Saterye na Imagery at Chart</string>
+</resources>
