@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Zulu Offshore</string>
     <string name="title_activity_add_marker">Προσθήκη νέου δείκτη</string>
     <string name="prompt_email">ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ</string>
     <string name="prompt_password">Κωδικός πρόσβασης</string>

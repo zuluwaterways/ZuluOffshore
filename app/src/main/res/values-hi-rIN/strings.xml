@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Zulu Offshore</string>
     <string name="title_activity_add_marker">नया मार्कर जोड़ें</string>
     <string name="prompt_email">ईमेल</string>
     <string name="prompt_password">कुंजिका</string>

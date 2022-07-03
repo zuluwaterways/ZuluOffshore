@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Zulu Offshore</string>
     <string name="title_activity_add_marker">Nieuwe markering toevoegen</string>
     <string name="prompt_email">E-mail</string>
     <string name="prompt_password">Wachtwoord</string>

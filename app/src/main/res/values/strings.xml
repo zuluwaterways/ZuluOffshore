@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Zulu Offshore</string>
+    <string name="app_name" translatable="false">Zulu Waterways</string>
     <string name="facebook_app_id" translatable="false">915230759034148</string>
     <string name="fb_login_protocol_scheme" translatable="false">fb915230759034148</string>
     <string name="facebook_client_token" translatable="false">828bb84b7c8c1d3fcd5b4c1720fa58da</string>
@@ -248,11 +248,6 @@
     <string name="online_mode" translatable="false">Online Mode</string>
     <string name="importd" translatable="false">Import saved maps</string>
     <string name="importt" translatable="false">Import File</string>
-    <string name="token2" translatable="false">nope!</string>
-    <string name="mapboxToken2" translatable="false">nope!</string>
-    <string name="ARCGISToken2" translatable="false">nope!</string>
-    <string name="project2" translatable="false">nope</string>
-    <string name="config2" translatable="false">nope!</string>
-    <string name="privateKey2" translatable="false">nope!</string>
+
 
 </resources>

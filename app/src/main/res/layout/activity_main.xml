@@ -282,7 +282,7 @@
         android:text="@string/mapbox_copy"
         android:textAlignment="center"
         android:textColor="@color/whiteish" />
-    <com.zulu.offshore.MyImageView
+    <com.app.zuluwaterways.MyImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/bubble_image_zoom"

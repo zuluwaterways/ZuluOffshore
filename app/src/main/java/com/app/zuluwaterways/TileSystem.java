@@ -1,4 +1,4 @@
-package com.zulu.offshore;
+package com.app.zuluwaterways;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

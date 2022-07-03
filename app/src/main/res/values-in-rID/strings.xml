@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Zulu Offshore</string>
     <string name="title_activity_add_marker">Tambahkan Penanda Baru</string>
     <string name="prompt_email">Surel</string>
     <string name="prompt_password">Kata sandi</string>

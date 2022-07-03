@@ -1,4 +1,4 @@
-package com.zulu.offshore;
+package com.app.zuluwaterways;
 
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
@@ -107,9 +107,9 @@ class HTTPGetRequest extends AsyncTask<String, Void, String> {
                 }
             }
             if (params[1].equals("tile")) {
-               // Log.d("sat update", "jpg");
+                // Log.d("sat update", "jpg");
                 try {
-                   // Log.d("sat update","getting image"+params[2]);
+                    // Log.d("sat update","getting image"+params[2]);
                     URLConnection con = new URL(stringUrl).openConnection();
                     String etag = con.getHeaderField("ETag");
                     if(etag.equals("\"vvvvvvvvvvvvf\""))return "nope";
@@ -119,10 +119,10 @@ class HTTPGetRequest extends AsyncTask<String, Void, String> {
                     ByteArrayOutputStream stream = new ByteArrayOutputStream();
                     pic.compress(params[3].equals("png")? Bitmap.CompressFormat.PNG: Bitmap.CompressFormat.JPEG,90, stream);
                     byte[] imageInByte = stream.toByteArray();
-                   // Log.d("sat update","got image:"+imageInByte.length)
+                    // Log.d("sat update","got image:"+imageInByte.length)
 
                     //MainActivity.insertSatData(Long.parseLong(params[2]), imageInByte,params[4],params[5]);
-                   // Log.d("sat update","written");
+                    // Log.d("sat update","written");
 
                     SQLiteDatabase sqliteDB = SQLiteDatabase.openOrCreateDatabase(params[4], null);
                     ContentValues values = new ContentValues();
@@ -153,8 +153,8 @@ class HTTPGetRequest extends AsyncTask<String, Void, String> {
                     connection.setRequestProperty("Accept", "application/json");
                     connection.setDoOutput(true);
                     connection.setDoInput(true);
-                   // Log.d("sending",stringUrl);
-                   // Log.d("sending",params[2]);
+                    // Log.d("sending",stringUrl);
+                    // Log.d("sending",params[2]);
                     connection.setReadTimeout(READ_TIMEOUT);
                     connection.setConnectTimeout(CONNECTION_TIMEOUT);
                     connection.setDoOutput(true);
@@ -181,7 +181,7 @@ class HTTPGetRequest extends AsyncTask<String, Void, String> {
                     HttpURLConnection connection = (HttpURLConnection)myUrl.openConnection();
                     connection.setRequestProperty("Accept", "application/json");
                     connection.setDoOutput(true);
-                   // Log.d("sending",stringUrl+params[2]);
+                    // Log.d("sending",stringUrl+params[2]);
                     BufferedReader serverAnswer = new BufferedReader(new InputStreamReader(connection.getInputStream()));
                     String line;
                     while ((line = serverAnswer.readLine()) != null) {
@@ -239,27 +239,27 @@ class HTTPGetRequest extends AsyncTask<String, Void, String> {
                 try {
                     URL myUrl = new URL(stringUrl);
 
-                HttpURLConnection connection = (HttpURLConnection) myUrl.openConnection();
-                connection.setReadTimeout(10000);
-                connection.setConnectTimeout(15000);
-                connection.setRequestMethod("POST");
-                connection.setUseCaches(false);
-                connection.setDoInput(true);
-                connection.setDoOutput(true);
-                connection.setRequestProperty("Content-Type", "application/octet-stream");
-                connection.setRequestProperty("Connection", "Keep-Alive");
-                connection.setRequestProperty("Cache-Control", "no-cache");
-                OutputStream outputStream = connection.getOutputStream();
-                OutputStreamWriter wr = new OutputStreamWriter(connection.getOutputStream());
-                wr.write(params[2]);  //<--- sending data
-                wr.flush();
+                    HttpURLConnection connection = (HttpURLConnection) myUrl.openConnection();
+                    connection.setReadTimeout(10000);
+                    connection.setConnectTimeout(15000);
+                    connection.setRequestMethod("POST");
+                    connection.setUseCaches(false);
+                    connection.setDoInput(true);
+                    connection.setDoOutput(true);
+                    connection.setRequestProperty("Content-Type", "application/octet-stream");
+                    connection.setRequestProperty("Connection", "Keep-Alive");
+                    connection.setRequestProperty("Cache-Control", "no-cache");
+                    OutputStream outputStream = connection.getOutputStream();
+                    OutputStreamWriter wr = new OutputStreamWriter(connection.getOutputStream());
+                    wr.write(params[2]);  //<--- sending data
+                    wr.flush();
                     BufferedReader serverAnswer = new BufferedReader(new InputStreamReader(connection.getInputStream()));
                     String line;
                     while ((line = serverAnswer.readLine()) != null) {
                         Log.d("pic Server Resonse", line);
                         res.append(line);
                     }
-                wr.close();
+                    wr.close();
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -290,74 +290,74 @@ class HTTPGetRequest extends AsyncTask<String, Void, String> {
                 }
             }
 
-                if(params[1].equals("update")){
-                   // Log.d("updating", params[0]);
-                    StringBuilder b = new StringBuilder();
-                    try {
-                        URL myUrl = new URL(params[0]);//Create a connection
-                        HttpURLConnection connection = (HttpURLConnection) myUrl.openConnection();
-                        connection.setRequestMethod(REQUEST_METHOD);
-                        connection.setReadTimeout(READ_TIMEOUT);
-                        connection.setConnectTimeout(CONNECTION_TIMEOUT);
-                        connection.connect();
-                        //Log.d("received",connection.getContentLength()+" bytes");
-                        InputStreamReader streamReader = new InputStreamReader(connection.getInputStream());
-                        BufferedReader reader = new BufferedReader(streamReader);
-
-                        StringBuffer buffer = new StringBuffer();
-                        String line = "";
-                        Log.d("received",streamReader.getEncoding()+"");
-                        while ((inputLine = reader.readLine()) != null) {
-                            b.append(inputLine);
-                        }
-                        Log.d("received","length:"+b.length());
-                        reader.close();
-                        streamReader.close();
-                        //Log.d("received",buffer.toString());
-                        return b.toString();
-
-                    }catch (Exception e){
-                        Log.d("received in error","length:"+b.length());
-                        e.printStackTrace();
-                    }
-                }
-
-
-            } else {
-                try {                    //Create a URL object holding our url
-                    URL myUrl = new URL(stringUrl);
-                    //Create a connection
-                    HttpURLConnection connection = (HttpURLConnection)
-                            myUrl.openConnection();
-                    //Set methods and timeouts
+            if(params[1].equals("update")){
+                // Log.d("updating", params[0]);
+                StringBuilder b = new StringBuilder();
+                try {
+                    URL myUrl = new URL(params[0]);//Create a connection
+                    HttpURLConnection connection = (HttpURLConnection) myUrl.openConnection();
                     connection.setRequestMethod(REQUEST_METHOD);
                     connection.setReadTimeout(READ_TIMEOUT);
                     connection.setConnectTimeout(CONNECTION_TIMEOUT);
-                    //Connect to our url
                     connection.connect();
-                    result = "";
-                    if (res != null) {
-                        //Create a new InputStreamReader
-                        InputStreamReader streamReader = new InputStreamReader(connection.getInputStream());
-                        //Create a new buffered reader and String Builder
-                        BufferedReader reader = new BufferedReader(streamReader);
-                        StringBuilder stringBuilder = new StringBuilder();
-                        while ((inputLine = reader.readLine()) != null) {
-                            stringBuilder.append(inputLine);
-                        }
-                        //Close our InputStream and Buffered reader
-                        reader.close();
-                        streamReader.close();
-                        //Set our result equal to our stringBuilder
-                        result = stringBuilder.toString();
-                    }
+                    //Log.d("received",connection.getContentLength()+" bytes");
+                    InputStreamReader streamReader = new InputStreamReader(connection.getInputStream());
+                    BufferedReader reader = new BufferedReader(streamReader);
 
-                } catch (IOException e) {
+                    StringBuffer buffer = new StringBuffer();
+                    String line = "";
+                    Log.d("received",streamReader.getEncoding()+"");
+                    while ((inputLine = reader.readLine()) != null) {
+                        b.append(inputLine);
+                    }
+                    Log.d("received","length:"+b.length());
+                    reader.close();
+                    streamReader.close();
+                    //Log.d("received",buffer.toString());
+                    return b.toString();
+
+                }catch (Exception e){
+                    Log.d("received in error","length:"+b.length());
                     e.printStackTrace();
-                    result = null;
                 }
-                return result;
             }
+
+
+        } else {
+            try {                    //Create a URL object holding our url
+                URL myUrl = new URL(stringUrl);
+                //Create a connection
+                HttpURLConnection connection = (HttpURLConnection)
+                        myUrl.openConnection();
+                //Set methods and timeouts
+                connection.setRequestMethod(REQUEST_METHOD);
+                connection.setReadTimeout(READ_TIMEOUT);
+                connection.setConnectTimeout(CONNECTION_TIMEOUT);
+                //Connect to our url
+                connection.connect();
+                result = "";
+                if (res != null) {
+                    //Create a new InputStreamReader
+                    InputStreamReader streamReader = new InputStreamReader(connection.getInputStream());
+                    //Create a new buffered reader and String Builder
+                    BufferedReader reader = new BufferedReader(streamReader);
+                    StringBuilder stringBuilder = new StringBuilder();
+                    while ((inputLine = reader.readLine()) != null) {
+                        stringBuilder.append(inputLine);
+                    }
+                    //Close our InputStream and Buffered reader
+                    reader.close();
+                    streamReader.close();
+                    //Set our result equal to our stringBuilder
+                    result = stringBuilder.toString();
+                }
+
+            } catch (IOException e) {
+                e.printStackTrace();
+                result = null;
+            }
+            return result;
+        }
         return "";
     }
 
@@ -375,4 +375,4 @@ class HTTPGetRequest extends AsyncTask<String, Void, String> {
 
     }
 
-   }
+}

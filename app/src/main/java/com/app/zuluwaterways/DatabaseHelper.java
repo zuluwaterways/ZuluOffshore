@@ -1,4 +1,4 @@
-package com.zulu.offshore;
+package com.app.zuluwaterways;
 
 
 import android.annotation.SuppressLint;
@@ -47,7 +47,7 @@ class DatabaseHelper extends SQLiteOpenHelper {
     private final Map LocationTypeID = new HashMap<String,String>();
     //private final Map LocationIcon = new HashMap<String,String>();
     public Map Locations = new HashMap<String,String>();
-    private int dlLeft = 0;
+    private final int dlLeft = 0;
     private final StringBuilder res = new StringBuilder();
 
     private final Context cc;
@@ -121,7 +121,7 @@ class DatabaseHelper extends SQLiteOpenHelper {
         ArrayList<String> array_list = new ArrayList<>();
         //Long tic = System.currentTimeMillis();
         Cursor res = db.rawQuery( "select * from markers WHERE lat>"+b.getLatSouth()+" AND lat<"+b.getLatNorth() +" AND lon>"+b.getLonWest()+" AND lon<"+b.getLonEast()+" order by date, id asc limit 500", null );
-        Log.d("bounding",""+b.toString());
+        Log.d("bounding",""+ b);
         //Log.d("toc",""+tic);
         res.moveToFirst();
         while(!res.isAfterLast()) {
@@ -139,7 +139,7 @@ class DatabaseHelper extends SQLiteOpenHelper {
         Cursor res = db.rawQuery( "select * from types" , null );
         res.moveToFirst();
         while(!res.isAfterLast()) {
-            out.put("" + res.getString(res.getColumnIndex("ids")).trim(), res.getString(res.getColumnIndex("name")).trim());
+            out.put(""+res.getString(res.getColumnIndex("ids")).trim(),res.getString(res.getColumnIndex("name")).trim());
             res.moveToNext();
         }
 
@@ -182,7 +182,7 @@ class DatabaseHelper extends SQLiteOpenHelper {
                 stmt.bindString(10, o.has("likes")?""+o.getString("likes").trim():"");
                 stmt.bindString(11, o.has("pictures")?""+o.getString("pictures").trim():"");
                 stmt.executeInsert();
-                Log.d("inseting marker:",o.toString()+"");
+                Log.d("inseting marker:", o +"");
             }
             for(int i=0;i<coms.length();i++){
                 JSONObject o = coms.getJSONObject(i);
@@ -471,7 +471,7 @@ class DatabaseHelper extends SQLiteOpenHelper {
         Log.d("Sync","token:"+token);
         if(userID.trim().isEmpty()){
             ((MainActivity) cc).showLogin();
-            ((MainActivity) cc).displayMessage(((MainActivity) cc).getResources().getString(R.string.login_greeting));
+            ((MainActivity) cc).displayMessage(cc.getResources().getString(R.string.login_greeting));
             return true; //dont sync the database if the user has added things and is not logged in
         }
         Log.d("To Sync","almost:"+ Arrays.toString(toSync.keySet().toArray()));

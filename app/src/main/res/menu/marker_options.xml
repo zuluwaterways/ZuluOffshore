@@ -2,7 +2,7 @@
 
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.zulu.offshore.MainActivity">
+    tools:context="com.zulu.zuluwaterways.MainActivity">
     <item android:title="@string/download_maps">
         <menu>
             <item android:id="@+id/downloadSat"

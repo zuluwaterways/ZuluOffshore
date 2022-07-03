@@ -1,5 +1,4 @@
 <resources>
- <string name="app_name">Zulu Offshore</string>
     <string name="title_activity_add_marker">เพิ่มเครื่องหมายใหม่</string>
     <string name="prompt_email">อีเมล์</string>
     <string name="prompt_password">รหัสผ่าน</string>

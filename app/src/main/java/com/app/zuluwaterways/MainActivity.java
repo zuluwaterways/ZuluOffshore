@@ -1,4 +1,5 @@
-package com.zulu.offshore;
+package com.app.zuluwaterways;
+
 
 import static android.app.DownloadManager.COLUMN_BYTES_DOWNLOADED_SO_FAR;
 
@@ -232,7 +233,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
     private int requestTimeout = 5;
     private ValueCallback<Uri[]> mFilePathCallback;
     private String mCameraPhotoPath;
-    private boolean NavA = true;//activate this if you have set up navionics
+    private boolean NavA = false;//activate this if you have set up navionics
 
     @Override public void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -744,10 +745,10 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
         if(item.getTitle().equals(getResources().getString(R.string.more_settings)))startActivity((new Intent(MainActivity.this, Settings.class)));
         if(item.getTitle().equals(getResources().getString(R.string.online_mode))){
             //String ll = findViewById(R.id.navionicsContainer).getVisibility()==View.VISIBLE?
-                    //(nMap.getCamera().getTarget().getLatitude()+"/"+nMap.getCamera().getTarget().getLongitude()):
-                    //map.getMapCenter().getLatitude()+"/"+map.getMapCenter().getLongitude();
+            //(nMap.getCamera().getTarget().getLatitude()+"/"+nMap.getCamera().getTarget().getLongitude()):
+            //map.getMapCenter().getLatitude()+"/"+map.getMapCenter().getLongitude();
 
-           // ((WebView)findViewById(R.id.onlineWeb)).loadUrl("https://www.zuluwaterways.com/#/app/"+ll);
+            // ((WebView)findViewById(R.id.onlineWeb)).loadUrl("https://www.zuluwaterways.com/#/app/"+ll);
             if(infoW!=null && infoW.isShowing())infoW.dismiss();
             ((WebView)findViewById(R.id.onlineWeb)).evaluateJavascript("map.setCenter(["+map.getMapCenter().getLongitude()+","+map.getMapCenter().getLatitude()+"]);",null);
             ((WebView)findViewById(R.id.onlineWeb)).evaluateJavascript("map.setZoom("+(map.getZoomLevelDouble()-2)+");",null);
@@ -814,78 +815,78 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
 
                 @Override
                 public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
-                    @Override
-                    public void afterTextChanged(final Editable editable) { Log.d("searhing",txtUrl.toString());
-                        for(int j=0;j<ll.getChildCount();j++){
-                            if (ll.getChildAt(j)!=txtUrl){
-                                ll.removeView(ll.getChildAt(j));
-                                j--;
-                            }
-                        }
-
-                        if (editable.length()>2) {
-                            try{
-                                String[] latlon = editable.toString().split(",");
-                                if(latlon.length==2){
-                                    double lat = Double.parseDouble(latlon[0]);
-                                    double lon = Double.parseDouble(latlon[1]);
-                                    if (lat!=0 && lon!=0){
-                                        TextView t = new TextView(getAppContext());
-                                        t.setTextSize(25);
-                                        //t.append("Go to:"+editable.toString());
-                                        final GeoPoint g = new GeoPoint(lat, lon);
-                                        final NMSLocationCoordinate2D ng = new NMSLocationCoordinate2D(lat,lon);
-                                        t.setOnClickListener(new View.OnClickListener() {
-                                            @Override
-                                            public void onClick(View view) {
-                                                map.getController().setZoom(15.0);
-                                                map.getController().animateTo(g);
-                                                if(NavA)nMap.moveToLocation(ng,15,true);
-                                                ad.dismiss();
-                                            }
-                                        });
-                                        ll.addView(t);
-                                    }
-                                }
-                            }catch (Exception e){
-                                e.printStackTrace();
-                            }
-                            ArrayList<String> sm = mDbHelper.searchMarkers(editable.toString());
-                            for(int j = 0;j<sm.size();j++){
-                                final TextView t = new TextView(getAppContext());
-                                t.setTextSize(25);
-                                LinearLayout lh = new LinearLayout(getAppContext());
-
-
-                                ll.addView(lh);
-                                String[] ms = sm.get(j).split(":");
-                                t.append(ms.length < 5 ? ms[0] : ms[4]);
-                                ImageView iv = new ImageView(getAppContext());
-                                //iv.setImageDrawable(Symbols.get(ms[1]));
-                                //Bitmap b = ((BitmapDrawable)Symbols.get(ms[1])).getBitmap();
-                                if(Symbols.get(ms[1])!=null) {
-                                    int th = t.getLineHeight() > 0 ? t.getLineHeight() : 20;
-                                    Drawable dd = new BitmapDrawable(getResources(), Bitmap.createScaledBitmap(((BitmapDrawable) Symbols.get(ms[1])).getBitmap(), th, th, false));
-                                    iv.setImageDrawable(dd);
-                                    lh.addView(iv);
-                                }
-                                lh.addView(t);
-                                final GeoPoint g = new GeoPoint(Double.parseDouble(ms[2]), Double.parseDouble(ms[3]));
-                                final NMSLocationCoordinate2D ng = new NMSLocationCoordinate2D(Double.parseDouble(ms[2]), Double.parseDouble(ms[3]));
-                                t.setOnClickListener(new View.OnClickListener() {
-                                    @Override
-                                    public void onClick(View view) {
-                                        map.getController().setZoom(15.0);
-                                        map.getController().animateTo(g);
-                                        if(NavA)nMap.moveToLocation(ng,15,true);
-                                        ad.dismiss();
-                                    }
-                                });
-                            }
-
+                @Override
+                public void afterTextChanged(final Editable editable) { Log.d("searhing",txtUrl.toString());
+                    for(int j=0;j<ll.getChildCount();j++){
+                        if (ll.getChildAt(j)!=txtUrl){
+                            ll.removeView(ll.getChildAt(j));
+                            j--;
                         }
                     }
-                });
+
+                    if (editable.length()>2) {
+                        try{
+                            String[] latlon = editable.toString().split(",");
+                            if(latlon.length==2){
+                                double lat = Double.parseDouble(latlon[0]);
+                                double lon = Double.parseDouble(latlon[1]);
+                                if (lat!=0 && lon!=0){
+                                    TextView t = new TextView(getAppContext());
+                                    t.setTextSize(25);
+                                    //t.append("Go to:"+editable.toString());
+                                    final GeoPoint g = new GeoPoint(lat, lon);
+                                    final NMSLocationCoordinate2D ng = new NMSLocationCoordinate2D(lat,lon);
+                                    t.setOnClickListener(new View.OnClickListener() {
+                                        @Override
+                                        public void onClick(View view) {
+                                            map.getController().setZoom(15.0);
+                                            map.getController().animateTo(g);
+                                            if(NavA)nMap.moveToLocation(ng,15,true);
+                                            ad.dismiss();
+                                        }
+                                    });
+                                    ll.addView(t);
+                                }
+                            }
+                        }catch (Exception e){
+                            e.printStackTrace();
+                        }
+                        ArrayList<String> sm = mDbHelper.searchMarkers(editable.toString());
+                        for(int j = 0;j<sm.size();j++){
+                            final TextView t = new TextView(getAppContext());
+                            t.setTextSize(25);
+                            LinearLayout lh = new LinearLayout(getAppContext());
+
+
+                            ll.addView(lh);
+                            String[] ms = sm.get(j).split(":");
+                            t.append(ms.length < 5 ? ms[0] : ms[4]);
+                            ImageView iv = new ImageView(getAppContext());
+                            //iv.setImageDrawable(Symbols.get(ms[1]));
+                            //Bitmap b = ((BitmapDrawable)Symbols.get(ms[1])).getBitmap();
+                            if(Symbols.get(ms[1])!=null) {
+                                int th = t.getLineHeight() > 0 ? t.getLineHeight() : 20;
+                                Drawable dd = new BitmapDrawable(getResources(), Bitmap.createScaledBitmap(((BitmapDrawable) Symbols.get(ms[1])).getBitmap(), th, th, false));
+                                iv.setImageDrawable(dd);
+                                lh.addView(iv);
+                            }
+                            lh.addView(t);
+                            final GeoPoint g = new GeoPoint(Double.parseDouble(ms[2]), Double.parseDouble(ms[3]));
+                            final NMSLocationCoordinate2D ng = new NMSLocationCoordinate2D(Double.parseDouble(ms[2]), Double.parseDouble(ms[3]));
+                            t.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View view) {
+                                    map.getController().setZoom(15.0);
+                                    map.getController().animateTo(g);
+                                    if(NavA)nMap.moveToLocation(ng,15,true);
+                                    ad.dismiss();
+                                }
+                            });
+                        }
+
+                    }
+                }
+            });
 
 
 
@@ -1003,11 +1004,11 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
                 public String call() {
                     //Log.d("update","got Back locs:"+res.toString());
 
-                        if (res.toString().isEmpty()) return null;
-                        String p = res.toString();
-                        premuim = p;
-                        Log.d("update", "got Back premuim:" + p);
-                        PreferenceManager.getDefaultSharedPreferences(getApplicationContext()).edit().putString("premuim",p).apply();
+                    if (res.toString().isEmpty()) return null;
+                    String p = res.toString();
+                    premuim = p;
+                    Log.d("update", "got Back premuim:" + p);
+                    PreferenceManager.getDefaultSharedPreferences(getApplicationContext()).edit().putString("premuim",p).apply();
                     return null;
                 }
             }).execute("https://api.zuluwaterways.com/premium.php?tk=JeGyXMsSpiQJqe5es2akYzWldQD3&ids=" + user.getEmail());
@@ -1277,9 +1278,9 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
             //Log.d("camera",nMap.getCamera().getTarget().toString());
             fetchedGrid = new BoundingBox(Math.max(Math.min(nMap.coordinateForPoint(new Point(0,-1000)).getLatitude(),TileSystem.maxLatitude),TileSystem.minLatitude),
                     Math.max(Math.min(nMap.coordinateForPoint(new Point(displayMetrics.widthPixels+1000,0)).getLongitude(),TileSystem.maxLongitude),TileSystem.minLongitude),
-                            Math.max(Math.min(nMap.coordinateForPoint(new Point(0,displayMetrics.heightPixels+1000)).getLatitude(),TileSystem.maxLatitude),TileSystem.minLatitude),
-                                    Math.max(Math.min(nMap.coordinateForPoint(new Point(-1000,0)).getLongitude(),TileSystem.maxLongitude),TileSystem.minLongitude)
-                    );
+                    Math.max(Math.min(nMap.coordinateForPoint(new Point(0,displayMetrics.heightPixels+1000)).getLatitude(),TileSystem.maxLatitude),TileSystem.minLatitude),
+                    Math.max(Math.min(nMap.coordinateForPoint(new Point(-1000,0)).getLongitude(),TileSystem.maxLongitude),TileSystem.minLongitude)
+            );
             if(fetchedGrid.getLonEast()<fetchedGrid.getLonWest())fetchedGrid.setLonEast(TileSystem.maxLongitude);//fix for the dateline
 //            fetchedGrid = TileSystem.boundsFromCenter(nMap.getCamera().getTarget().getLatitude(),
 //                    nMap.getCamera().getTarget().getLongitude(),
@@ -1375,7 +1376,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
         }
         //Log.d("toc4",""+(System.currentTimeMillis()-tic));
         //if(maxMarkers<=0){
-            //displayMessage(getResources().getString(R.string.limiting_icons));
+        //displayMessage(getResources().getString(R.string.limiting_icons));
         //}
         //if(foundCenter)showInfoWIndow = false;
         markers_clusters.invalidate();
@@ -1519,57 +1520,46 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
         return s;
     }
 
-    private void requestWritePermission() {
+    private void requestWritePermission(boolean force) {
         // define permission to request
-        Log.d("##########","getting write permission");
-        File f = new File(satDatabase);
-        String[] reqPermission = new String[] { Manifest.permission.WRITE_EXTERNAL_STORAGE };
-        int requestCode = 2;
-        //Log.d("##########","getting write permission2");
-        // For API level 23+ request permission at runtime
-        if (ContextCompat.checkSelfPermission(MainActivity.this,
-                reqPermission[0]) == PackageManager.PERMISSION_GRANTED ||f.canWrite()) {
-            if (findViewById(R.id.permission1)!=null) ((CheckBox)findViewById(R.id.permission1)).setChecked(true);
-            try {
-                CurrentMaptype = getExternalFilesDirs(null)[getExternalFilesDirs(null).length - 1].getAbsolutePath() + "/ZuluBase.sqlite";
-                satDatabase = getExternalFilesDirs(null)[getExternalFilesDirs(null).length - 1].getAbsolutePath() + "/ZuluBase.sqlite";
-                streetDatabase = getExternalFilesDirs(null)[getExternalFilesDirs(null).length - 1].getAbsolutePath() + "/ZuluStreet.sqlite";
-                overlayDatabase = getExternalFilesDirs(null)[getExternalFilesDirs(null).length - 1].getAbsolutePath() + "/ZuluOverlay.sqlite";
-                if(!getExternalFilesDirs(null)[getExternalFilesDirs(null).length - 1].canWrite())throw new Exception();
-            }catch (Exception e){
-                //displayMessage("Issue accessing external storage. Using internal storage.");
-                Log.d("##########","using internal dbs");
-                CurrentMaptype =  getFilesDir().getAbsolutePath()+"/ZuluBase.sqlite";
-                satDatabase = getFilesDir().getAbsolutePath()+"/ZuluBase.sqlite";
-                streetDatabase = getFilesDir().getAbsolutePath()+"/ZuluStreet.sqlite";
-                overlayDatabase = getFilesDir().getAbsolutePath()+"/ZuluOverlay.sqlite";
-            }
-            try {
-                Log.d("##########","got write permission");
-
-                Log.d("dirs",satDatabase);
-                f = new File(satDatabase);//
-                if(!f.exists())copyAssets();//copyInBack(f);//new copydb().doInBackground(f);
-
-                Log.d("##########","gots read permission");
-                requestReadPermission();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-
-        } else {
+        Log.d("##########","getting write permission:"+ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.WRITE_EXTERNAL_STORAGE));
+        if(!getSharedPreferences("MyPrefsFile", MODE_PRIVATE).contains("perms")&& !force) return;
+        if (findViewById(R.id.permission1)!=null) ((CheckBox)findViewById(R.id.permission1)).setChecked(true);
+        try {
+            CurrentMaptype = getExternalFilesDirs(null)[getExternalFilesDirs(null).length - 1].getAbsolutePath() + "/ZuluBase.sqlite";
+            satDatabase = getExternalFilesDirs(null)[getExternalFilesDirs(null).length - 1].getAbsolutePath() + "/ZuluBase.sqlite";
+            streetDatabase = getExternalFilesDirs(null)[getExternalFilesDirs(null).length - 1].getAbsolutePath() + "/ZuluStreet.sqlite";
+            overlayDatabase = getExternalFilesDirs(null)[getExternalFilesDirs(null).length - 1].getAbsolutePath() + "/ZuluOverlay.sqlite";
+            if(!getExternalFilesDirs(null)[getExternalFilesDirs(null).length - 1].canWrite())throw new Exception();
+            Log.d("##########","using external dbs");
+        }catch (Exception e){
+            //displayMessage("Issue accessing external storage. Using internal storage.");
+            Log.d("##########","using internal dbs");
             CurrentMaptype =  getFilesDir().getAbsolutePath()+"/ZuluBase.sqlite";
             satDatabase = getFilesDir().getAbsolutePath()+"/ZuluBase.sqlite";
             streetDatabase = getFilesDir().getAbsolutePath()+"/ZuluStreet.sqlite";
             overlayDatabase = getFilesDir().getAbsolutePath()+"/ZuluOverlay.sqlite";
-            f = new File(satDatabase);//
-            if(!f.exists())copyAssets();
-            // request permission
-            ActivityCompat.requestPermissions(MainActivity.this, reqPermission, requestCode);
-
         }
+        try {
+            Log.d("##########","got write permission");
+
+            File f = new File(satDatabase);//
+            Log.d("dirs",satDatabase+f.canWrite());
+            if(!f.exists()){
+                copyAssets();
+                changeMap(streetDatabase);
+                changeMap(satDatabase);
+            }
+
+            Log.d("##########","gots read permission");
+            requestReadPermission();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
     }
     private void copyAssets() {
+        Log.d("copying assets:",satDatabase);
         AssetManager assetManager = getAssets();
         String[] files = null;
         try {
@@ -1578,17 +1568,25 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
             Log.e("tag", "Failed to get asset file list.", e);
         }
         for(String filename : files) {
-            Log.d("file", "filename:"+filename);
-        }
-        for(String filename : files) {
             if(!filename.contains("sqlite"))continue;
             InputStream in;
             OutputStream out;
             String outDir = "";
             try{
+                if(!getExternalFilesDirs(null)[getExternalFilesDirs(null).length - 1].canWrite()){
+                    Log.d("external fail!",getExternalFilesDirs(null)[getExternalFilesDirs(null).length - 1].canWrite()+"");
+                    throw new Exception();
+                }
                 outDir = getExternalFilesDirs(null)[getExternalFilesDirs(null).length-1].getAbsolutePath() ;
-                if(!getExternalFilesDirs(null)[getExternalFilesDirs(null).length - 1].canWrite())throw new Exception();
+                File testfile = new File(outDir, filename);
+                if(testfile.exists()){
+                    Log.d("Cant copy File!!!!","File Exists!!!!"+testfile.canWrite());
+                    return;
+                }
+                Log.d("perm","using external!!!!"+outDir);
             }catch (Exception e){
+                e.printStackTrace();
+                Log.d("perm","using internal!!!!");
                 outDir = getFilesDir().getAbsolutePath() ;
             }
             try {
@@ -1731,9 +1729,17 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
         wv.getSettings().setAllowFileAccess(true);
         wv.getSettings().setAllowContentAccess(true);
         wv.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
-        wv.setWebContentsDebuggingEnabled(true);
+        wv.getSettings().setRenderPriority(WebSettings.RenderPriority.HIGH);
+        wv.setLayerType(View.LAYER_TYPE_HARDWARE, null);
+        //wv.setWebContentsDebuggingEnabled(true);
         wv.requestFocus(View.FOCUS_DOWN);
         wv.setVisibility(View.GONE);
+        new testInternet(this, new Callable<String>() { //Next get all location points
+            public String call() {
+                wv.setVisibility(View.VISIBLE);
+                return null;
+            }
+        }).execute();
         WebChromeClient wvc = new WebChromeClient() {
             public void onGeolocationPermissionsShowPrompt(String origin, GeolocationPermissions.Callback callback) {
                 callback.invoke(origin, true, false);
@@ -1943,7 +1949,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
             wv.evaluateJavascript("document.getElementById(\"loginButton\").innerHTML=currentUserName;",null);
             wv.evaluateJavascript("document.getElementById(\"signOutButton\").style.display=\"\";",null);
         }
-                //Log.d("nav",lat+","+lon);
+        //Log.d("nav",lat+","+lon);
         //Log.d("loadinglang",sharedPreferences.getString("language","en")+","+sharedPreferences.getString("languagec",""));
         currentLang = new Locale(sharedPreferences.getString("language","en"),sharedPreferences.getString("languagec",""));
         setLocale(this,currentLang);
@@ -2136,44 +2142,44 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
             l.setMargins(location[0], location[1]+40, 0, 0);
             spacer.setLayoutParams(l);
             final PopupMenu p = new PopupMenu(MainActivity.this, spacer);
-                p.getMenuInflater().inflate(R.menu.marker_options, p.getMenu());
-                p.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
-                    @Override
-                    public boolean onMenuItemClick(MenuItem item) {
-                        try {
-                            if (item == null) return false;
-                            if (item.getTitle().equals(getResources().getString(R.string.hybrid_map)))downloadHybridTiles(null);
-                            if (item.getTitle().equals(getResources().getString(R.string.sat_map))) downloadSatTiles(null);
-                            if (item.getTitle().equals(getResources().getString(R.string.hd_satellite_map))) downloadHDTiles(null);
-                            if (item.getTitle().equals(getResources().getString(R.string.street_map)))downloadStreetTiles(null);
-                            //if (item.getTitle().equals(getResources().getString(R.string.bing_map)))downloadBingTiles(null);
-                            //if (item.getTitle().equals(getResources().getString(R.string.arcgis_map))) downloadARCGISTiles(null);
-                            if (item.getTitle().equals(getResources().getString(R.string.navionics_charts))) {
-                                changeMap("navionics");
-                                if( NavionicsMobileServices.isNavionicsUserLoggedIn()){
-                                    NavionicsMobileServices.enableDownloadAreaSelector();
-                                    findViewById(R.id.navionics_download).setVisibility(View.VISIBLE);
-                                    findViewById(R.id.close).setVisibility(View.VISIBLE);
-                                }else{
-                                    NavionicsMobileServices.navionicsUser();
-                                }
-                                if(infoW!=null && infoW.isShowing())infoW.dismiss();
+            p.getMenuInflater().inflate(R.menu.marker_options, p.getMenu());
+            p.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
+                @Override
+                public boolean onMenuItemClick(MenuItem item) {
+                    try {
+                        if (item == null) return false;
+                        if (item.getTitle().equals(getResources().getString(R.string.hybrid_map)))downloadHybridTiles(null);
+                        if (item.getTitle().equals(getResources().getString(R.string.sat_map))) downloadSatTiles(null);
+                        if (item.getTitle().equals(getResources().getString(R.string.hd_satellite_map))) downloadHDTiles(null);
+                        if (item.getTitle().equals(getResources().getString(R.string.street_map)))downloadStreetTiles(null);
+                        //if (item.getTitle().equals(getResources().getString(R.string.bing_map)))downloadBingTiles(null);
+                        //if (item.getTitle().equals(getResources().getString(R.string.arcgis_map))) downloadARCGISTiles(null);
+                        if (item.getTitle().equals(getResources().getString(R.string.navionics_charts))) {
+                            changeMap("navionics");
+                            if( NavionicsMobileServices.isNavionicsUserLoggedIn()){
+                                NavionicsMobileServices.enableDownloadAreaSelector();
+                                findViewById(R.id.navionics_download).setVisibility(View.VISIBLE);
+                                findViewById(R.id.close).setVisibility(View.VISIBLE);
+                            }else{
+                                NavionicsMobileServices.navionicsUser();
                             }
-                            if (item.getTitle().equals(getResources().getString(R.string.download_osm)))downloadOSMTiles(null);
-                            if (item.getTitle().equals(getResources().getString(R.string.edit_marker_online))) gotoOnline();
-                            if(item.getTitle().equals(getResources().getString(R.string.download_region)))getCode(null);
-                            if (item.getTitle().equals(getResources().getString(R.string.share)))shareThisMarker(infoWP);
-                            return false;
-                        } catch (Exception e) {
-                            e.printStackTrace();
-                            return false;
+                            if(infoW!=null && infoW.isShowing())infoW.dismiss();
                         }
+                        if (item.getTitle().equals(getResources().getString(R.string.download_osm)))downloadOSMTiles(null);
+                        if (item.getTitle().equals(getResources().getString(R.string.edit_marker_online))) gotoOnline();
+                        if(item.getTitle().equals(getResources().getString(R.string.download_region)))getCode(null);
+                        if (item.getTitle().equals(getResources().getString(R.string.share)))shareThisMarker(infoWP);
+                        return false;
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                        return false;
                     }
-                });
-                p.getMenu().getItem(0).setTitle(getResources().getString(R.string.download)+" ("+downloadsLeft+")");
+                }
+            });
+            p.getMenu().getItem(0).setTitle(getResources().getString(R.string.download)+" ("+downloadsLeft+")");
 
-                if (findViewById(R.id.bubble_oldID) !=null && ((TextView) findViewById(R.id.bubble_oldID)).getText().toString().trim().isEmpty())
-                    p.getMenu().getItem(p.getMenu().size() - 1).setVisible(true);
+            if (findViewById(R.id.bubble_oldID) !=null && ((TextView) findViewById(R.id.bubble_oldID)).getText().toString().trim().isEmpty())
+                p.getMenu().getItem(p.getMenu().size() - 1).setVisible(true);
 
             p.show();
         }catch (Exception e){
@@ -2605,8 +2611,8 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
 
     private void rebuildMeasure(){
         findViewById(R.id.close).setVisibility(View.VISIBLE);
-       for (Marker m : measureMarkers){
-           map.getOverlayManager().remove(m);
+        for (Marker m : measureMarkers){
+            map.getOverlayManager().remove(m);
         }
         for (Marker m : measureMarkertexts){
             map.getOverlayManager().remove(m);
@@ -2649,7 +2655,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
 
 
 
-//    private void downloadBingTiles(GeoPoint p) {
+    //    private void downloadBingTiles(GeoPoint p) {
 //        if(infoW!=null && infoW.isShowing()) p=infoWP;
 //        if(p==null)return;
 //        if(downloadsLeft--<=1){//user has no more downloads left
@@ -2820,7 +2826,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
                 return null;
             }
         }).execute();
-            }
+    }
     private void downloadStreetTiles(GeoPoint p) {
         if (!CurrentMaptype.equals(streetDatabase))changeMap(streetDatabase);
         ((TextView)findViewById(R.id.copyWriteMessage)).setText(R.string.mapbox_copy);
@@ -2833,32 +2839,32 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
         new testInternet(this, new Callable<String>() { //Next get all location points
             public String call() {
                 //
-            //if(downloadsLeft--<=1){//user has no more downloads left
-            //    displayMessage(getResources().getString(R.string.run_out));
-            //    showDownloadsDialog();
-            //    return null;
-            //}
-            //Log.d("downloadsLeft",""+downloadsLeft);
-            findViewById(R.id.mapDownload).setVisibility(View.VISIBLE);
+                //if(downloadsLeft--<=1){//user has no more downloads left
+                //    displayMessage(getResources().getString(R.string.run_out));
+                //    showDownloadsDialog();
+                //    return null;
+                //}
+                //Log.d("downloadsLeft",""+downloadsLeft);
+                findViewById(R.id.mapDownload).setVisibility(View.VISIBLE);
 
-            if(PreferenceManager.getDefaultSharedPreferences(getApplicationContext()).getBoolean("altTiles",false)){
+                if(PreferenceManager.getDefaultSharedPreferences(getApplicationContext()).getBoolean("altTiles",false)){
 //                downloadZTile(fp,"street",8,0,"png",streetDatabase, "OSMPublicTransport",true);
 //                downloadZTile(fp,"street",15,1,"png",streetDatabase, "OSMPublicTransport",true);
 //                downloadZTile(fp,"street",12,1,"png",streetDatabase, "OSMPublicTransport",true);
-                downloadTile(fp,"https://maps.wikimedia.org/osm-intl/",".png",8,0,"png",streetDatabase, "OSMPublicTransport",true);
-                downloadTile(fp,"https://maps.wikimedia.org/osm-intl/",".png",12,1,"png",streetDatabase, "OSMPublicTransport",true);
-                downloadTile(fp,"https://maps.wikimedia.org/osm-intl/",".png",15,1,"png",streetDatabase, "OSMPublicTransport",true);
-            }else {
-                downloadTile(fp,"https://tiles.zuluwaterways.com/wmts/osm/webmercator/",".png",8,0,"png",streetDatabase, "OSMPublicTransport",true);
-                downloadTile(fp,"https://tiles.zuluwaterways.com/wmts/osm/webmercator/",".png",12,1,"png",streetDatabase, "OSMPublicTransport",true);
-                downloadTile(fp,"https://tiles.zuluwaterways.com/wmts/osm/webmercator/",".png",15,1,"png",streetDatabase, "OSMPublicTransport",true);
-            }
+                    downloadTile(fp,"https://maps.wikimedia.org/osm-intl/",".png",8,0,"png",streetDatabase, "OSMPublicTransport",true);
+                    downloadTile(fp,"https://maps.wikimedia.org/osm-intl/",".png",12,1,"png",streetDatabase, "OSMPublicTransport",true);
+                    downloadTile(fp,"https://maps.wikimedia.org/osm-intl/",".png",15,1,"png",streetDatabase, "OSMPublicTransport",true);
+                }else {
+                    downloadTile(fp,"https://tiles.zuluwaterways.com/wmts/osm/webmercator/",".png",8,0,"png",streetDatabase, "OSMPublicTransport",true);
+                    downloadTile(fp,"https://tiles.zuluwaterways.com/wmts/osm/webmercator/",".png",12,1,"png",streetDatabase, "OSMPublicTransport",true);
+                    downloadTile(fp,"https://tiles.zuluwaterways.com/wmts/osm/webmercator/",".png",15,1,"png",streetDatabase, "OSMPublicTransport",true);
+                }
 
-            if(PreferenceManager.getDefaultSharedPreferences(getApplicationContext()).getBoolean("high_res",false)){
-                downloadTile(fp,"https://maps.wikimedia.org/osm-intl/",".png",18,1,"png",streetDatabase, "OSMPublicTransport",true);
-                //downloadsLeft--;
-            }
-            return null;
+                if(PreferenceManager.getDefaultSharedPreferences(getApplicationContext()).getBoolean("high_res",false)){
+                    downloadTile(fp,"https://maps.wikimedia.org/osm-intl/",".png",18,1,"png",streetDatabase, "OSMPublicTransport",true);
+                    //downloadsLeft--;
+                }
+                return null;
             }
         }).execute();
     }
@@ -3049,7 +3055,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
     }
 
     public void showComments() {
-            String id = ((MarkerInfoWindow)InfoWindow.getOpenedInfoWindowsOn(map).get(0)).getMarkerReference().getId();
+        String id = ((MarkerInfoWindow)InfoWindow.getOpenedInfoWindowsOn(map).get(0)).getMarkerReference().getId();
         ArrayList<String> cc = mDbHelper.getComments(id);
         StringBuilder co = new StringBuilder();
         for (String value : cc) {
@@ -3059,8 +3065,8 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
             cs[1] = "";
             co.append(Html.fromHtml(TextUtils.join("", cs) + byline+"<hr>"));
         }
-            ((TextView)findViewById(R.id.bubble_comments)).setText(co.toString());
-            ((TextView)findViewById(R.id.bubble_comments)).setMovementMethod(LinkMovementMethod.getInstance());
+        ((TextView)findViewById(R.id.bubble_comments)).setText(co.toString());
+        ((TextView)findViewById(R.id.bubble_comments)).setMovementMethod(LinkMovementMethod.getInstance());
     }
 
 
@@ -3069,7 +3075,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
         sendIntent.setAction(Intent.ACTION_SEND);
         sendIntent.putExtra(Intent.EXTRA_TEXT, "https://www.zuluwaterways.com/#/appshare/"+
                 (p.getLatitude()>TileSystem.maxLatitude?
-                TileSystem.maxLatitude:p.getLatitude()<TileSystem.minLatitude?TileSystem.minLatitude:p.getLatitude())+"/"+
+                        TileSystem.maxLatitude:p.getLatitude()<TileSystem.minLatitude?TileSystem.minLatitude:p.getLatitude())+"/"+
                 (p.getLongitude()>180?180:p.getLongitude()<-180?-180:p.getLongitude()));
         sendIntent.setType("text/plain");
         Intent shareIntent = Intent.createChooser(sendIntent, null);
@@ -3077,8 +3083,8 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
     }
 
     public void addComment(MenuItem item) {
-            infoW.getContentView().findViewById(R.id.bubble_add_comment_container).setVisibility(View.VISIBLE);
-            infoW.getContentView().findViewById(R.id.bubble_comments_add_comment).requestFocus();
+        infoW.getContentView().findViewById(R.id.bubble_add_comment_container).setVisibility(View.VISIBLE);
+        infoW.getContentView().findViewById(R.id.bubble_comments_add_comment).requestFocus();
     }
 
     public void addComment(View view) {
@@ -3409,7 +3415,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
         findViewById(R.id.tute_container).setVisibility(View.GONE);
         final MainActivity app = this;
         //requestLocPermission();
-        requestWritePermission();
+        requestWritePermission( true);
         requestReadPermission();
         changeMap(satDatabase);
         loadIconData();
@@ -3448,7 +3454,9 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
     }
 
     public void getStorePerm(View view) {
-        requestWritePermission();
+        getSharedPreferences("MyPrefsFile", MODE_PRIVATE).edit().putInt("prefs", BuildConfig.VERSION_CODE).apply();
+        ActivityCompat.requestPermissions(MainActivity.this, new String[] { Manifest.permission.WRITE_EXTERNAL_STORAGE }, 2);
+        //requestWritePermission();
     }
 
     public void getLocPerm(View view) {
@@ -3549,7 +3557,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
         Log.d("first run:",currentVersionCode+":"+savedVersionCode);
         if (currentVersionCode == savedVersionCode) {
             Log.d("found","Not First Run");
-            requestWritePermission();
+            requestWritePermission(true);
             requestReadPermission();
         } else if (savedVersionCode == DOESNT_EXIST) {
             Log.d("found","First Run");
@@ -3558,7 +3566,6 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
             prefs.edit().putInt(PREF_VERSION_CODE_KEY, currentVersionCode).apply();
         }else {
             Log.d("first run after update",""+currentVersionCode);
-            getNewDB();
             if(downloadsLeft<100)downloadsLeft=100;
             prefs.edit().putInt(PREF_VERSION_CODE_KEY, currentVersionCode).apply();
         }
@@ -3708,7 +3715,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
         if (permissions.length == 0) return;
         Log.d("perms","testing");
         if(requestTimeout--<0)return;
-        requestWritePermission();
+        requestWritePermission(false);
         requestReadPermission();
         //requestLocPermission();
     }
@@ -3786,7 +3793,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
                 .setDescription(getString(R.string.downloading_map_pack))
                 .setDestinationInExternalFilesDir(this,"Downloads","temp.sqlite")
                 .setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE)
-                );
+        );
 
         multiDownloads = 1;
         findViewById(R.id.mapDownload).setVisibility(View.VISIBLE);
@@ -3862,7 +3869,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
                 sqliteDB.close();
                 displayMessage(getString(R.string.pack_added));
             }catch (Exception e){
-                    displayMessage("Corrupt Pack! Please contact us for help");
+                displayMessage("Corrupt Pack! Please contact us for help");
             }finally {
                 tp.delete();
             }
@@ -3881,8 +3888,8 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
         public void onPageSelected(int position) {
             ColoredBars(position);
             try {
-                ((CheckBox) findViewById(R.id.permission1)).setChecked(checkWriteExternalPermission());
-                ((CheckBox) findViewById(R.id.permission2)).setChecked(checkLocationPermission());
+                //((CheckBox) findViewById(R.id.permission1)).setChecked(checkWriteExternalPermission());
+                //((CheckBox) findViewById(R.id.permission2)).setChecked(checkLocationPermission());
             }catch (Exception e){}
             if(position>1 && findViewById(R.id.permission1)!=null &&!((CheckBox)findViewById(R.id.permission1)).isChecked())tuteVP.setCurrentItem(1);
             if (position == screens.length - 1) {

@@ -1,8 +1,7 @@
-package com.zulu.offshore;
+package com.app.zuluwaterways;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
-import android.util.Log;
 import android.view.MotionEvent;
 
 import org.osmdroid.util.BoundingBox;
